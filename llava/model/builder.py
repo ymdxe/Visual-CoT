@@ -40,8 +40,14 @@ def load_pretrained_model(
     load_4bit=False,
     device_map="auto",
     device="cuda",
+    precision="bf16",
 ):
     kwargs = {"device_map": device_map}
+    if load_4bit and load_8bit:
+        raise ValueError("load_4bit and load_8bit are mutually exclusive")
+    if precision not in {"bf16", "fp16"}:
+        raise ValueError("precision must be bf16 or fp16")
+    compute_dtype = torch.bfloat16 if precision == "bf16" else torch.float16
 
     if load_8bit:
         kwargs["load_in_8bit"] = True
@@ -49,15 +55,17 @@ def load_pretrained_model(
         kwargs["load_in_4bit"] = True
         kwargs["quantization_config"] = BitsAndBytesConfig(
             load_in_4bit=True,
-            bnb_4bit_compute_dtype=torch.bfloat16,
+            bnb_4bit_compute_dtype=compute_dtype,
             bnb_4bit_use_double_quant=True,
             bnb_4bit_quant_type="nf4",
         )
     else:
-        kwargs["torch_dtype"] = torch.bfloat16
+        kwargs["torch_dtype"] = compute_dtype
 
-    if "llava" in model_name.lower():
-        # Load LLaVA model
+    is_llava_model = any(key in model_name.lower() for key in ("llava", "viscot"))
+
+    if is_llava_model:
+        # Load LLaVA / Visual-CoT model
 
         if "lora" in model_name.lower() and model_base is not None:
             raise NotImplementedError
@@ -73,7 +81,7 @@ def load_pretrained_model(
 
     image_processor = None
 
-    if "llava" in model_name.lower():
+    if is_llava_model:
         mm_use_im_start_end = getattr(model.config, "mm_use_im_start_end", False)
         mm_use_im_patch_token = getattr(model.config, "mm_use_im_patch_token", True)
         if mm_use_im_patch_token:
@@ -86,7 +94,7 @@ def load_pretrained_model(
         vision_tower = model.get_vision_tower()
         if not vision_tower.is_loaded:
             vision_tower.load_model()
-        vision_tower.to(device=device, dtype=torch.bfloat16)
+        vision_tower.to(device=device, dtype=compute_dtype)
         if hasattr(vision_tower, "image_processor"):
             image_processor = vision_tower.image_processor
         else:
