@@ -1,0 +1,4 @@
+mode: lowres_full_highrescrop
+bbox_source: pred
+crop_mode: lowres_full_highres_crop
+evidence_mode: none

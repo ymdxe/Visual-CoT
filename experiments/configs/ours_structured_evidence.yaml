@@ -1,0 +1,4 @@
+mode: structured_evidence
+bbox_source: pred
+crop_mode: full_crop
+evidence_mode: structured

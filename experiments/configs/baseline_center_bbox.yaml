@@ -1,0 +1,4 @@
+mode: center_bbox
+bbox_source: center
+crop_mode: full_crop
+evidence_mode: none

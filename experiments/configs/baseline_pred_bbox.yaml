@@ -1,0 +1,4 @@
+mode: pred_bbox
+bbox_source: pred
+crop_mode: full_crop
+evidence_mode: none

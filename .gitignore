@@ -62,3 +62,10 @@ results/region_compress/compressed_images*/
 results/region_compress/paper_images*/
 results/region_compress/logs/
 
+# Generated experiment artifacts
+experiments/results/*
+!experiments/results/.gitkeep
+experiments/figures/*
+!experiments/figures/.gitkeep
+experiments/tables/*
+!experiments/tables/.gitkeep

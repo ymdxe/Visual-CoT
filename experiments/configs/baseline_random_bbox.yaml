@@ -1,0 +1,4 @@
+mode: random_bbox
+bbox_source: random
+crop_mode: full_crop
+evidence_mode: none

@@ -1,0 +1,5 @@
+mode: topk_crops
+bbox_source: pred
+crop_mode: full_crop
+num_crops: 2
+status: scaffold

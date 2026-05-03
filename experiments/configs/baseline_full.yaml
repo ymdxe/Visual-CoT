@@ -1,0 +1,4 @@
+mode: full
+bbox_source: none
+crop_mode: full_only
+evidence_mode: none

@@ -1,0 +1,4 @@
+mode: woimg
+bbox_source: none
+crop_mode: full_only
+without_image: true

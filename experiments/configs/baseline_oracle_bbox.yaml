@@ -1,0 +1,4 @@
+mode: oracle_bbox
+bbox_source: oracle
+crop_mode: full_crop
+evidence_mode: none

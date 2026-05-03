@@ -1,0 +1,4 @@
+mode: region_caption
+bbox_source: pred
+crop_mode: full_crop
+evidence_mode: caption
