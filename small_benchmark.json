@@ -1,0 +1,83 @@
+[
+  {
+    "dataset": "cub",
+    "split": "val",
+    "question_id": 1430,
+    "image": [
+      "cot/cub/062.Herring_Gull/Herring_Gull_0049_46508.jpg",
+      "cot/cub/062.Herring_Gull/Herring_Gull_0049_46508.jpg###[172, 95, 445, 314]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDoes the bird in the picture have broad-wings wing and purple leg? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.344, 0.296, 0.890, 0.734]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ]
+  },
+  {
+    "dataset": "cub",
+    "split": "val",
+    "question_id": 3752,
+    "image": [
+      "cot/cub/155.Warbling_Vireo/Warbling_Vireo_0006_158467.jpg",
+      "cot/cub/155.Warbling_Vireo/Warbling_Vireo_0006_158467.jpg###[46, 111, 306, 423]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDoes the bird in the picture have white nape and all-purpose bill? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.200, 0.222, 0.720, 0.846]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ]
+  },
+  {
+    "dataset": "cub",
+    "split": "val",
+    "question_id": 4191,
+    "image": [
+      "cot/cub/174.Palm_Warbler/Palm_Warbler_0106_169571.jpg",
+      "cot/cub/174.Palm_Warbler/Palm_Warbler_0106_169571.jpg###[70, 108, 313, 290]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDoes the bird in the picture have squared_tail tail and red bill? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.140, 0.280, 0.626, 0.644]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ]
+  }
+]

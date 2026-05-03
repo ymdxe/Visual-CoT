@@ -1,0 +1,2 @@
+compress_mode,visual_input_policy,num_samples,avg_latency_sec,avg_preprocess_latency_sec,avg_generation_latency_sec,avg_end_to_end_latency_sec,avg_max_gpu_memory_mb,avg_num_visual_images,bbox_valid_rate,avg_bbox_area,contains_match,normalized_contains_match
+none,single,100,0.3639276835299643,0.013312638929974127,0.3639276835299643,0.37779508390993216,13944.75255859375,1.0,0.91,0.17983127472527477,0.73,0.73

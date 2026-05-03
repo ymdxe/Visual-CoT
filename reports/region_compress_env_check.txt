@@ -1,0 +1,41 @@
+pwd:
+/root/code/Visual-CoT
+ls:
+total 92K
+drwxr-xr-x 13 root root 4.0K Apr 25 17:44 .
+drwxr-xr-x  4 root root 4.0K Apr 25 16:25 ..
+-rw-r--r--  1 root root  221 Apr 25 13:50 .gitignore
+-rw-r--r--  1 root root  12K Apr 25 13:50 LICENSE
+-rw-r--r--  1 root root  14K Apr 25 13:50 README.md
+drwxr-xr-x  2 root root 4.0K Apr 25 13:50 assets
+drwxr-xr-x  3 root root 4.0K Apr 25 17:44 checkpoints
+drwxr-xr-x  3 root root 4.0K Apr 25 16:26 downloads
+drwxr-xr-x  7 root root 4.0K Apr 25 17:23 llava
+drwxr-xr-x  3 root root 4.0K Apr 25 16:26 playground
+-rw-r--r--  1 root root 1.2K Apr 25 13:50 pyproject.toml
+drwxr-xr-x  2 root root 4.0K Apr 25 17:59 reports
+drwxr-xr-x  3 root root 4.0K Apr 25 17:43 results
+drwxr-xr-x  4 root root 4.0K Apr 25 14:42 scripts
+-rw-r--r--  1 root root 2.2K Apr 25 17:59 small_benchmark.json
+drwxr-xr-x  3 root root 4.0K Apr 25 17:23 tools
+drwxr-xr-x  2 root root 4.0K Apr 25 16:37 viscot.egg-info
+drwxr-xr-x  4 root root 4.0K Apr 25 16:25 viscot_benchmark
+nvidia-smi:
+python --version:
+Python 3.10.20
+conda env list:
+
+# conda environments:
+#
+base                   /usr/local/miniconda3
+py310                  /usr/local/miniconda3/envs/py310
+viscot               * /usr/local/miniconda3/envs/viscot
+
+pip list selected:
+accelerate                0.21.0
+bitsandbytes              0.45.5
+deepspeed                 0.12.6
+flash-attn                2.3.6
+torch                     2.1.2
+torchvision               0.16.2
+transformers              4.37.2

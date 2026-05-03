@@ -1,0 +1,57 @@
+# Python
+__pycache__
+*.pyc
+*.egg-info
+dist
+
+# Log
+*.log
+*.log.*
+
+# Editor
+.idea
+*.swp
+
+# Other
+.DS_Store
+wandb
+output
+
+checkpoints
+ckpts*
+
+.ipynb_checkpoints
+*.ipynb
+
+# DevContainer
+!.devcontainer/*
+
+# Demo
+serve_images/
+
+# Large local artifacts
+checkpoints/
+ckpts/
+models/
+weights/
+downloads/
+playground/data/
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.gguf
+
+# Generated image artifacts; keep csv/md/jsonl summaries trackable
+results/rc/img/
+results/rc/fig/*.png
+results/region_compress/compressed_images*/
+
+
+# Generated result images
+results/**/*.png
+results/**/*.jpg
+results/**/*.jpeg
+*.pid
+
