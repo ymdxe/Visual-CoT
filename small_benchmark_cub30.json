@@ -1,0 +1,812 @@
+[
+  {
+    "dataset": "cub",
+    "split": "val",
+    "question_id": 1430,
+    "image": [
+      "cot/cub/062.Herring_Gull/Herring_Gull_0049_46508.jpg",
+      "cot/cub/062.Herring_Gull/Herring_Gull_0049_46508.jpg###[172, 95, 445, 314]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDoes the bird in the picture have broad-wings wing and purple leg? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.344, 0.296, 0.890, 0.734]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ]
+  },
+  {
+    "dataset": "cub",
+    "split": "val",
+    "question_id": 3752,
+    "image": [
+      "cot/cub/155.Warbling_Vireo/Warbling_Vireo_0006_158467.jpg",
+      "cot/cub/155.Warbling_Vireo/Warbling_Vireo_0006_158467.jpg###[46, 111, 306, 423]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDoes the bird in the picture have white nape and all-purpose bill? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.200, 0.222, 0.720, 0.846]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ]
+  },
+  {
+    "dataset": "cub",
+    "split": "val",
+    "question_id": 4191,
+    "image": [
+      "cot/cub/174.Palm_Warbler/Palm_Warbler_0106_169571.jpg",
+      "cot/cub/174.Palm_Warbler/Palm_Warbler_0106_169571.jpg###[70, 108, 313, 290]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDoes the bird in the picture have squared_tail tail and red bill? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.140, 0.280, 0.626, 0.644]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ]
+  },
+  {
+    "dataset": "cub",
+    "split": "val",
+    "question_id": 4073,
+    "image": [
+      "cot/cub/169.Magnolia_Warbler/Magnolia_Warbler_0111_165478.jpg",
+      "cot/cub/169.Magnolia_Warbler/Magnolia_Warbler_0111_165478.jpg###[74, 26, 469, 319]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDoes the bird in the picture have black back and black upperparts? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.148, 0.218, 0.938, 0.804]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ]
+  },
+  {
+    "dataset": "cub",
+    "split": "val",
+    "question_id": 1955,
+    "image": [
+      "cot/cub/083.White_breasted_Kingfisher/White_Breasted_Kingfisher_0037_73220.jpg",
+      "cot/cub/083.White_breasted_Kingfisher/White_Breasted_Kingfisher_0037_73220.jpg###[33, 107, 325, 408]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDoes the bird in the picture have buff wing and blue crown? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.202, 0.214, 0.786, 0.816]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ]
+  },
+  {
+    "dataset": "cub",
+    "split": "val",
+    "question_id": 3197,
+    "image": [
+      "cot/cub/134.Cape_Glossy_Starling/Cape_Glossy_Starling_0068_129446.jpg",
+      "cot/cub/134.Cape_Glossy_Starling/Cape_Glossy_Starling_0068_129446.jpg###[98, 86, 336, 309]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDoes the bird in the picture have iridescent upper and blue crown? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.196, 0.296, 0.672, 0.742]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ]
+  },
+  {
+    "dataset": "cub",
+    "split": "val",
+    "question_id": 640,
+    "image": [
+      "cot/cub/029.American_Crow/American_Crow_0110_25541.jpg",
+      "cot/cub/029.American_Crow/American_Crow_0110_25541.jpg###[61, 49, 423, 344]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDoes the bird in the picture have iridescent under and white upperparts? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.122, 0.222, 0.846, 0.812]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ]
+  },
+  {
+    "dataset": "cub",
+    "split": "val",
+    "question_id": 3866,
+    "image": [
+      "cot/cub/160.Black_throated_Blue_Warbler/Black_Throated_Blue_Warbler_0085_161621.jpg",
+      "cot/cub/160.Black_throated_Blue_Warbler/Black_Throated_Blue_Warbler_0085_161621.jpg###[53, 126, 357, 343]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDoes the bird in the picture have white belly and multi-colored wing? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.106, 0.352, 0.714, 0.786]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ]
+  },
+  {
+    "dataset": "cub",
+    "split": "val",
+    "question_id": 833,
+    "image": [
+      "cot/cub/038.Great_Crested_Flycatcher/Great_Crested_Flycatcher_0024_29516.jpg",
+      "cot/cub/038.Great_Crested_Flycatcher/Great_Crested_Flycatcher_0024_29516.jpg###[76, 115, 288, 405]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDoes the bird in the picture have olive forehead and olive crown? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.318, 0.230, 0.742, 0.810]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ]
+  },
+  {
+    "dataset": "cub",
+    "split": "val",
+    "question_id": 2185,
+    "image": [
+      "cot/cub/092.Nighthawk/Nighthawk_0084_84510.jpg",
+      "cot/cub/092.Nighthawk/Nighthawk_0084_84510.jpg###[8, 32, 372, 241]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDoes the bird in the picture have grey under and orange throat? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.019, 0.241, 0.861, 0.725]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ]
+  },
+  {
+    "dataset": "cub",
+    "split": "val",
+    "question_id": 3797,
+    "image": [
+      "cot/cub/157.Yellow_throated_Vireo/Yellow_Throated_Vireo_0059_794970.jpg",
+      "cot/cub/157.Yellow_throated_Vireo/Yellow_Throated_Vireo_0059_794970.jpg###[76, 118, 374, 277]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDoes the bird in the picture have purple under and yellow back? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.152, 0.382, 0.748, 0.700]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ]
+  },
+  {
+    "dataset": "cub",
+    "split": "val",
+    "question_id": 4209,
+    "image": [
+      "cot/cub/174.Palm_Warbler/Palm_Warbler_0005_169918.jpg",
+      "cot/cub/174.Palm_Warbler/Palm_Warbler_0005_169918.jpg###[143, 105, 383, 260]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDoes the bird in the picture have brown underparts and brown back? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.286, 0.376, 0.766, 0.686]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ]
+  },
+  {
+    "dataset": "cub",
+    "split": "val",
+    "question_id": 3731,
+    "image": [
+      "cot/cub/154.Red_eyed_Vireo/Red_Eyed_Vireo_0043_157162.jpg",
+      "cot/cub/154.Red_eyed_Vireo/Red_Eyed_Vireo_0043_157162.jpg###[85, 91, 333, 427]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDoes the bird in the picture have black upper and purple wing? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.170, 0.214, 0.666, 0.886]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ]
+  },
+  {
+    "dataset": "cub",
+    "split": "val",
+    "question_id": 2416,
+    "image": [
+      "cot/cub/102.Western_Wood_Pewee/Western_Wood_Pewee_0014_98094.jpg",
+      "cot/cub/102.Western_Wood_Pewee/Western_Wood_Pewee_0014_98094.jpg###[218, 78, 322, 244]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDoes the bird in the picture have purple bill and green eye? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.436, 0.322, 0.644, 0.654]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ]
+  },
+  {
+    "dataset": "cub",
+    "split": "val",
+    "question_id": 4001,
+    "image": [
+      "cot/cub/166.Golden_winged_Warbler/Golden_Winged_Warbler_0022_794833.jpg",
+      "cot/cub/166.Golden_winged_Warbler/Golden_Winged_Warbler_0022_794833.jpg###[21, 106, 418, 445]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDoes the bird in the picture have white upper and red nape? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.108, 0.212, 0.902, 0.890]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ]
+  },
+  {
+    "dataset": "cub",
+    "split": "val",
+    "question_id": 680,
+    "image": [
+      "cot/cub/031.Black_billed_Cuckoo/Black_Billed_Cuckoo_0023_26258.jpg",
+      "cot/cub/031.Black_billed_Cuckoo/Black_Billed_Cuckoo_0023_26258.jpg###[73, 96, 315, 375]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDoes the bird in the picture have solid belly and white underparts? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.146, 0.316, 0.630, 0.874]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ]
+  },
+  {
+    "dataset": "cub",
+    "split": "val",
+    "question_id": 872,
+    "image": [
+      "cot/cub/040.Olive_sided_Flycatcher/Olive_Sided_Flycatcher_0074_30816.jpg",
+      "cot/cub/040.Olive_sided_Flycatcher/Olive_Sided_Flycatcher_0074_30816.jpg###[167, 77, 411, 239]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDoes the bird in the picture have white upperparts and white underparts? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.334, 0.320, 0.822, 0.644]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ]
+  },
+  {
+    "dataset": "cub",
+    "split": "val",
+    "question_id": 3802,
+    "image": [
+      "cot/cub/157.Yellow_throated_Vireo/Yellow_Throated_Vireo_0048_794982.jpg",
+      "cot/cub/157.Yellow_throated_Vireo/Yellow_Throated_Vireo_0048_794982.jpg###[58, 65, 249, 218]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDoes the bird in the picture have purple forehead and purple throat? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.178, 0.289, 0.766, 0.760]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ]
+  },
+  {
+    "dataset": "cub",
+    "split": "val",
+    "question_id": 1454,
+    "image": [
+      "cot/cub/062.Herring_Gull/Herring_Gull_0093_46029.jpg",
+      "cot/cub/062.Herring_Gull/Herring_Gull_0093_46029.jpg###[73, 28, 469, 335]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDoes the bird in the picture have small_(5_-_9_in) size and plain head? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.146, 0.166, 0.938, 0.780]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ]
+  },
+  {
+    "dataset": "cub",
+    "split": "val",
+    "question_id": 1608,
+    "image": [
+      "cot/cub/069.Rufous_Hummingbird/Rufous_Hummingbird_0130_59500.jpg",
+      "cot/cub/069.Rufous_Hummingbird/Rufous_Hummingbird_0130_59500.jpg###[235, 107, 473, 291]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDoes the bird in the picture have blue nape and black underparts? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.470, 0.380, 0.946, 0.748]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ]
+  },
+  {
+    "dataset": "cub",
+    "split": "val",
+    "question_id": 2341,
+    "image": [
+      "cot/cub/098.Scott_Oriole/Scott_Oriole_0018_795840.jpg",
+      "cot/cub/098.Scott_Oriole/Scott_Oriole_0018_795840.jpg###[40, 21, 141, 157]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDoes the bird in the picture have yellow underparts and white wing? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.306, 0.131, 0.938, 0.981]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ]
+  },
+  {
+    "dataset": "cub",
+    "split": "val",
+    "question_id": 354,
+    "image": [
+      "cot/cub/017.Cardinal/Cardinal_0095_18108.jpg",
+      "cot/cub/017.Cardinal/Cardinal_0095_18108.jpg###[81, 55, 368, 398]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDoes the bird in the picture have black eye and solid belly? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.280, 0.110, 0.854, 0.796]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ]
+  },
+  {
+    "dataset": "cub",
+    "split": "val",
+    "question_id": 45,
+    "image": [
+      "cot/cub/002.Laysan_Albatross/Laysan_Albatross_0021_737.jpg",
+      "cot/cub/002.Laysan_Albatross/Laysan_Albatross_0021_737.jpg###[140, 100, 377, 299]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDoes the bird in the picture have buff eye and buff wing? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.280, 0.314, 0.754, 0.712]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ]
+  },
+  {
+    "dataset": "cub",
+    "split": "val",
+    "question_id": 2579,
+    "image": [
+      "cot/cub/108.White_necked_Raven/White_Necked_Raven_0062_797382.jpg",
+      "cot/cub/108.White_necked_Raven/White_Necked_Raven_0062_797382.jpg###[218, 59, 431, 338]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDoes the bird in the picture have green upperparts and rufous belly? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.436, 0.160, 0.862, 0.718]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ]
+  },
+  {
+    "dataset": "cub",
+    "split": "val",
+    "question_id": 2056,
+    "image": [
+      "cot/cub/087.Mallard/Mallard_0048_76995.jpg",
+      "cot/cub/087.Mallard/Mallard_0048_76995.jpg###[90, 28, 455, 234]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDoes the bird in the picture have grey forehead and solid breast? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.180, 0.222, 0.910, 0.634]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ]
+  },
+  {
+    "dataset": "cub",
+    "split": "val",
+    "question_id": 1490,
+    "image": [
+      "cot/cub/064.Ring_billed_Gull/Ring_Billed_Gull_0085_51292.jpg",
+      "cot/cub/064.Ring_billed_Gull/Ring_Billed_Gull_0085_51292.jpg###[123, 9, 498, 317]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDoes the bird in the picture have olive under and olive back? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.246, 0.184, 0.996, 0.800]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ]
+  },
+  {
+    "dataset": "cub",
+    "split": "val",
+    "question_id": 3303,
+    "image": [
+      "cot/cub/138.Tree_Swallow/Tree_Swallow_0029_134882.jpg",
+      "cot/cub/138.Tree_Swallow/Tree_Swallow_0029_134882.jpg###[218, 51, 344, 202]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDoes the bird in the picture have pointed_tail tail and black eye? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.436, 0.268, 0.688, 0.570]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ]
+  },
+  {
+    "dataset": "cub",
+    "split": "val",
+    "question_id": 1056,
+    "image": [
+      "cot/cub/047.American_Goldfinch/American_Goldfinch_0123_32505.jpg",
+      "cot/cub/047.American_Goldfinch/American_Goldfinch_0123_32505.jpg###[210, 56, 427, 216]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDoes the bird in the picture have long-wings wing and red upper? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.420, 0.236, 0.854, 0.556]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ]
+  },
+  {
+    "dataset": "cub",
+    "split": "val",
+    "question_id": 1099,
+    "image": [
+      "cot/cub/049.Boat_tailed_Grackle/Boat_Tailed_Grackle_0087_33369.jpg",
+      "cot/cub/049.Boat_tailed_Grackle/Boat_Tailed_Grackle_0087_33369.jpg###[13, 106, 377, 317]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDoes the bird in the picture have pink underparts and grey forehead? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.026, 0.380, 0.754, 0.802]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ]
+  },
+  {
+    "dataset": "cub",
+    "split": "val",
+    "question_id": 2399,
+    "image": [
+      "cot/cub/101.White_Pelican/White_Pelican_0051_97833.jpg",
+      "cot/cub/101.White_Pelican/White_Pelican_0051_97833.jpg###[27, 90, 274, 442]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDoes the bird in the picture have multi-colored wing and chicken-like-marsh shape? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.222, 0.180, 0.716, 0.884]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ]
+  }
+]

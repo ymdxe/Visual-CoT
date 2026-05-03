@@ -28,3 +28,37 @@ ckpts*
 
 # Demo
 serve_images/
+
+# Local model weights and generated artifacts
+checkpoints/
+ckpts/
+models/
+weights/
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.gguf
+
+# Local downloads and generated data
+downloads/
+playground/data/cot/
+
+# Logs, process ids, and caches
+*.log
+*.log.*
+*.pid
+__pycache__/
+*.pyc
+*.egg-info/
+
+# Generated result images; keep csv/md/jsonl summaries trackable
+results/**/*.png
+results/**/*.jpg
+results/**/*.jpeg
+results/rc/img/
+results/region_compress/compressed_images*/
+results/region_compress/paper_images*/
+results/region_compress/logs/
+
