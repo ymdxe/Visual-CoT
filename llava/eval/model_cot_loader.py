@@ -9,6 +9,7 @@ import re
 import sys
 import time
 import types
+from datetime import datetime
 
 import shortuuid
 import torch
@@ -109,6 +110,10 @@ MODE_PRESETS = {
     "region_caption": ("pred", "full_crop", "caption", False),
     "answer_verifier": ("pred", "full_crop", "verify", False),
     "lowres_full_highrescrop": ("pred", "lowres_full_highres_crop", "none", False),
+    "answer_reasoning_compressed": ("pred", "full_crop", "structured", False),
+    "direct_then_explain": ("pred", "full_crop", "none", False),
+    "vision_pruned": ("pred", "full_crop", "none", False),
+    "feature_pca": ("pred", "full_crop", "none", False),
     "topk_crops": ("pred", "full_crop", "none", False),
 }
 
@@ -346,12 +351,14 @@ def prepare_images(args, full_img, box):
     if args.without_image:
         return [], None
     crop_img = square_crop(full_img, box) if box is not None else full_img.copy()
+    if args.crop_size:
+        crop_img = crop_img.resize((args.crop_size, args.crop_size))
     if args.crop_mode == "full_only":
         return [full_img], None
     if args.crop_mode == "crop_only":
         return [crop_img], crop_img
     if args.crop_mode == "lowres_full_highres_crop":
-        return [lowres_full(full_img), crop_img], crop_img
+        return [lowres_full(full_img, args.lowres_size), crop_img], crop_img
     return [full_img, crop_img], crop_img
 
 
@@ -422,6 +429,31 @@ def make_caption_prompt(args, model_config, question):
     return conv.get_prompt()
 
 
+def make_direct_answer_prompt(args, model_config, question, images_count):
+    conv = conv_templates[args.conv_mode].copy()
+    token = image_token(model_config)
+    prefix = "" if args.without_image or images_count == 0 else (token + "\n") * images_count
+    conv.append_message(conv.roles[0], prefix + question + "\nAnswer the question with the final answer only.")
+    conv.append_message(conv.roles[1], None)
+    return conv.get_prompt(), prefix + question
+
+
+def make_explanation_prompt(args, model_config, question, answer, images_count):
+    conv = conv_templates[args.conv_mode].copy()
+    token = image_token(model_config)
+    prefix = "" if args.without_image or images_count == 0 else (token + "\n") * images_count
+    conv.append_message(
+        conv.roles[0],
+        (
+            f"{prefix}{question}\n"
+            f"Given the answer: {answer}\n"
+            "Briefly explain the key visual evidence in one or two sentences."
+        ),
+    )
+    conv.append_message(conv.roles[1], None)
+    return conv.get_prompt()
+
+
 def build_tensor(images, image_processor, model_config):
     if not images:
         return None
@@ -474,6 +506,190 @@ def contains_match(pred, gold):
     return int(g in p or p in g)
 
 
+SECTION_RE = re.compile(
+    r"(?:^|\n)\s*(?:\[?(Region|Visual Evidence|Reasoning|Answer)\]?|"
+    r"(Region|Visual Evidence|Reasoning|Answer))\s*:\s*",
+    flags=re.IGNORECASE,
+)
+
+
+def token_count(text):
+    if not text:
+        return 0
+    return len(str(text).split())
+
+
+def split_sentences(text):
+    if not text:
+        return []
+    parts = re.split(r"(?<=[.!?。！？])\s+|\n+", str(text).strip())
+    return [p.strip() for p in parts if p.strip()]
+
+
+def parse_structured_output(text):
+    text = "" if text is None else str(text)
+    matches = list(SECTION_RE.finditer(text))
+    sections = {"region_text": None, "visual_evidence_text": None, "reasoning_text": None, "answer_extracted": None}
+    if not matches:
+        sections["reasoning_text"] = text
+        sections["answer_extracted"] = text.strip()
+        return sections
+    key_map = {
+        "region": "region_text",
+        "visual evidence": "visual_evidence_text",
+        "reasoning": "reasoning_text",
+        "answer": "answer_extracted",
+    }
+    for idx, match in enumerate(matches):
+        raw = (match.group(1) or match.group(2) or "").lower()
+        key = key_map.get(raw)
+        if not key:
+            continue
+        start = match.end()
+        end = matches[idx + 1].start() if idx + 1 < len(matches) else len(text)
+        sections[key] = text[start:end].strip()
+    if not sections["answer_extracted"]:
+        last = [s for s in split_sentences(text)[-2:] if s]
+        sections["answer_extracted"] = last[-1] if last else text.strip()
+    return sections
+
+
+KEY_EVIDENCE_WORDS = {
+    "color", "colour", "wing", "head", "tail", "beak", "bill", "body", "breast",
+    "belly", "back", "eye", "stripe", "spot", "shape", "pattern", "texture",
+    "left", "right", "upper", "lower", "bird", "feather", "black", "white",
+    "red", "blue", "yellow", "brown", "gray", "grey", "green", "orange",
+}
+
+
+def deduplicate(items):
+    seen = set()
+    out = []
+    for item in items:
+        key = normalize_answer(item)
+        if key and key not in seen:
+            seen.add(key)
+            out.append(item)
+    return out
+
+
+def compress_text(text, max_sentences, keep_keywords=True, do_dedup=True):
+    sentences = split_sentences(text)
+    if do_dedup:
+        sentences = deduplicate(sentences)
+    if keep_keywords:
+        keyword_hits = [s for s in sentences if any(k in s.lower() for k in KEY_EVIDENCE_WORDS)]
+        if keyword_hits:
+            sentences = keyword_hits + [s for s in sentences if s not in keyword_hits]
+    return " ".join(sentences[:max_sentences]).strip()
+
+
+def apply_reasoning_compression(args, parsed):
+    raw_reasoning = parsed.get("reasoning_text") or ""
+    raw_evidence = parsed.get("visual_evidence_text") or ""
+    if args.reasoning_compression != "rule":
+        return {
+            "raw_reasoning": raw_reasoning,
+            "compressed_reasoning": None,
+            "raw_reasoning_tokens": token_count(raw_reasoning),
+            "compressed_reasoning_tokens": None,
+            "reasoning_compression_ratio": None,
+            "compressed_evidence": None,
+        }
+    compressed_reasoning = compress_text(
+        raw_reasoning,
+        max_sentences=args.max_reasoning_sentences,
+        do_dedup=args.deduplicate_sentences,
+    )
+    compressed_evidence = compress_text(
+        raw_evidence,
+        max_sentences=args.max_evidence_sentences,
+        do_dedup=args.deduplicate_sentences,
+    )
+    raw_tokens = token_count(raw_reasoning)
+    compressed_tokens = token_count(compressed_reasoning)
+    ratio = (compressed_tokens / raw_tokens) if raw_tokens else None
+    return {
+        "raw_reasoning": raw_reasoning,
+        "compressed_reasoning": compressed_reasoning,
+        "raw_reasoning_tokens": raw_tokens,
+        "compressed_reasoning_tokens": compressed_tokens,
+        "reasoning_compression_ratio": ratio,
+        "compressed_evidence": compressed_evidence,
+    }
+
+
+def heuristic_select_steps(text, topk):
+    scored = []
+    for sent in split_sentences(text):
+        lower = sent.lower()
+        score = sum(1 for k in KEY_EVIDENCE_WORDS if k in lower)
+        score += 1.0 / max(1, token_count(sent))
+        scored.append((score, sent))
+    scored.sort(key=lambda x: x[0], reverse=True)
+    return [sent for _score, sent in scored[:topk]]
+
+
+def exact_match(pred, gold):
+    p = normalize_answer(pred)
+    g = normalize_answer(gold)
+    if not p or not g:
+        return None
+    return int(p == g)
+
+
+def apply_vision_pruning(model, args):
+    if not args.vision_prune:
+        return None
+    import torch.nn as nn
+    import torch.nn.utils.prune as prune
+
+    target_root = model
+    if args.vision_prune_target == "vision_tower":
+        target_root = model.get_vision_tower()
+    elif args.vision_prune_target == "mm_projector":
+        target_root = getattr(model.get_model(), "mm_projector", None) or getattr(model, "mm_projector", None)
+    elif args.vision_prune_target == "patch_embed":
+        target_root = model.get_vision_tower()
+
+    module_type = nn.Conv2d if args.vision_prune_type == "conv_ln_structured" else nn.Linear
+    selected = []
+    if target_root is not None:
+        for name, module in target_root.named_modules():
+            if isinstance(module, module_type):
+                if args.vision_prune_target == "patch_embed" and "embed" not in name.lower():
+                    continue
+                selected.append((name, module))
+    before_nonzero = 0
+    before_total = 0
+    for _name, module in selected:
+        weight = module.weight.detach()
+        before_nonzero += int(torch.count_nonzero(weight).item())
+        before_total += weight.numel()
+    report = {
+        "vision_prune_type": args.vision_prune_type,
+        "vision_prune_amount": args.vision_prune_amount,
+        "vision_prune_target": args.vision_prune_target,
+        "vision_prune_dry_run": args.vision_prune_dry_run,
+        "modules": [name for name, _module in selected[:50]],
+        "num_modules": len(selected),
+        "nonzero_before": before_nonzero,
+        "total_params_considered": before_total,
+    }
+    print(json.dumps({"vision_prune_report": report}, ensure_ascii=False))
+    if args.vision_prune_dry_run:
+        return report
+    for _name, module in selected:
+        prune.ln_structured(module, name="weight", amount=args.vision_prune_amount, n=2, dim=0)
+        prune.remove(module, "weight")
+    after_nonzero = 0
+    for _name, module in selected:
+        after_nonzero += int(torch.count_nonzero(module.weight.detach()).item())
+    report["nonzero_after"] = after_nonzero
+    report["nonzero_ratio_after"] = (after_nonzero / before_total) if before_total else None
+    return report
+
+
 def apply_mode(args):
     if args.mode and args.mode != "auto":
         preset = MODE_PRESETS.get(args.mode)
@@ -501,6 +717,16 @@ def eval_model(args):
     if args.load_4bit and args.load_8bit:
         raise ValueError("--load-4bit and --load-8bit are mutually exclusive")
     apply_mode(args)
+    if args.mode == "direct_then_explain":
+        args.answer_policy = "direct_then_explain"
+    if args.mode == "answer_reasoning_compressed":
+        args.evidence_mode = "structured"
+        if args.reasoning_compression == "none":
+            args.reasoning_compression = "rule"
+    if args.output_file:
+        args.answers_file = args.output_file
+    random.seed(args.seed)
+    torch.manual_seed(args.seed)
     disable_torch_init()
     model_path = os.path.expanduser(args.model_path)
     model_name = get_model_name_from_path(model_path)
@@ -513,6 +739,15 @@ def eval_model(args):
         precision=args.precision,
     )
     dtype = torch.bfloat16 if args.precision == "bf16" else torch.float16
+    prune_report = apply_vision_pruning(model, args)
+    if args.vision_prune and args.vision_prune_dry_run:
+        return
+    feature_note = None
+    if args.feature_compression != "none":
+        feature_note = (
+            "feature compression interface enabled; PCA insertion is recorded as a feasibility "
+            "check because the current model requires fixed visual feature dimensions unless an adapter is trained"
+        )
 
     questions = load_questions(args.question_file)
     questions = get_chunk(questions, args.num_chunks, args.chunk_idx)
@@ -531,6 +766,7 @@ def eval_model(args):
 
     with open(answers_file, "w", encoding="utf-8") as ans_file:
         for local_idx, line in enumerate(tqdm(questions)):
+            preprocess_start = time.perf_counter()
             qid = line.get("question_id", local_idx)
             question = clean_question(line)
             image_files = line.get("image") or [line.get("img_path")]
@@ -558,14 +794,52 @@ def eval_model(args):
                 "num_crops_requested": args.num_crops,
             }
             prompt, prompt_text = make_conv_prompt(args, model.config, question, chosen_box, len(images))
+            preprocess_ms = (time.perf_counter() - preprocess_start) * 1000.0 if args.record_latency else None
             if torch.cuda.is_available() and args.record_memory:
                 torch.cuda.reset_peak_memory_stats()
                 torch.cuda.synchronize()
             start = time.perf_counter()
+            generate_ms = None
+            stage1_latency_ms = None
+            stage2_latency_ms = None
+            generated_done = False
 
             region_caption = None
-            if args.evidence_mode == "caption" and crop_img is not None:
+            if args.answer_policy == "direct_then_explain":
+                direct_prompt, prompt_text = make_direct_answer_prompt(args, model.config, question, len(images))
+                stage1_start = time.perf_counter()
+                direct_answer = generate(
+                    model, tokenizer, image_processor, model.config, args, direct_prompt, images, dtype, max_new_tokens=32
+                )
+                if torch.cuda.is_available():
+                    torch.cuda.synchronize()
+                stage1_latency_ms = (time.perf_counter() - stage1_start) * 1000.0 if args.record_latency else None
+                explanation_prompt = make_explanation_prompt(args, model.config, question, direct_answer, len(images))
+                stage2_start = time.perf_counter()
+                explanation = generate(
+                    model,
+                    tokenizer,
+                    image_processor,
+                    model.config,
+                    args,
+                    explanation_prompt,
+                    images,
+                    dtype,
+                    max_new_tokens=args.explanation_max_new_tokens,
+                )
+                if torch.cuda.is_available():
+                    torch.cuda.synchronize()
+                stage2_latency_ms = (time.perf_counter() - stage2_start) * 1000.0 if args.record_latency else None
+                output = direct_answer
+                metadata["direct_answer"] = direct_answer
+                metadata["explanation"] = explanation
+                generate_ms = None
+                if stage1_latency_ms is not None and stage2_latency_ms is not None:
+                    generate_ms = stage1_latency_ms + stage2_latency_ms
+                generated_done = True
+            elif args.evidence_mode == "caption" and crop_img is not None:
                 caption_prompt = make_caption_prompt(args, model.config, question)
+                gen_start = time.perf_counter()
                 region_caption = generate(
                     model, tokenizer, image_processor, model.config, args, caption_prompt, [crop_img], dtype, max_new_tokens=64
                 )
@@ -574,33 +848,61 @@ def eval_model(args):
                     args, model.config, question, chosen_box, len(images), region_caption=region_caption
                 )
 
-            if args.evidence_mode == "verify":
+            if generated_done:
+                pass
+            elif args.evidence_mode == "verify":
                 base_args = argparse.Namespace(**vars(args))
                 base_args.evidence_mode = "none"
                 base_prompt, _ = make_conv_prompt(base_args, model.config, question, chosen_box, len(images))
+                gen_start = time.perf_counter()
                 initial_answer = generate(model, tokenizer, image_processor, model.config, args, base_prompt, images, dtype)
                 metadata["initial_answer"] = initial_answer
                 prompt, prompt_text = make_conv_prompt(
                     args, model.config, question, chosen_box, len(images), initial_answer=initial_answer
                 )
                 output = generate(model, tokenizer, image_processor, model.config, args, prompt, images, dtype)
+                generate_ms = (time.perf_counter() - gen_start) * 1000.0 if args.record_latency else None
                 metadata["verifier_judgement"] = output
                 metadata["verifier_rewritten"] = normalize_answer(output) != normalize_answer(initial_answer)
             else:
+                gen_start = time.perf_counter()
                 output = generate(model, tokenizer, image_processor, model.config, args, prompt, images, dtype)
+                generate_ms = (time.perf_counter() - gen_start) * 1000.0 if args.record_latency else None
 
             if torch.cuda.is_available() and args.record_memory:
                 torch.cuda.synchronize()
             latency_ms = (time.perf_counter() - start) * 1000.0 if args.record_latency else None
             peak_mem = torch.cuda.max_memory_allocated() / 1024 / 1024 if torch.cuda.is_available() and args.record_memory else None
             gold = gt_answer(line)
-            metadata["hit"] = contains_match(output, gold)
+            parsed = parse_structured_output(output)
+            compression = apply_reasoning_compression(args, parsed)
+            selected_steps = None
+            if args.step_selector == "heuristic":
+                selected_steps = heuristic_select_steps(
+                    (parsed.get("visual_evidence_text") or "") + " " + (parsed.get("reasoning_text") or ""),
+                    args.step_selector_topk,
+                )
+            answer_extracted = parsed.get("answer_extracted") or output
+            metadata["hit"] = contains_match(answer_extracted, gold)
+            bbox_iou_value = box_iou(chosen_box, gt_box)
+            normalized_gt = normalize_answer(gold)
+            normalized_pred = normalize_answer(answer_extracted)
+            answer_tokens = token_count(answer_extracted)
+            reasoning_tokens = token_count(parsed.get("reasoning_text"))
+            notes = []
+            if feature_note:
+                notes.append(feature_note)
+            if prune_report:
+                notes.append("vision pruning feasibility hook applied")
 
             row = {
                 "question_id": qid,
                 "dataset": args.dataset_name or line.get("dataset"),
                 "image": image_rel,
                 "mode": args.mode if args.mode != "auto" else None,
+                "reasoning_compression": args.reasoning_compression,
+                "answer_policy": args.answer_policy,
+                "step_selector": args.step_selector,
                 "evidence_mode": args.evidence_mode,
                 "crop_mode": args.crop_mode,
                 "bbox_source": args.bbox_source,
@@ -608,20 +910,61 @@ def eval_model(args):
                 "prompt": prompt_text,
                 "gt_answer": gold,
                 "pred_answer": output,
+                "answer_extracted": answer_extracted,
+                "normalized_gt": normalized_gt,
+                "normalized_pred": normalized_pred,
+                "exact_match": exact_match(answer_extracted, gold),
+                "contains_match": contains_match(answer_extracted, gold),
                 "text": output,
                 "bbox_gt": gt_box,
+                "bbox_pred_raw": det_rec.get("bbox_pred_raw") if isinstance(det_rec, dict) else None,
                 "bbox_pred": chosen_box,
                 "bbox_parse_ok": bbox_parse_ok,
+                "bbox_iou": bbox_iou_value,
+                "bbox_correct_at_05": None if bbox_iou_value is None else int(bbox_iou_value >= 0.5),
                 "crop_ratio": crop_ratio,
+                "lowres_size": args.lowres_size if args.crop_mode == "lowres_full_highres_crop" else None,
+                "crop_size": args.crop_size,
+                "vision_prune_type": args.vision_prune_type if args.vision_prune else None,
+                "vision_prune_amount": args.vision_prune_amount if args.vision_prune else None,
+                "feature_compression": args.feature_compression,
+                "pca_dim": args.pca_dim if args.feature_compression == "pca" else None,
+                "region_text": parsed.get("region_text"),
+                "visual_evidence_text": parsed.get("visual_evidence_text"),
+                "reasoning_text": parsed.get("reasoning_text"),
+                "compressed_reasoning": compression["compressed_reasoning"],
+                "raw_reasoning": compression["raw_reasoning"],
+                "raw_reasoning_tokens": compression["raw_reasoning_tokens"],
+                "compressed_reasoning_tokens": compression["compressed_reasoning_tokens"],
+                "reasoning_compression_ratio": compression["reasoning_compression_ratio"],
+                "answer_before_compression": answer_extracted,
+                "answer_after_compression": answer_extracted,
+                "reasoning_length_tokens": reasoning_tokens,
+                "answer_length_tokens": answer_tokens,
                 "latency_ms": latency_ms,
+                "latency_ms_total": latency_ms,
+                "latency_ms_preprocess": preprocess_ms,
+                "latency_ms_generate": generate_ms,
+                "stage1_latency_ms": stage1_latency_ms,
+                "stage2_latency_ms": stage2_latency_ms,
+                "total_latency_ms": latency_ms,
                 "peak_gpu_memory_mb": peak_mem,
                 "num_visual_inputs": len(images),
                 "num_visual_tokens_est": len(images) * 576 if images else 0,
                 "error_tag": None,
+                "error_type": None,
+                "prompt_text": prompt_text,
+                "model_path": model_path,
+                "timestamp": datetime.utcnow().isoformat() + "Z",
+                "notes": "; ".join(notes) if notes else None,
                 "answer_id": shortuuid.uuid(),
                 "model_id": model_name,
                 "metadata": metadata,
             }
+            row["metadata"]["selected_steps"] = selected_steps
+            row["metadata"]["compressed_evidence"] = compression["compressed_evidence"]
+            row["metadata"]["vision_prune_report"] = prune_report
+            row["metadata"]["feature_note"] = feature_note
             if "height" in line:
                 row["height"] = line["height"]
             if "width" in line:
@@ -639,6 +982,7 @@ def build_parser():
     parser.add_argument("--image-folder", type=str, default="s3://mmdata/")
     parser.add_argument("--question-file", type=str, default="tables/question.jsonl")
     parser.add_argument("--answers-file", type=str, default="answer.jsonl")
+    parser.add_argument("--output-file", type=str, default=None)
     parser.add_argument("--conv-mode", type=str, default="llava_v1")
     parser.add_argument("--temperature", type=float, default=0.2)
     parser.add_argument("--top_p", type=float, default=None)
@@ -658,6 +1002,7 @@ def build_parser():
     parser.add_argument("--mode", choices=list(MODE_PRESETS.keys()) + ["auto"], default="auto")
     parser.add_argument("--dataset-name", type=str, default=None)
     parser.add_argument("--max-samples", type=int, default=None)
+    parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--bbox-source", choices=["pred", "oracle", "random", "center", "none"], default="none")
     parser.add_argument(
         "--crop-mode",
@@ -665,6 +1010,27 @@ def build_parser():
         default="full_only",
     )
     parser.add_argument("--evidence-mode", choices=["none", "structured", "caption", "verify"], default="none")
+    parser.add_argument("--reasoning-compression", choices=["none", "rule"], default="none")
+    parser.add_argument("--max-reasoning-sentences", type=int, default=2)
+    parser.add_argument("--max-evidence-sentences", type=int, default=3)
+    parser.add_argument("--deduplicate-sentences", type=str2bool, nargs="?", const=True, default=True)
+    parser.add_argument("--answer-policy", choices=["single", "direct_then_explain"], default="single")
+    parser.add_argument("--explanation-max-new-tokens", type=int, default=64)
+    parser.add_argument("--step-selector", choices=["none", "heuristic"], default="none")
+    parser.add_argument("--step-selector-topk", type=int, default=2)
+    parser.add_argument("--lowres-size", type=int, default=112)
+    parser.add_argument("--crop-size", type=int, default=336)
+    parser.add_argument("--vision-prune", action="store_true")
+    parser.add_argument("--vision-prune-type", choices=["conv_ln_structured", "linear_ln_structured"], default="linear_ln_structured")
+    parser.add_argument("--vision-prune-amount", type=float, default=0.1)
+    parser.add_argument("--vision-prune-target", choices=["patch_embed", "vision_tower", "mm_projector"], default="vision_tower")
+    parser.add_argument("--vision-prune-dry-run", action="store_true")
+    parser.add_argument("--feature-compression", choices=["none", "pca"], default="none")
+    parser.add_argument("--pca-fit-samples", type=int, default=100)
+    parser.add_argument("--pca-dim", type=int, default=None)
+    parser.add_argument("--pca-position", choices=["before_projector", "after_projector"], default="before_projector")
+    parser.add_argument("--pca-save-path", type=str, default=None)
+    parser.add_argument("--pca-load-path", type=str, default=None)
     parser.add_argument("--num-crops", type=int, default=1)
     parser.add_argument("--save-crop-dir", type=str, default=None)
     parser.add_argument("--log-jsonl", type=str, default=None)
