@@ -43,6 +43,8 @@ def ratio_delta(value, base):
 
 def iter_jsonl(raw_dir):
     for path in sorted(Path(raw_dir).glob("*.jsonl")):
+        if not path.name.startswith("answer_"):
+            continue
         with open(path, "r", encoding="utf-8") as f:
             for line in f:
                 if line.strip():

@@ -9,7 +9,7 @@ QUESTION_FILE="./small_benchmark_cub100.json"
 DET_QUESTION_FILE="./viscot_benchmark/benchmark_det/cub.jsonl"
 IMAGE_FOLDER="./playground/data"
 CONV_MODE="vicuna_v1"
-LOAD_4BIT=1
+LOAD_4BIT=0
 
 while [[ $# -gt 0 ]]; do
   case "$1" in
@@ -20,7 +20,7 @@ while [[ $# -gt 0 ]]; do
     --question-file) QUESTION_FILE="$2"; shift 2 ;;
     --det-question-file) DET_QUESTION_FILE="$2"; shift 2 ;;
     --image-folder) IMAGE_FOLDER="$2"; shift 2 ;;
-    --no-4bit) LOAD_4BIT=0; shift ;;
+    --load-4bit) LOAD_4BIT=1; shift ;;
     --help|-h)
       echo "Usage: bash experiments/thesis_experiments/run_thesis_experiments.sh --stage smoke|cub20|cub100|advanced|reasoning --max-samples N"
       exit 0
