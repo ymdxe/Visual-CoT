@@ -1,0 +1,5 @@
+mode,bbox_correct_answer_correct,bbox_correct_answer_wrong,bbox_wrong_answer_correct,bbox_wrong_answer_wrong,bbox_missing_or_parse_failed
+feature_pca_256,5,2,12,1,0
+feature_pca_512,5,2,12,1,0
+vision_pruned_10,4,3,8,5,0
+vision_pruned_20,4,3,6,7,0

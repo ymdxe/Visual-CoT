@@ -1,0 +1,5 @@
+mode,reasoning_length_reduction,answer_accuracy_delta,generation_latency_delta,extraction_success_rate
+answer_reasoning_compressed,0.0,,,1.0
+direct_then_explain,,,,1.0
+heuristic_step_selector,,,,1.0
+structured_evidence,,,,1.0

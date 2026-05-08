@@ -1,0 +1,5 @@
+mode,compression_type,visual_input_reduction,latency_reduction_vs_pred_bbox,memory_reduction_vs_pred_bbox,accuracy_delta_vs_pred_bbox
+answer_reasoning_compressed,answer_reasoning_compressed,,,,
+direct_then_explain,direct_then_explain,,,,
+heuristic_step_selector,heuristic_step_selector,,,,
+structured_evidence,structured_evidence,,,,

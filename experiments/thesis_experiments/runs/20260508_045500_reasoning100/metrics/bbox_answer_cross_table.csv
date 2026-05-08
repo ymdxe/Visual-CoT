@@ -1,0 +1,5 @@
+mode,bbox_correct_answer_correct,bbox_correct_answer_wrong,bbox_wrong_answer_correct,bbox_wrong_answer_wrong,bbox_missing_or_parse_failed
+answer_reasoning_compressed,20,7,53,20,0
+direct_then_explain,20,7,57,16,0
+heuristic_step_selector,20,7,53,20,0
+structured_evidence,20,7,53,20,0

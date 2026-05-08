@@ -1,0 +1,4 @@
+reasoning_compression: rule
+max_reasoning_sentences: 2
+max_evidence_sentences: 3
+step_selector: heuristic

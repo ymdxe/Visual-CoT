@@ -1,0 +1,5 @@
+mode,compression_type,visual_input_reduction,latency_reduction_vs_pred_bbox,memory_reduction_vs_pred_bbox,accuracy_delta_vs_pred_bbox
+crop_only,crop_only,0.5,0.017141286020477656,0.022794181369925642,0.0
+full,full,0.5,-0.7337074679975901,0.022795086019080216,0.0
+pred_bbox,pred_bbox,0.0,0.0,0.0,0.0
+structured_evidence,structured_evidence,0.0,0.18554069769792508,-0.004258252278295914,0.0

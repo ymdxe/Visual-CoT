@@ -1,0 +1,5 @@
+question_id,mode,image,gt_answer,answer_extracted,bbox_iou,error_type,notes
+4191,crop_only,cot/cub/174.Palm_Warbler/Palm_Warbler_0106_169571.jpg,No,Yes.,0.5565794177225243,,
+4191,full,cot/cub/174.Palm_Warbler/Palm_Warbler_0106_169571.jpg,No,"Yes, the bird in the picture has a squared tail and a red bill.",,,
+4191,pred_bbox,cot/cub/174.Palm_Warbler/Palm_Warbler_0106_169571.jpg,No,Yes.,0.5565794177225243,,
+4191,structured_evidence,cot/cub/174.Palm_Warbler/Palm_Warbler_0106_169571.jpg,No,Yes,0.5565794177225243,,

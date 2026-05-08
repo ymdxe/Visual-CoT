@@ -1,0 +1,25 @@
+question_id,mode,image,gt_answer,answer_extracted,bbox_iou,error_type,notes
+4191,feature_pca,cot/cub/174.Palm_Warbler/Palm_Warbler_0106_169571.jpg,No,Yes.,0.5565794177225243,,feature compression interface enabled; PCA insertion is recorded as a feasibility check because the current model requires fixed visual feature dimensions unless an adapter is trained
+2185,feature_pca,cot/cub/092.Nighthawk/Nighthawk_0084_84510.jpg,No,Yes.,0.5424056871901509,,feature compression interface enabled; PCA insertion is recorded as a feasibility check because the current model requires fixed visual feature dimensions unless an adapter is trained
+1608,feature_pca,cot/cub/069.Rufous_Hummingbird/Rufous_Hummingbird_0130_59500.jpg,Yes,"No, the bird in the picture does not have blue nape and black underparts.",0.07188537082140464,,feature compression interface enabled; PCA insertion is recorded as a feasibility check because the current model requires fixed visual feature dimensions unless an adapter is trained
+4191,,cot/cub/174.Palm_Warbler/Palm_Warbler_0106_169571.jpg,No,Yes.,0.5565794177225243,,feature compression interface enabled; PCA insertion is recorded as a feasibility check because the current model requires fixed visual feature dimensions unless an adapter is trained
+2185,,cot/cub/092.Nighthawk/Nighthawk_0084_84510.jpg,No,Yes.,0.5424056871901509,,feature compression interface enabled; PCA insertion is recorded as a feasibility check because the current model requires fixed visual feature dimensions unless an adapter is trained
+1608,,cot/cub/069.Rufous_Hummingbird/Rufous_Hummingbird_0130_59500.jpg,Yes,"No, the bird in the picture does not have blue nape and black underparts.",0.07188537082140464,,feature compression interface enabled; PCA insertion is recorded as a feasibility check because the current model requires fixed visual feature dimensions unless an adapter is trained
+3752,,cot/cub/155.Warbling_Vireo/Warbling_Vireo_0006_158467.jpg,Yes,No.,0.7366683303259494,,vision pruning feasibility hook applied
+3197,,cot/cub/134.Cape_Glossy_Starling/Cape_Glossy_Starling_0068_129446.jpg,Yes,"No, the bird does not have iridescent upper and blue crown.",0.06090580914833996,,vision pruning feasibility hook applied
+3866,,cot/cub/160.Black_throated_Blue_Warbler/Black_Throated_Blue_Warbler_0085_161621.jpg,Yes,No.,0.47976322909370556,,vision pruning feasibility hook applied
+833,,cot/cub/038.Great_Crested_Flycatcher/Great_Crested_Flycatcher_0024_29516.jpg,Yes,No.,0.6546844502277162,,vision pruning feasibility hook applied
+4209,,cot/cub/174.Palm_Warbler/Palm_Warbler_0005_169918.jpg,Yes,No.,0.3958688054485168,,vision pruning feasibility hook applied
+680,,cot/cub/031.Black_billed_Cuckoo/Black_Billed_Cuckoo_0023_26258.jpg,Yes,No.,0.0,,vision pruning feasibility hook applied
+872,,cot/cub/040.Olive_sided_Flycatcher/Olive_Sided_Flycatcher_0074_30816.jpg,Yes,"No, the bird in the picture does not have white upperparts and white underparts.",0.5775081661222585,,vision pruning feasibility hook applied
+1608,,cot/cub/069.Rufous_Hummingbird/Rufous_Hummingbird_0130_59500.jpg,Yes,No.,0.07188537082140464,,vision pruning feasibility hook applied
+3752,,cot/cub/155.Warbling_Vireo/Warbling_Vireo_0006_158467.jpg,Yes,No.,0.7366683303259494,,vision pruning feasibility hook applied
+4073,,cot/cub/169.Magnolia_Warbler/Magnolia_Warbler_0111_165478.jpg,Yes,No.,0.3243962500540027,,vision pruning feasibility hook applied
+3197,,cot/cub/134.Cape_Glossy_Starling/Cape_Glossy_Starling_0068_129446.jpg,Yes,No.,0.06090580914833996,,vision pruning feasibility hook applied
+3866,,cot/cub/160.Black_throated_Blue_Warbler/Black_Throated_Blue_Warbler_0085_161621.jpg,Yes,No.,0.47976322909370556,,vision pruning feasibility hook applied
+833,,cot/cub/038.Great_Crested_Flycatcher/Great_Crested_Flycatcher_0024_29516.jpg,Yes,No.,0.6546844502277162,,vision pruning feasibility hook applied
+4209,,cot/cub/174.Palm_Warbler/Palm_Warbler_0005_169918.jpg,Yes,No.,0.3958688054485168,,vision pruning feasibility hook applied
+680,,cot/cub/031.Black_billed_Cuckoo/Black_Billed_Cuckoo_0023_26258.jpg,Yes,No.,0.0,,vision pruning feasibility hook applied
+872,,cot/cub/040.Olive_sided_Flycatcher/Olive_Sided_Flycatcher_0074_30816.jpg,Yes,No.,0.5775081661222585,,vision pruning feasibility hook applied
+1454,,cot/cub/062.Herring_Gull/Herring_Gull_0093_46029.jpg,Yes,No,0.003594577698812233,,vision pruning feasibility hook applied
+1608,,cot/cub/069.Rufous_Hummingbird/Rufous_Hummingbird_0130_59500.jpg,Yes,No.,0.07188537082140464,,vision pruning feasibility hook applied

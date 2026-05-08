@@ -1,0 +1,5 @@
+mode,reasoning_length_reduction,answer_accuracy_delta,generation_latency_delta,extraction_success_rate
+feature_pca_256,,,,1.0
+feature_pca_512,,,,1.0
+vision_pruned_10,,,,1.0
+vision_pruned_20,,,,1.0

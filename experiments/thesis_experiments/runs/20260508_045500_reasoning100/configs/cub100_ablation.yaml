@@ -1,0 +1,7 @@
+max_samples: 100
+model_path: ./checkpoints/VisCoT-7b-224
+question_file: ./small_benchmark_cub100.json
+detection_question_file: ./viscot_benchmark/benchmark_det/cub.jsonl
+image_folder: ./playground/data
+conv_mode: vicuna_v1
+load_4bit: 0

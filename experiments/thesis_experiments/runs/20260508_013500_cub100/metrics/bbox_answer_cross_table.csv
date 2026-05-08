@@ -1,0 +1,10 @@
+mode,bbox_correct_answer_correct,bbox_correct_answer_wrong,bbox_wrong_answer_correct,bbox_wrong_answer_wrong,bbox_missing_or_parse_failed
+center_bbox,46,8,37,9,0
+crop_only,19,8,50,23,0
+full,0,0,0,0,100
+lowres_full_highrescrop,21,6,58,15,0
+oracle_bbox,82,18,0,0,0
+pred_bbox,20,7,60,13,0
+random_bbox,1,0,81,18,0
+structured_evidence,20,7,53,20,0
+woimg,0,0,0,0,100

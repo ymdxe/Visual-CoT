@@ -1,0 +1,5 @@
+mode,compression_type,visual_input_reduction,latency_reduction_vs_pred_bbox,memory_reduction_vs_pred_bbox,accuracy_delta_vs_pred_bbox
+feature_pca_256,feature_pca_256,,,,
+feature_pca_512,feature_pca_512,,,,
+vision_pruned_10,vision_pruned_10,,,,
+vision_pruned_20,vision_pruned_20,,,,

@@ -1,0 +1,3 @@
+vision_prune_amounts: [0.1, 0.2]
+vision_prune_target: vision_tower
+feature_pca_dims: [512, 256]

@@ -1,0 +1,4 @@
+branch=thesis/visual-pruning-reasoning-exp
+bd250a8aa01d7834ee563922dcb381149bae9781
+?? experiments/thesis_experiments/runs/
+?? plan.md

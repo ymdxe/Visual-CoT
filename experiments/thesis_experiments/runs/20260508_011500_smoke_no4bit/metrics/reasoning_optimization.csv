@@ -1,0 +1,5 @@
+mode,reasoning_length_reduction,answer_accuracy_delta,generation_latency_delta,extraction_success_rate
+crop_only,,0.0,-8.15395300014643,1.0
+full,,0.0,347.4179149998235,1.0
+pred_bbox,,0.0,0.0,1.0
+structured_evidence,,0.0,-87.8844690000733,1.0

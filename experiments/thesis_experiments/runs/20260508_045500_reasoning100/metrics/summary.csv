@@ -1,0 +1,5 @@
+mode,N,exact_match_mean,contains_match_mean,bbox_parse_success_rate,bbox_acc_at_05,mean_bbox_iou,mean_crop_ratio,mean_latency_ms_total,mean_latency_ms_generate,mean_peak_gpu_memory_mb,mean_num_visual_inputs,mean_answer_length,mean_reasoning_tokens,mean_compressed_reasoning_tokens,mean_reasoning_compression_ratio,extraction_success_rate
+answer_reasoning_compressed,100,0.73,0.73,1.0,0.27,0.37550890694297984,0.154359,260.37705033999595,260.3131785499989,14272.188681640626,2.0,1.03,1.03,1.03,1.0,1.0
+direct_then_explain,100,0.77,0.77,1.0,0.27,0.37550890694297984,0.154359,776.9798385999992,776.9162991300033,14176.667802734375,2.0,1.0,1.0,,,1.0
+heuristic_step_selector,100,0.73,0.73,1.0,0.27,0.37550890694297984,0.154359,261.243494230008,261.1783507699932,14272.188681640626,2.0,1.03,1.03,,,1.0
+structured_evidence,100,0.73,0.73,1.0,0.27,0.37550890694297984,0.154359,261.06884239999664,261.0066802200003,14272.188681640626,2.0,1.03,1.03,,,1.0
