@@ -54,7 +54,14 @@ def iter_jsonl(raw_dir):
 
 
 def get_mode(row):
-    return row.get("mode") or Path(row.get("_source_file", "unknown")).stem.replace("answer_", "")
+    source_mode = Path(row.get("_source_file", "unknown")).stem.replace("answer_", "")
+    mode = row.get("mode") or source_mode
+    if row.get("feature_compression") == "pca" and row.get("pca_dim") not in (None, ""):
+        return f"feature_pca_{int(float(row.get('pca_dim')))}"
+    if row.get("vision_prune_type") and row.get("vision_prune_amount") not in (None, ""):
+        amount = int(round(float(row.get("vision_prune_amount")) * 100))
+        return f"vision_pruned_{amount:02d}"
+    return mode
 
 
 def metric_row(mode, rows):
