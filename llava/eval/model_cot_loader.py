@@ -303,30 +303,108 @@ def random_box():
     return norm_box([cx - w / 2, cy - h / 2, cx + w / 2, cy + h / 2])
 
 
-def square_crop(img, box, min_side=224):
-    img = img.convert("RGB")
+_FOCUS_KEYWORDS = {
+    "left": (0.25, 0.5),
+    "right": (0.75, 0.5),
+    "top": (0.5, 0.25),
+    "above": (0.5, 0.25),
+    "upper": (0.5, 0.25),
+    "bottom": (0.5, 0.75),
+    "below": (0.5, 0.75),
+    "lower": (0.5, 0.75),
+    "center": (0.5, 0.5),
+    "middle": (0.5, 0.5),
+    "centre": (0.5, 0.5),
+}
+
+
+def _parse_lambdas(text, default=(1.0, 1.0, 0.5)):
+    if not text:
+        return default
+    try:
+        parts = [float(t.strip()) for t in str(text).split(",") if t.strip()]
+    except ValueError:
+        return default
+    if len(parts) != 3:
+        return default
+    return tuple(parts)
+
+
+def score_pred_bbox(box, question, args):
+    """Quality score for a predicted bbox in [0, 1].
+
+    score(b) = lambda1 * s_parse(b) + lambda2 * s_size(b) + lambda3 * s_focus(b, q)
+
+    s_parse  = 1 if the bbox is well-formed in [0,1]^4 else 0
+    s_size   = exp(-(log rho(b) - log rho*)^2 / (2 sigma^2)) on the area prior
+    s_focus  = 1 - min(1, ||c(b) - c_word||_2 / 0.5)  when q has a positional word
+
+    The weighted sum is normalised by the sum of the active lambdas so the
+    output remains comparable to a probability.
+    """
+    lambdas = _parse_lambdas(getattr(args, "bbox_score_lambdas", None))
+    info = {
+        "score": 0.0,
+        "components": {"parse": 0.0, "size": 0.0, "focus": 0.0},
+        "lambdas": list(lambdas),
+        "focus_word": None,
+    }
     if box is None:
-        return img.copy()
-    if rc_crop is not None:
-        return rc_crop(img, box, pad=1.2)
-    w, h = img.size
-    x1, y1, x2, y2 = box
-    left, top, right, bottom = x1 * w, y1 * h, x2 * w, y2 * h
-    cx, cy = (left + right) / 2.0, (top + bottom) / 2.0
-    half = max((right - left) / 2.0, (bottom - top) / 2.0, min_side / 2.0)
-    left, top = max(0, cx - half), max(0, cy - half)
-    right, bottom = min(w, cx + half), min(h, cy + half)
-    return img.crop((int(left), int(top), int(right), int(bottom)))
+        info["score"] = 0.0
+        return info
+
+    # parse
+    s_parse = 1.0 if norm_box(box) is not None else 0.0
+
+    # size
+    target = max(1e-4, float(getattr(args, "bbox_score_target_area", 0.1)))
+    sigma = max(1e-3, float(getattr(args, "bbox_score_area_sigma", 1.0)))
+    rho = box_area(box) or 0.0
+    if rho <= 0.0:
+        s_size = 0.0
+    else:
+        s_size = math.exp(-0.5 * ((math.log(rho) - math.log(target)) / sigma) ** 2)
+
+    # focus
+    s_focus = 0.0
+    chosen_word = None
+    qlow = (question or "").lower()
+    for word, (cx, cy) in _FOCUS_KEYWORDS.items():
+        if re.search(rf"\b{word}\b", qlow):
+            bx1, by1, bx2, by2 = box
+            cbx, cby = (bx1 + bx2) / 2.0, (by1 + by2) / 2.0
+            dist = math.sqrt((cbx - cx) ** 2 + (cby - cy) ** 2)
+            cand = max(0.0, 1.0 - dist / 0.5)
+            if cand > s_focus:
+                s_focus = cand
+                chosen_word = word
+
+    active = []
+    weighted = 0.0
+    for lam, val in zip(lambdas, (s_parse, s_size, s_focus)):
+        weighted += lam * val
+        if lam > 0:
+            active.append(lam)
+    norm = sum(active) if active else 1.0
+    info["components"] = {"parse": s_parse, "size": s_size, "focus": s_focus}
+    info["focus_word"] = chosen_word
+    info["score"] = weighted / norm
+    return info
 
 
-def lowres_full(img, size=224):
-    img = img.convert("RGB")
-    w, h = img.size
-    small = img.resize((size, size))
-    return small.resize((w, h))
+def _center_box():
+    return [0.25, 0.25, 0.75, 0.75]
 
 
 def select_box(args, line, local_idx, det_by_id, det_rows):
+    """Return (box, det_rec, parse_ok, score_info).
+
+    score_info is None unless --bbox-scoring is enabled. When scoring is on and
+    a predicted bbox falls below --bbox-score-threshold, it is replaced by the
+    configured fallback (default = center box), and score_info["fallback"] is
+    set accordingly.
+    """
+    import math as _math  # noqa: F401 — keep math available inside helper
     source = args.bbox_source
     det_rec = None
     parse_ok = None
@@ -339,18 +417,71 @@ def select_box(args, line, local_idx, det_by_id, det_rows):
         box = random_box()
         parse_ok = box is not None
     elif source == "center":
-        box = [0.25, 0.25, 0.75, 0.75]
+        box = _center_box()
         parse_ok = True
     else:
         box = None
         parse_ok = None
-    return box, det_rec, parse_ok
+
+    score_info = None
+    if getattr(args, "bbox_scoring", False) and source == "pred":
+        question = clean_question(line)
+        score_info = score_pred_bbox(box, question, args)
+        threshold = float(getattr(args, "bbox_score_threshold", 0.4))
+        fallback_kind = getattr(args, "bbox_score_fallback", "center")
+        triggered = score_info["score"] < threshold
+        score_info["threshold"] = threshold
+        score_info["triggered"] = triggered
+        score_info["fallback_kind"] = fallback_kind
+        score_info["original_box"] = list(box) if box is not None else None
+        if triggered:
+            if fallback_kind == "center":
+                box = _center_box()
+                parse_ok = True
+                score_info["used_fallback"] = "center"
+            elif fallback_kind == "oracle":
+                obox = oracle_box(line)
+                if obox is not None:
+                    box = obox
+                    parse_ok = True
+                    score_info["used_fallback"] = "oracle"
+                else:
+                    score_info["used_fallback"] = "none"
+            else:
+                score_info["used_fallback"] = "none"
+        else:
+            score_info["used_fallback"] = None
+    return box, det_rec, parse_ok, score_info
+
+
+def square_crop(img, box, min_side=224, pad=1.2):
+    img = img.convert("RGB")
+    if box is None:
+        return img.copy()
+    if rc_crop is not None:
+        return rc_crop(img, box, pad=pad)
+    w, h = img.size
+    x1, y1, x2, y2 = box
+    left, top, right, bottom = x1 * w, y1 * h, x2 * w, y2 * h
+    cx, cy = (left + right) / 2.0, (top + bottom) / 2.0
+    half = max((right - left) * pad / 2.0, (bottom - top) * pad / 2.0, min_side / 2.0)
+    left, top = max(0, cx - half), max(0, cy - half)
+    right, bottom = min(w, cx + half), min(h, cy + half)
+    return img.crop((int(left), int(top), int(right), int(bottom)))
+
+
+def lowres_full(img, size=224):
+    img = img.convert("RGB")
+    w, h = img.size
+    small = img.resize((size, size))
+    return small.resize((w, h))
 
 
 def prepare_images(args, full_img, box):
     if args.without_image:
         return [], None
-    crop_img = square_crop(full_img, box) if box is not None else full_img.copy()
+    pad = getattr(args, "crop_pad", 1.2)
+    crop_img = square_crop(full_img, box, pad=pad) if box is not None else full_img.copy()
     if args.crop_size:
         crop_img = crop_img.resize((args.crop_size, args.crop_size))
     if args.crop_mode == "full_only":
@@ -775,7 +906,7 @@ def eval_model(args):
             full_img = Image.open(image_path).convert("RGB")
 
             gt_box = oracle_box(line)
-            chosen_box, det_rec, bbox_parse_ok = select_box(args, line, local_idx, det_by_id, det_rows)
+            chosen_box, det_rec, bbox_parse_ok, score_info = select_box(args, line, local_idx, det_by_id, det_rows)
             crop_ratio = box_area(chosen_box) if chosen_box is not None else None
             images, crop_img = prepare_images(args, full_img, chosen_box)
             saved_crop = None
@@ -792,6 +923,7 @@ def eval_model(args):
                 "hit": None,
                 "bbox_iou": box_iou(chosen_box, gt_box),
                 "num_crops_requested": args.num_crops,
+                "bbox_score": score_info,
             }
             prompt, prompt_text = make_conv_prompt(args, model.config, question, chosen_box, len(images))
             preprocess_ms = (time.perf_counter() - preprocess_start) * 1000.0 if args.record_latency else None
@@ -925,6 +1057,7 @@ def eval_model(args):
                 "crop_ratio": crop_ratio,
                 "lowres_size": args.lowres_size if args.crop_mode == "lowres_full_highres_crop" else None,
                 "crop_size": args.crop_size,
+                "crop_pad": args.crop_pad,
                 "vision_prune_type": args.vision_prune_type if args.vision_prune else None,
                 "vision_prune_amount": args.vision_prune_amount if args.vision_prune else None,
                 "feature_compression": args.feature_compression,
@@ -1020,6 +1153,20 @@ def build_parser():
     parser.add_argument("--step-selector-topk", type=int, default=2)
     parser.add_argument("--lowres-size", type=int, default=112)
     parser.add_argument("--crop-size", type=int, default=336)
+    parser.add_argument("--crop-pad", type=float, default=1.2,
+                        help="Padding multiplier around the predicted bbox before cropping (>=1.0).")
+    parser.add_argument("--bbox-scoring", action="store_true",
+                        help="Score the predicted bbox with score(b)=λ1·s_parse+λ2·s_size+λ3·s_focus "
+                             "and fall back to a safer box when score < threshold.")
+    parser.add_argument("--bbox-score-threshold", type=float, default=0.4)
+    parser.add_argument("--bbox-score-lambdas", type=str, default="1.0,1.0,0.5",
+                        help="Comma-separated weights for (parse, size, focus). Defaults to 1.0,1.0,0.5.")
+    parser.add_argument("--bbox-score-target-area", type=float, default=0.1,
+                        help="Target crop ratio ρ* in [0,1] for the size prior.")
+    parser.add_argument("--bbox-score-area-sigma", type=float, default=1.0,
+                        help="Std-dev (in log-area space) for the size prior Gaussian.")
+    parser.add_argument("--bbox-score-fallback", choices=["center", "oracle", "none"], default="center",
+                        help="Fallback box used when score < threshold.")
     parser.add_argument("--vision-prune", action="store_true")
     parser.add_argument("--vision-prune-type", choices=["conv_ln_structured", "linear_ln_structured"], default="linear_ln_structured")
     parser.add_argument("--vision-prune-amount", type=float, default=0.1)
