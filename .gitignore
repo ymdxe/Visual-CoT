@@ -69,3 +69,7 @@ experiments/figures/*
 !experiments/figures/.gitkeep
 experiments/tables/*
 !experiments/tables/.gitkeep
+
+# Thesis local run outputs and transient notes
+experiments/thesis_experiments/runs/
+plan.md
