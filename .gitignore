@@ -73,3 +73,9 @@ experiments/tables/*
 # Thesis local run outputs and transient notes
 experiments/thesis_experiments/runs/
 plan.md
+
+# Thesis documents kept local (personal info: name, student ID, advisor)
+Obsidian/
+
+# Linux core dumps
+core.*
