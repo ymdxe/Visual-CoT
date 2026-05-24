@@ -1,0 +1,2702 @@
+[
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 420,
+    "image": [
+      "cot/infographicsvqa/44972.jpeg",
+      "cot/infographicsvqa/44972.jpeg###[97, 426, 965, 4152]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nwho is more likely to be involved in representing data visually - data scientists or Business intelligence professional? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.412, 0.085, 0.584, 0.824]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "data scientists"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 1228,
+    "image": [
+      "cot/infographicsvqa/10935.jpeg",
+      "cot/infographicsvqa/10935.jpeg###[171, 171, 380, 190]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich activity has the third rank during Lockdown? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.231, 0.104, 0.358, 0.116]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "taking good rest at home"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 931,
+    "image": [
+      "cot/infographicsvqa/20148.jpeg",
+      "cot/infographicsvqa/20148.jpeg###[146, 2189, 428, 2215]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nHow many sharing tools mentioned in this infographic? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.461, 0.562, 0.533, 0.569]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "3"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 490,
+    "image": [
+      "cot/infographicsvqa/45019.jpeg",
+      "cot/infographicsvqa/45019.jpeg###[52, 1157, 181, 1171]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich bird is the slowest flyer, Peregrine Falcon, North African Ostrich, or American woodcock? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.323, 0.551, 0.384, 0.558]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "american woodcock"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 98,
+    "image": [
+      "cot/infographicsvqa/41575.jpeg",
+      "cot/infographicsvqa/41575.jpeg###[53, 1896, 450, 1928]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat percentage of people reduce stress through Walking? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.424, 0.363, 0.500, 0.369]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "42"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 1584,
+    "image": [
+      "cot/infographicsvqa/44700.jpeg",
+      "cot/infographicsvqa/44700.jpeg###[429, 1066, 597, 1091]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWho broke Carl Lewis' record in 200m? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.462, 0.747, 0.580, 0.764]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "joe deloach"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 388,
+    "image": [
+      "cot/infographicsvqa/37198.jpeg",
+      "cot/infographicsvqa/37198.jpeg###[121, 1200, 367, 1732]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat percentage of social media efforts of MBA schools is managed by outside agents? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.424, 0.659, 0.559, 0.952]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "44%"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 1598,
+    "image": [
+      "cot/infographicsvqa/44687.jpeg",
+      "cot/infographicsvqa/44687.jpeg###[718, 1161, 778, 1175]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWho is eighth in the list of 10 most influential USA Olympians? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.556, 0.548, 0.584, 0.555]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "douglas"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 925,
+    "image": [
+      "cot/infographicsvqa/31257.jpeg",
+      "cot/infographicsvqa/31257.jpeg###[151, 505, 651, 840]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the average age of people with leadership preferences? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.280, 0.446, 0.721, 0.741]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "44"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 723,
+    "image": [
+      "cot/infographicsvqa/40023.jpeg",
+      "cot/infographicsvqa/40023.jpeg###[756, 832, 2093, 1983]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nHow many infinity stones are there? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.252, 0.277, 0.698, 0.661]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "6"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 1023,
+    "image": [
+      "cot/infographicsvqa/20048.jpeg",
+      "cot/infographicsvqa/20048.jpeg###[49, 1674, 637, 3349]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nHow many do's about typography mentioned in this infographic? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.440, 0.323, 0.554, 0.646]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "2"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 727,
+    "image": [
+      "cot/infographicsvqa/40023.jpeg",
+      "cot/infographicsvqa/40023.jpeg###[1169, 189, 2922, 571]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nHow many phases of Marvel cinematic universe are shown? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.390, 0.063, 0.974, 0.190]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "3"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 1272,
+    "image": [
+      "cot/infographicsvqa/10263.jpeg",
+      "cot/infographicsvqa/10263.jpeg###[84, 242, 499, 258]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nHow many manufacturers have a positive impact due to covid-19? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.066, 0.408, 0.390, 0.421]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "2"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 459,
+    "image": [
+      "cot/infographicsvqa/45050.jpeg",
+      "cot/infographicsvqa/45050.jpeg###[333, 1075, 402, 1125]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nUsing emoticons increases the like rate by how much Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.507, 0.402, 0.533, 0.421]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "57%"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 300,
+    "image": [
+      "cot/infographicsvqa/36995.jpeg",
+      "cot/infographicsvqa/36995.jpeg###[548, 3648, 1256, 4193]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is the IOT application shown in the infographic in green background color? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.455, 0.817, 0.613, 0.939]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "whatsapp"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 821,
+    "image": [
+      "cot/infographicsvqa/33897.jpeg",
+      "cot/infographicsvqa/33897.jpeg###[116, 310, 189, 440]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the vehicle confiscation period for driving under the influence of alcohol? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.162, 0.546, 0.264, 0.727]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "90 days"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 1339,
+    "image": [
+      "cot/infographicsvqa/10836.jpeg",
+      "cot/infographicsvqa/10836.jpeg###[292, 2173, 1112, 4601]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nHow many companies captured online media attention? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.439, 0.347, 0.570, 0.735]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "5"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 1246,
+    "image": [
+      "cot/infographicsvqa/11265.jpeg",
+      "cot/infographicsvqa/11265.jpeg###[414, 318, 448, 596]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nHow many recovered cases in Ho Chi Minh City as on March 20? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.652, 0.326, 0.687, 0.609]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "3"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 1047,
+    "image": [
+      "cot/infographicsvqa/10980.jpeg",
+      "cot/infographicsvqa/10980.jpeg###[655, 329, 711, 345]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich country had GDP growth of 5.3% in 2019? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.640, 0.428, 0.694, 0.444]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "india"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 1454,
+    "image": [
+      "cot/infographicsvqa/20186.jpeg",
+      "cot/infographicsvqa/20186.jpeg###[22, 62, 480, 506]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is the third-best method to learn Graphic Design? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.397, 0.028, 0.603, 0.227]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "graphic design college"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 1151,
+    "image": [
+      "cot/infographicsvqa/20018.jpeg",
+      "cot/infographicsvqa/20018.jpeg###[419, 1235, 508, 1245]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which sporting event, Mikaela Shiffrin has won the Olympic medal? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.547, 0.491, 0.583, 0.495]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "women's slalom skiing"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 1007,
+    "image": [
+      "cot/infographicsvqa/20104.jpeg",
+      "cot/infographicsvqa/20104.jpeg###[54, 610, 795, 1162]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nHow many categories of income mentioned in this infographic? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.171, 0.509, 0.788, 0.969]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "6"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 611,
+    "image": [
+      "cot/infographicsvqa/45076.jpeg",
+      "cot/infographicsvqa/45076.jpeg###[834, 47, 910, 58]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nastaxanthin comes in which category, popularity or one to watch Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.725, 0.029, 0.772, 0.036]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "one to watch"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 1113,
+    "image": [
+      "cot/infographicsvqa/20301.jpeg",
+      "cot/infographicsvqa/20301.jpeg###[410, 2397, 474, 2416]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat kind of people are not suited for Coworking space? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.528, 0.602, 0.544, 0.607]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "organizers"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 954,
+    "image": [
+      "cot/infographicsvqa/10581.jpeg",
+      "cot/infographicsvqa/10581.jpeg###[636, 1624, 714, 1643]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nHow many things needs to be avoided while travelling? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.618, 0.812, 0.657, 0.822]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "3"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 1185,
+    "image": [
+      "cot/infographicsvqa/70206.jpeg",
+      "cot/infographicsvqa/70206.jpeg###[30, 18, 170, 316]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nHow many ways are shown by which Covid-19 can  be transmitted? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.034, 0.306, 0.189, 0.637]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "2"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 1419,
+    "image": [
+      "cot/infographicsvqa/40990.jpeg",
+      "cot/infographicsvqa/40990.jpeg###[2235, 3966, 2386, 4015]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nHow many commitments were made by IFC? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.582, 0.535, 0.603, 0.542]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "600m"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 316,
+    "image": [
+      "cot/infographicsvqa/37107.jpeg",
+      "cot/infographicsvqa/37107.jpeg###[1309, 277, 2181, 4074]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the percentage of female Linkedin users worldwide? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.508, 0.066, 0.716, 0.970]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "41"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 852,
+    "image": [
+      "cot/infographicsvqa/32369.jpeg",
+      "cot/infographicsvqa/32369.jpeg###[706, 1574, 828, 1637]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat was the average attendance for Hull KR in 2015? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.512, 0.226, 0.530, 0.235]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "8,051"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 1261,
+    "image": [
+      "cot/infographicsvqa/32308.jpeg",
+      "cot/infographicsvqa/32308.jpeg###[265, 1032, 356, 1055]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the relationship between Loki and Frigga? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.088, 0.533, 0.119, 0.541]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "family"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 752,
+    "image": [
+      "cot/infographicsvqa/31595.jpeg",
+      "cot/infographicsvqa/31595.jpeg###[337, 1147, 431, 1195]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat percentage of internet users in South Africa are men? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.511, 0.311, 0.536, 0.324]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "53%"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 1681,
+    "image": [
+      "cot/infographicsvqa/37314.jpeg",
+      "cot/infographicsvqa/37314.jpeg###[154, 577, 350, 1126]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat percentage of executives believed their Business-to-consumer firms could respond to a negative post within 24 hours? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.407, 0.370, 0.532, 0.721]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "63%"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 646,
+    "image": [
+      "cot/infographicsvqa/40129.jpeg",
+      "cot/infographicsvqa/40129.jpeg###[53, 862, 916, 1725]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nHow many international organisations consider Russian Federation as a party of war Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.239, 0.490, 0.730, 0.980]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "6"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 1682,
+    "image": [
+      "cot/infographicsvqa/37314.jpeg",
+      "cot/infographicsvqa/37314.jpeg###[230, 430, 439, 1222]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat percentage of executives believed their Business-to-business firms could respond to a negative post within 24 hours? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.455, 0.276, 0.589, 0.783]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "43%"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 1686,
+    "image": [
+      "cot/infographicsvqa/37314.jpeg",
+      "cot/infographicsvqa/37314.jpeg###[343, 899, 395, 922]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat percentage of smaller firms are more likely to ignore their company's reputation in social media? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.528, 0.576, 0.561, 0.591]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "45%"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 1407,
+    "image": [
+      "cot/infographicsvqa/40965.jpeg",
+      "cot/infographicsvqa/40965.jpeg###[25, 866, 735, 1907]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nHow many points are under the heading \"Soft Skills\"? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.313, 0.433, 0.668, 0.954]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "3"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 919,
+    "image": [
+      "cot/infographicsvqa/20197.jpeg",
+      "cot/infographicsvqa/20197.jpeg###[110, 2261, 761, 4291]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nHow many different names are there for the Chinese New year? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.453, 0.285, 0.535, 0.541]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "2"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 1526,
+    "image": [
+      "cot/infographicsvqa/44541.jpeg",
+      "cot/infographicsvqa/44541.jpeg###[16, 88, 52, 97]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nHow many trainings & competitions were held according to the Special Olympics Reach Report 2011? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.027, 0.268, 0.088, 0.282]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "3,019,455"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 1626,
+    "image": [
+      "cot/infographicsvqa/37100.jpeg",
+      "cot/infographicsvqa/37100.jpeg###[76, 908, 145, 971]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat percent of Pinterest users are women? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.048, 0.682, 0.091, 0.721]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "83%"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 961,
+    "image": [
+      "cot/infographicsvqa/20388.jpeg",
+      "cot/infographicsvqa/20388.jpeg###[69, 1072, 526, 5310]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat percentage of micro-influencers charge more than $500 per Instagram post? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.463, 0.142, 0.523, 0.704]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "3"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 233,
+    "image": [
+      "cot/infographicsvqa/40434.jpeg",
+      "cot/infographicsvqa/40434.jpeg###[711, 2674, 797, 2705]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the inverse percentage of women who participated in the survey and posses graduation? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.298, 0.572, 0.317, 0.578]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "26"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 203,
+    "image": [
+      "cot/infographicsvqa/35329.jpeg",
+      "cot/infographicsvqa/35329.jpeg###[297, 2111, 518, 2135]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the count of current followers for Obama @barackobama Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.508, 0.802, 0.592, 0.812]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "+17,000,000"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 1717,
+    "image": [
+      "cot/infographicsvqa/70454.jpeg",
+      "cot/infographicsvqa/70454.jpeg###[444, 488, 699, 521]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the count of unemployed people in Canada, 1.3 million, 1.7million, or 2.5 million? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.438, 0.243, 0.565, 0.259]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "1.3 million"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 1746,
+    "image": [
+      "cot/infographicsvqa/37241.jpeg",
+      "cot/infographicsvqa/37241.jpeg###[82, 1218, 678, 1240]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is the most used social media site by adults? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.335, 0.506, 0.582, 0.515]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "facebook"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 1627,
+    "image": [
+      "cot/infographicsvqa/37100.jpeg",
+      "cot/infographicsvqa/37100.jpeg###[612, 165, 731, 192]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich platform has the most number of active users? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.383, 0.217, 0.457, 0.234]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "facebook"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 1518,
+    "image": [
+      "cot/infographicsvqa/44642.jpeg",
+      "cot/infographicsvqa/44642.jpeg###[448, 583, 620, 626]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat was the gold medal prize value in the 2014 Winter Olympics? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.615, 0.595, 0.791, 0.638]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "$122,000"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 996,
+    "image": [
+      "cot/infographicsvqa/20249.jpeg",
+      "cot/infographicsvqa/20249.jpeg###[278, 3065, 315, 3103]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat percentage of professionals who meet on a regular basis admit  to missing meetings according to the survey? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.494, 0.804, 0.504, 0.814]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "96"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 1623,
+    "image": [
+      "cot/infographicsvqa/37029.jpeg",
+      "cot/infographicsvqa/37029.jpeg###[428, 1000, 635, 1039]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the age of the majority of users of Linkedin? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.553, 0.782, 0.715, 0.812]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "35+"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 517,
+    "image": [
+      "cot/infographicsvqa/39594.jpeg",
+      "cot/infographicsvqa/39594.jpeg###[37, 857, 596, 966]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat percentage of men have experienced sexual violence other than rape in their life? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.213, 0.838, 0.758, 0.943]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "20%"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 891,
+    "image": [
+      "cot/infographicsvqa/33649.jpeg",
+      "cot/infographicsvqa/33649.jpeg###[731, 872, 771, 890]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat percent of adults in age group 65+, buy their food based on the location? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.685, 0.582, 0.711, 0.594]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "33"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 1752,
+    "image": [
+      "cot/infographicsvqa/37241.jpeg",
+      "cot/infographicsvqa/37241.jpeg###[428, 1884, 499, 1932]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat percentage of social media users are in the age group of 30-49 years? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.478, 0.782, 0.508, 0.802]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "78%"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 850,
+    "image": [
+      "cot/infographicsvqa/32369.jpeg",
+      "cot/infographicsvqa/32369.jpeg###[425, 1392, 746, 3382]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich team is sponsored by Archbishop Sentamu Academy? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.472, 0.200, 0.518, 0.485]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "hull kr"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 1470,
+    "image": [
+      "cot/infographicsvqa/42764.jpeg",
+      "cot/infographicsvqa/42764.jpeg###[47, 286, 566, 1819]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nHow many long-term budget goals? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.379, 0.132, 0.618, 0.839]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "4"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 177,
+    "image": [
+      "cot/infographicsvqa/41587.jpeg",
+      "cot/infographicsvqa/41587.jpeg###[357, 206, 602, 223]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich were the two novels written by J. G. Farrell? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.186, 0.300, 0.314, 0.308]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "troubles, the siege of krishnapur"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 152,
+    "image": [
+      "cot/infographicsvqa/35734.jpeg",
+      "cot/infographicsvqa/35734.jpeg###[61, 264, 680, 893]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nwhere does the second largest Palestinian population reside? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.062, 0.264, 0.681, 0.894]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "west bank"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 549,
+    "image": [
+      "cot/infographicsvqa/37394.jpeg",
+      "cot/infographicsvqa/37394.jpeg###[95, 2335, 258, 2357]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nBack in 2005, to whom (users) was Facebook open? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.427, 0.669, 0.474, 0.676]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "college students"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 337,
+    "image": [
+      "cot/infographicsvqa/45419.jpeg",
+      "cot/infographicsvqa/45419.jpeg###[104, 372, 1466, 1981]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is the heaviest racquet frame? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.191, 0.170, 0.813, 0.905]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "control"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 343,
+    "image": [
+      "cot/infographicsvqa/44957.jpeg",
+      "cot/infographicsvqa/44957.jpeg###[737, 1538, 811, 1559]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich variety of corn has each kernel enclosed in a husk? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.584, 0.426, 0.604, 0.432]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "pod corn"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 1680,
+    "image": [
+      "cot/infographicsvqa/37388.jpeg",
+      "cot/infographicsvqa/37388.jpeg###[54, 1497, 985, 1956]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nHow many references are cited? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.333, 0.442, 0.608, 0.577]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "8"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 534,
+    "image": [
+      "cot/infographicsvqa/37394.jpeg",
+      "cot/infographicsvqa/37394.jpeg###[140, 2678, 221, 2710]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhen the Dot com bubble burst? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.440, 0.768, 0.463, 0.777]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "2000"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 794,
+    "image": [
+      "cot/infographicsvqa/10049.jpeg",
+      "cot/infographicsvqa/10049.jpeg###[185, 237, 895, 272]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nHow many points does the health related stigmatization cover ? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.155, 0.448, 0.746, 0.477]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "6"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 865,
+    "image": [
+      "cot/infographicsvqa/33527.jpeg",
+      "cot/infographicsvqa/33527.jpeg###[34, 396, 96, 407]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWho is essaying the role of Marsellus Wallace's wife in the movie Pulp Fiction? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.023, 0.383, 0.064, 0.391]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "uma thurman"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 972,
+    "image": [
+      "cot/infographicsvqa/20241.jpeg",
+      "cot/infographicsvqa/20241.jpeg###[446, 869, 488, 899]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nHow much time (in minutes/day) is spent by the British workers on social networks during work? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.560, 0.356, 0.577, 0.369]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "90"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 1223,
+    "image": [
+      "cot/infographicsvqa/10935.jpeg",
+      "cot/infographicsvqa/10935.jpeg###[115, 1350, 145, 1363]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat percentage of people \"Strongly agree\" with washing their hands often? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.197, 0.820, 0.215, 0.828]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "29"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 1542,
+    "image": [
+      "cot/infographicsvqa/44572.jpeg",
+      "cot/infographicsvqa/44572.jpeg###[185, 307, 288, 326]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the weight of handball for men's game? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.346, 0.300, 0.446, 0.319]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "475g"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 1713,
+    "image": [
+      "cot/infographicsvqa/37315.jpeg",
+      "cot/infographicsvqa/37315.jpeg###[364, 299, 421, 310]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nHow many photos are uploaded to facebook each month? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.728, 0.677, 0.843, 0.699]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "2.5 billion"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 1131,
+    "image": [
+      "cot/infographicsvqa/43309.jpeg",
+      "cot/infographicsvqa/43309.jpeg###[204, 390, 1086, 1434]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich team scored more points in the paint? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.300, 0.204, 0.760, 0.749]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "spurs"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 66,
+    "image": [
+      "cot/infographicsvqa/34498.jpeg",
+      "cot/infographicsvqa/34498.jpeg###[635, 1914, 728, 2236]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat percent of non-digitally mature healthcare providers have an automated core process according to the survey? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.524, 0.374, 0.542, 0.437]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "31%"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 39,
+    "image": [
+      "cot/infographicsvqa/43772.jpeg",
+      "cot/infographicsvqa/43772.jpeg###[166, 1718, 209, 1730]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is the company that owns Yahoo News? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.427, 0.931, 0.451, 0.937]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "verizon"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 981,
+    "image": [
+      "cot/infographicsvqa/20354.jpeg",
+      "cot/infographicsvqa/20354.jpeg###[700, 2231, 749, 2253]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat percentage of respondents aged 41-50 years spend up to $500 every year on photography as per the survey? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.542, 0.469, 0.552, 0.474]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "51"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 1279,
+    "image": [
+      "cot/infographicsvqa/70509.jpeg",
+      "cot/infographicsvqa/70509.jpeg###[55, 227, 857, 468]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nHow m any cases reported in South Korea? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.061, 0.473, 0.953, 0.740]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "24"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 1077,
+    "image": [
+      "cot/infographicsvqa/20359.jpeg",
+      "cot/infographicsvqa/20359.jpeg###[429, 1993, 516, 2014]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the height of the capital letters in your calligraphy called? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.535, 0.532, 0.558, 0.537]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "cap-height"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 845,
+    "image": [
+      "cot/infographicsvqa/32369.jpeg",
+      "cot/infographicsvqa/32369.jpeg###[728, 5309, 836, 5354]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo which age group do majority of the UK Rugby League fans belong? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.516, 0.762, 0.531, 0.768]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "25-34"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 1130,
+    "image": [
+      "cot/infographicsvqa/43309.jpeg",
+      "cot/infographicsvqa/43309.jpeg###[256, 1098, 646, 1838]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nHow many points did spurs score in the paint? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.326, 0.574, 0.530, 0.960]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "38"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 263,
+    "image": [
+      "cot/infographicsvqa/40467.jpeg",
+      "cot/infographicsvqa/40467.jpeg###[1255, 1041, 1271, 1056]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nwhat percent of women were using any kind of contraceptive method in Europe? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.613, 0.658, 0.621, 0.666]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "71"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 853,
+    "image": [
+      "cot/infographicsvqa/32369.jpeg",
+      "cot/infographicsvqa/32369.jpeg###[221, 413, 748, 3382]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich team had a higher average attendance in 2015? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.443, 0.059, 0.518, 0.485]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "leeds rhinos"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 25,
+    "image": [
+      "cot/infographicsvqa/36993.jpeg",
+      "cot/infographicsvqa/36993.jpeg###[156, 477, 1083, 501]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nwhich social media platform is more used by jobseekers - LinkedIn or Facebook? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.235, 0.272, 0.764, 0.286]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "linkedin"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 1186,
+    "image": [
+      "cot/infographicsvqa/70206.jpeg",
+      "cot/infographicsvqa/70206.jpeg###[186, 126, 334, 316]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nHow many symptoms of COVID-19 are shown in the image? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.207, 0.426, 0.372, 0.637]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "6"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 1691,
+    "image": [
+      "cot/infographicsvqa/37314.jpeg",
+      "cot/infographicsvqa/37314.jpeg###[484, 1411, 551, 1440]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat percentage of CEOs in the south are most likely to care about their company's reputation in social media? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.618, 0.905, 0.661, 0.923]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "59%"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 1754,
+    "image": [
+      "cot/infographicsvqa/37241.jpeg",
+      "cot/infographicsvqa/37241.jpeg###[207, 837, 288, 921]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat percentage of overall social media users are adults? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.387, 0.347, 0.420, 0.383]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "72%"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 1756,
+    "image": [
+      "cot/infographicsvqa/37340.jpeg",
+      "cot/infographicsvqa/37340.jpeg###[225, 525, 523, 1207]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the percentage of WhatsApp users compared to total population in Indonesia in Q3 2017? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.392, 0.326, 0.577, 0.749]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "40%"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 581,
+    "image": [
+      "cot/infographicsvqa/37104.jpeg",
+      "cot/infographicsvqa/37104.jpeg###[419, 638, 469, 659]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat percentage of companies use social media for product development? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.563, 0.261, 0.584, 0.270]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "21"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 412,
+    "image": [
+      "cot/infographicsvqa/44954.jpeg",
+      "cot/infographicsvqa/44954.jpeg###[34, 2226, 289, 2258]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the fifth Kaggle problem listed in the infographic? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.407, 0.497, 0.464, 0.504]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "denoising dirty documents"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 1413,
+    "image": [
+      "cot/infographicsvqa/40826.jpeg",
+      "cot/infographicsvqa/40826.jpeg###[258, 1147, 298, 1164]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nHow much did the world bank lend in 2012 for adaption? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.521, 0.717, 0.546, 0.728]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "$4.6b"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 536,
+    "image": [
+      "cot/infographicsvqa/37394.jpeg",
+      "cot/infographicsvqa/37394.jpeg###[479, 2680, 545, 2711]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhen was Friends Reunited founded? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.537, 0.768, 0.556, 0.777]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "1999"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 474,
+    "image": [
+      "cot/infographicsvqa/44824.jpeg",
+      "cot/infographicsvqa/44824.jpeg###[1080, 1110, 1135, 1142]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat percent of analytics jobs in India requires more than 5 years of experience according to the 2017 study? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.573, 0.542, 0.600, 0.558]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "39%"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 81,
+    "image": [
+      "cot/infographicsvqa/41980.jpeg",
+      "cot/infographicsvqa/41980.jpeg###[13, 12, 560, 664]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nOut of the 16 DRS reviews, how many were won by the Indian team while bowling? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.119, 0.018, 0.885, 0.932]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "1"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 1724,
+    "image": [
+      "cot/infographicsvqa/36965.jpeg",
+      "cot/infographicsvqa/36965.jpeg###[99, 7816, 1113, 7866]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the younger fresher digital option replacing traditional TV and radio ads? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.420, 0.954, 0.544, 0.961]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "influencer marketing"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 225,
+    "image": [
+      "cot/infographicsvqa/41650.jpeg",
+      "cot/infographicsvqa/41650.jpeg###[112, 2114, 352, 2140]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich book predicted the invention of waterbeds? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.397, 0.611, 0.466, 0.618]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "stranger in a strange land"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 1240,
+    "image": [
+      "cot/infographicsvqa/10765.jpeg",
+      "cot/infographicsvqa/10765.jpeg###[993, 1132, 1056, 1164]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat percentage of respondents were very or extremely concerned about staying connected with their family or friends during the Covid-19 pandemic as per the survey? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.725, 0.603, 0.759, 0.620]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "43"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 91,
+    "image": [
+      "cot/infographicsvqa/43641.jpeg",
+      "cot/infographicsvqa/43641.jpeg###[259, 740, 381, 791]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat percentage of US employers plan to hire in Q1, 2018? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.253, 0.218, 0.289, 0.233]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "21%"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 1670,
+    "image": [
+      "cot/infographicsvqa/37320.jpeg",
+      "cot/infographicsvqa/37320.jpeg###[168, 527, 415, 1714]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich social networking site do recruiters look for their second option? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.425, 0.301, 0.566, 0.980]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "facebook"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 1388,
+    "image": [
+      "cot/infographicsvqa/70572.jpeg",
+      "cot/infographicsvqa/70572.jpeg###[20, 329, 581, 530]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nHow many European countries have only one confirmed case each? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.052, 0.513, 0.925, 0.827]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "7"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 655,
+    "image": [
+      "cot/infographicsvqa/39778.jpeg",
+      "cot/infographicsvqa/39778.jpeg###[89, 388, 120, 401]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich south asian country had nearly 80,000 military deaths in world war ii? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.318, 0.441, 0.353, 0.455]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "india"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 503,
+    "image": [
+      "cot/infographicsvqa/40649.jpeg",
+      "cot/infographicsvqa/40649.jpeg###[36, 1550, 194, 1612]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\non which social media platform users spend most time - LinkedIn or twitter? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.439, 0.273, 0.467, 0.285]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "twitter"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 281,
+    "image": [
+      "cot/infographicsvqa/40351.jpeg",
+      "cot/infographicsvqa/40351.jpeg###[454, 2245, 668, 2267]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the Facebook profile given? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.436, 0.979, 0.530, 0.989]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "@glownyurzadstatystyczny"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 868,
+    "image": [
+      "cot/infographicsvqa/30411.jpeg",
+      "cot/infographicsvqa/30411.jpeg###[189, 2202, 888, 2796]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn how many food items, Lecithin is the ingredient? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.407, 0.660, 0.617, 0.837]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "2"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 273,
+    "image": [
+      "cot/infographicsvqa/40606.jpeg",
+      "cot/infographicsvqa/40606.jpeg###[61, 450, 273, 937]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich trends are loved for weekend errands? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.288, 0.400, 0.476, 0.834]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "menswear, bold colors"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 603,
+    "image": [
+      "cot/infographicsvqa/33555.jpeg",
+      "cot/infographicsvqa/33555.jpeg###[190, 1145, 871, 1304]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nA child of which age should be getting 10 and 3/4 hours of sleep? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.201, 0.327, 0.395, 0.372]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "6"
+      }
+    ]
+  },
+  {
+    "dataset": "infographicsvqa",
+    "split": "val",
+    "question_id": 1637,
+    "image": [
+      "cot/infographicsvqa/37308.jpeg",
+      "cot/infographicsvqa/37308.jpeg###[176, 486, 209, 506]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat percent of females use Facebook? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.480, 0.130, 0.489, 0.135]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "49%"
+      }
+    ]
+  }
+]

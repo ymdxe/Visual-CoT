@@ -1,0 +1,305 @@
+{"img_path": "cot/gqa/2316539.jpg", "expression": "What are the tree branches in front of?", "bbox": [217, 343, 242, 393], "height": 500, "width": 391, "question_id": 7, "split": "val"}
+{"img_path": "cot/gqa/2414389.jpg", "expression": "What vegetable is above the cooked carrot in the salad?", "bbox": [227, 68, 391, 173], "height": 374, "width": 500, "question_id": 8, "split": "val"}
+{"img_path": "cot/gqa/2376641.jpg", "expression": "What is the food in the bowl that is to the left of the napkins?", "bbox": [117, 361, 285, 482], "height": 500, "width": 500, "question_id": 16, "split": "val"}
+{"img_path": "cot/gqa/2389707.jpg", "expression": "What kind of bag do you think is the sign in front of?", "bbox": [195, 193, 339, 351], "height": 500, "width": 374, "question_id": 19, "split": "val"}
+{"img_path": "cot/gqa/2315375.jpg", "expression": "Which kind of device is behind the vase?", "bbox": [44, 275, 208, 332], "height": 500, "width": 375, "question_id": 37, "split": "val"}
+{"img_path": "cot/gqa/2384571.jpg", "expression": "What is in front of the giraffe that is to the left of the fence?", "bbox": [0, 256, 50, 332], "height": 333, "width": 500, "question_id": 44, "split": "val"}
+{"img_path": "cot/gqa/2397466.jpg", "expression": "What is parked in front of the building?", "bbox": [96, 192, 140, 210], "height": 500, "width": 375, "question_id": 49, "split": "val"}
+{"img_path": "cot/gqa/2402269.jpg", "expression": "What is located on top of the dessert the person is cutting?", "bbox": [56, 339, 76, 359], "height": 500, "width": 333, "question_id": 58, "split": "val"}
+{"img_path": "cot/gqa/2365480.jpg", "expression": "What kind of furniture is to the left of the pillows?", "bbox": [72, 137, 209, 244], "height": 280, "width": 500, "question_id": 63, "split": "val"}
+{"img_path": "cot/gqa/2400601.jpg", "expression": "What kind of watercraft is to the right of the umbrella that is on the left?", "bbox": [226, 123, 298, 159], "height": 333, "width": 500, "question_id": 81, "split": "val"}
+{"img_path": "cot/gqa/2406871.jpg", "expression": "What is in the container that is to the left of the container?", "bbox": [176, 85, 204, 108], "height": 500, "width": 375, "question_id": 82, "split": "val"}
+{"img_path": "cot/gqa/2375607.jpg", "expression": "What pieces of furniture are behind the boy?", "bbox": [385, 168, 495, 310], "height": 333, "width": 500, "question_id": 97, "split": "val"}
+{"img_path": "cot/gqa/2375851.jpg", "expression": "What is located on top of the round fruit?", "bbox": [85, 192, 116, 218], "height": 500, "width": 341, "question_id": 148, "split": "val"}
+{"img_path": "cot/gqa/2391200.jpg", "expression": "What is the lamp in front of?", "bbox": [84, 95, 262, 204], "height": 334, "width": 500, "question_id": 155, "split": "val"}
+{"img_path": "cot/gqa/2384863.jpg", "expression": "What kind of device is on top of the desk?", "bbox": [55, 235, 106, 270], "height": 375, "width": 500, "question_id": 169, "split": "val"}
+{"img_path": "cot/gqa/2417468.jpg", "expression": "What piece of furniture is to the left of the couch that is to the left of the vase?", "bbox": [188, 97, 250, 121], "height": 334, "width": 500, "question_id": 174, "split": "val"}
+{"img_path": "cot/gqa/2345108.jpg", "expression": "What kind of animal is under the bed?", "bbox": [136, 81, 418, 203], "height": 375, "width": 500, "question_id": 179, "split": "val"}
+{"img_path": "cot/gqa/2321511.jpg", "expression": "What is the animal to the right of the bench made of wood?", "bbox": [81, 81, 311, 332], "height": 333, "width": 500, "question_id": 181, "split": "val"}
+{"img_path": "cot/gqa/2414958.jpg", "expression": "What vehicle is pulled by the animal to the left of the person?", "bbox": [335, 199, 497, 273], "height": 382, "width": 500, "question_id": 182, "split": "val"}
+{"img_path": "cot/gqa/2330707.jpg", "expression": "Which kind of food is to the right of the sausage?", "bbox": [187, 196, 312, 331], "height": 374, "width": 500, "question_id": 203, "split": "val"}
+{"img_path": "cot/gqa/2351017.jpg", "expression": "What is the food to the left of the meat with the eggs?", "bbox": [44, 192, 258, 310], "height": 500, "width": 357, "question_id": 210, "split": "val"}
+{"img_path": "cot/gqa/2348256.jpg", "expression": "What type of toy is to the right of the chair?", "bbox": [166, 243, 210, 269], "height": 333, "width": 500, "question_id": 215, "split": "val"}
+{"img_path": "cot/gqa/2346668.jpg", "expression": "What is standing next to the wall?", "bbox": [142, 217, 372, 316], "height": 375, "width": 500, "question_id": 218, "split": "val"}
+{"img_path": "cot/gqa/2409693.jpg", "expression": "What animals is the water behind of?", "bbox": [349, 117, 498, 185], "height": 274, "width": 500, "question_id": 233, "split": "val"}
+{"img_path": "cot/gqa/2345285.jpg", "expression": "What is the vehicle above the fire the people watch?", "bbox": [111, 70, 362, 233], "height": 333, "width": 500, "question_id": 236, "split": "val"}
+{"img_path": "cot/gqa/2397944.jpg", "expression": "What is the animal that the fence is behind of?", "bbox": [111, 71, 387, 327], "height": 375, "width": 500, "question_id": 239, "split": "val"}
+{"img_path": "cot/gqa/2376706.jpg", "expression": "What is under the device in front of the computer mouse?", "bbox": [316, 37, 400, 81], "height": 340, "width": 500, "question_id": 251, "split": "val"}
+{"img_path": "cot/gqa/2367728.jpg", "expression": "What kind of furniture is to the right of the cabinet that is to the right of the towel?", "bbox": [377, 173, 437, 272], "height": 375, "width": 500, "question_id": 272, "split": "val"}
+{"img_path": "cot/gqa/2326262.jpg", "expression": "Which kind of device is to the right of the computer mouse?", "bbox": [422, 161, 454, 211], "height": 243, "width": 500, "question_id": 310, "split": "val"}
+{"img_path": "cot/gqa/2350397.jpg", "expression": "What are the items of furniture behind the dining table on the left side?", "bbox": [118, 197, 205, 305], "height": 333, "width": 500, "question_id": 312, "split": "val"}
+{"img_path": "cot/gqa/2371791.jpg", "expression": "What is the item of furniture to the left of the person that is to the left of the pots?", "bbox": [127, 132, 212, 166], "height": 333, "width": 500, "question_id": 313, "split": "val"}
+{"img_path": "cot/gqa/2349274.jpg", "expression": "What kind of appliance is to the right of the house?", "bbox": [398, 119, 423, 146], "height": 333, "width": 500, "question_id": 321, "split": "val"}
+{"img_path": "cot/gqa/2417102.jpg", "expression": "What is the name of the animal to the left of the bookcase?", "bbox": [209, 49, 374, 264], "height": 375, "width": 500, "question_id": 350, "split": "val"}
+{"img_path": "cot/gqa/2381727.jpg", "expression": "What kind of furniture is to the left of the microwave on the right?", "bbox": [250, 111, 331, 174], "height": 375, "width": 500, "question_id": 352, "split": "val"}
+{"img_path": "cot/gqa/2415699.jpg", "expression": "What is the name of the animal under the canopy?", "bbox": [126, 144, 271, 252], "height": 333, "width": 500, "question_id": 402, "split": "val"}
+{"img_path": "cot/gqa/2382417.jpg", "expression": "What animal is to the right of the fence?", "bbox": [305, 73, 459, 332], "height": 333, "width": 500, "question_id": 408, "split": "val"}
+{"img_path": "cot/gqa/2376779.jpg", "expression": "What is in front of the olive oil?", "bbox": [125, 409, 232, 500], "height": 500, "width": 375, "question_id": 420, "split": "val"}
+{"img_path": "cot/gqa/2019.jpg", "expression": "What device is on top of the nightstand that is in the bottom of the picture?", "bbox": [190, 413, 276, 495], "height": 600, "width": 800, "question_id": 422, "split": "val"}
+{"img_path": "cot/gqa/2406766.jpg", "expression": "Which kind of furniture is to the right of the lamp?", "bbox": [294, 79, 398, 93], "height": 333, "width": 500, "question_id": 427, "split": "val"}
+{"img_path": "cot/gqa/2372116.jpg", "expression": "What is the box that is to the right of the pumpkin filled with?", "bbox": [279, 275, 318, 312], "height": 375, "width": 500, "question_id": 428, "split": "val"}
+{"img_path": "cot/gqa/2364716.jpg", "expression": "What is the fruit to the left of the small container called?", "bbox": [195, 224, 292, 327], "height": 375, "width": 500, "question_id": 445, "split": "val"}
+{"img_path": "cot/gqa/1159934.jpg", "expression": "What do you think is on the couch to the right of the lamp?", "bbox": [290, 395, 422, 567], "height": 768, "width": 1024, "question_id": 448, "split": "val"}
+{"img_path": "cot/gqa/2361777.jpg", "expression": "What cooking utensil is to the left of the kettle?", "bbox": [145, 193, 187, 222], "height": 333, "width": 500, "question_id": 450, "split": "val"}
+{"img_path": "cot/gqa/2357709.jpg", "expression": "What is located on top of the luggage?", "bbox": [159, 238, 300, 366], "height": 500, "width": 375, "question_id": 460, "split": "val"}
+{"img_path": "cot/gqa/2408881.jpg", "expression": "What animal is in front of the animal that is not large?", "bbox": [52, 123, 235, 412], "height": 500, "width": 333, "question_id": 510, "split": "val"}
+{"img_path": "cot/gqa/1527.jpg", "expression": "What is in front of the wall?", "bbox": [198, 56, 571, 372], "height": 600, "width": 800, "question_id": 515, "split": "val"}
+{"img_path": "cot/gqa/2412836.jpg", "expression": "What do you think is in front of the mountains?", "bbox": [90, 163, 241, 374], "height": 375, "width": 500, "question_id": 517, "split": "val"}
+{"img_path": "cot/gqa/2346468.jpg", "expression": "What type of furniture is to the right of the device that he is holding?", "bbox": [400, 169, 468, 195], "height": 500, "width": 500, "question_id": 520, "split": "val"}
+{"img_path": "cot/gqa/2409703.jpg", "expression": "What does the backpack to the left of the drawers hang from?", "bbox": [204, 178, 294, 266], "height": 375, "width": 500, "question_id": 534, "split": "val"}
+{"img_path": "cot/gqa/2405954.jpg", "expression": "What food is to the right of the carrots?", "bbox": [117, 206, 241, 313], "height": 375, "width": 500, "question_id": 540, "split": "val"}
+{"img_path": "cot/gqa/2335868.jpg", "expression": "What device is the man to the left of the fence holding?", "bbox": [46, 100, 56, 124], "height": 293, "width": 500, "question_id": 568, "split": "val"}
+{"img_path": "cot/gqa/2375386.jpg", "expression": "What is the animal that is on the tissue on the right side?", "bbox": [110, 99, 332, 292], "height": 333, "width": 500, "question_id": 595, "split": "val"}
+{"img_path": "cot/gqa/2321511.jpg", "expression": "Which kind of animal is to the left of the dog?", "bbox": [81, 81, 311, 332], "height": 333, "width": 500, "question_id": 607, "split": "val"}
+{"img_path": "cot/gqa/2367990.jpg", "expression": "Who is walking behind the person that is wearing jeans?", "bbox": [185, 231, 199, 273], "height": 500, "width": 374, "question_id": 636, "split": "val"}
+{"img_path": "cot/gqa/2398771.jpg", "expression": "Which kind of vehicle is to the right of the tower?", "bbox": [413, 271, 501, 305], "height": 323, "width": 500, "question_id": 640, "split": "val"}
+{"img_path": "cot/gqa/2378069.jpg", "expression": "What animal is in front of the open laptop?", "bbox": [16, 213, 473, 370], "height": 376, "width": 500, "question_id": 653, "split": "val"}
+{"img_path": "cot/gqa/2413090.jpg", "expression": "What piece of furniture is to the right of the curtains?", "bbox": [147, 156, 500, 374], "height": 375, "width": 500, "question_id": 671, "split": "val"}
+{"img_path": "cot/gqa/2384863.jpg", "expression": "What type of furniture is to the right of the desk that the phone is on top of?", "bbox": [323, 177, 461, 317], "height": 375, "width": 500, "question_id": 672, "split": "val"}
+{"img_path": "cot/gqa/2390942.jpg", "expression": "What are the items of furniture that the garage is behind of?", "bbox": [127, 214, 139, 227], "height": 336, "width": 500, "question_id": 701, "split": "val"}
+{"img_path": "cot/gqa/2396057.jpg", "expression": "What is the stop sign in front of?", "bbox": [1, 76, 499, 453], "height": 454, "width": 500, "question_id": 706, "split": "val"}
+{"img_path": "cot/gqa/2350839.jpg", "expression": "What is the animal in front of the road called?", "bbox": [212, 156, 320, 206], "height": 334, "width": 500, "question_id": 707, "split": "val"}
+{"img_path": "cot/gqa/3009.jpg", "expression": "What is the person to the left of the bag wearing?", "bbox": [585, 567, 649, 578], "height": 600, "width": 800, "question_id": 710, "split": "val"}
+{"img_path": "cot/gqa/2362179.jpg", "expression": "What is the animal that is to the left of the curtain?", "bbox": [125, 43, 441, 228], "height": 333, "width": 500, "question_id": 725, "split": "val"}
+{"img_path": "cot/gqa/2335256.jpg", "expression": "Who is holding the tennis racket on the right of the photo?", "bbox": [263, 63, 384, 340], "height": 448, "width": 500, "question_id": 728, "split": "val"}
+{"img_path": "cot/gqa/2320791.jpg", "expression": "The boy to the right of the balls is wearing what?", "bbox": [145, 250, 203, 361], "height": 500, "width": 299, "question_id": 751, "split": "val"}
+{"img_path": "cot/gqa/2403030.jpg", "expression": "What is the man in front of the bus wearing?", "bbox": [12, 181, 39, 230], "height": 369, "width": 500, "question_id": 761, "split": "val"}
+{"img_path": "cot/gqa/2331421.jpg", "expression": "What type of vegetable is to the left of the bowl that is of the bananas?", "bbox": [135, 186, 249, 251], "height": 336, "width": 500, "question_id": 820, "split": "val"}
+{"img_path": "cot/gqa/2383244.jpg", "expression": "What kind of animal is in front of the blanket?", "bbox": [117, 84, 241, 268], "height": 375, "width": 500, "question_id": 825, "split": "val"}
+{"img_path": "cot/gqa/2318071.jpg", "expression": "What animal is the water behind of?", "bbox": [109, 105, 220, 218], "height": 237, "width": 500, "question_id": 826, "split": "val"}
+{"img_path": "cot/gqa/1592711.jpg", "expression": "What is the animal to the left of the fence on the right side of the image?", "bbox": [348, 493, 416, 595], "height": 946, "width": 1024, "question_id": 845, "split": "val"}
+{"img_path": "cot/gqa/2380756.jpg", "expression": "What is in front of the man that is wearing a hat?", "bbox": [57, 434, 266, 469], "height": 500, "width": 331, "question_id": 869, "split": "val"}
+{"img_path": "cot/gqa/2408553.jpg", "expression": "What are the vegetables to the right of the tomato?", "bbox": [235, 192, 254, 220], "height": 500, "width": 375, "question_id": 885, "split": "val"}
+{"img_path": "cot/gqa/2394322.jpg", "expression": "What is covering the bed that is to the left of the lamp?", "bbox": [0, 144, 430, 374], "height": 375, "width": 500, "question_id": 909, "split": "val"}
+{"img_path": "cot/gqa/2343927.jpg", "expression": "What is in front of the bird?", "bbox": [371, 252, 466, 329], "height": 354, "width": 500, "question_id": 927, "split": "val"}
+{"img_path": "cot/gqa/2354745.jpg", "expression": "What is the boy that is to the left of the people wearing?", "bbox": [96, 224, 130, 264], "height": 389, "width": 500, "question_id": 935, "split": "val"}
+{"img_path": "cot/gqa/2339287.jpg", "expression": "What does the man to the left of the mobile phone hold?", "bbox": [158, 151, 168, 169], "height": 333, "width": 500, "question_id": 937, "split": "val"}
+{"img_path": "cot/gqa/2382006.jpg", "expression": "Which kind of vehicle is to the right of the truck?", "bbox": [176, 179, 372, 246], "height": 333, "width": 500, "question_id": 948, "split": "val"}
+{"img_path": "cot/gqa/2400915.jpg", "expression": "What kind of vehicle is behind the man to the right of the helmet?", "bbox": [44, 119, 246, 185], "height": 304, "width": 500, "question_id": 950, "split": "val"}
+{"img_path": "cot/gqa/2340674.jpg", "expression": "What device is to the right of the girl that is wearing a helmet?", "bbox": [149, 175, 170, 211], "height": 375, "width": 500, "question_id": 1012, "split": "val"}
+{"img_path": "cot/gqa/2337526.jpg", "expression": "What kind of baked good is to the right of the plate?", "bbox": [296, 322, 385, 368], "height": 375, "width": 500, "question_id": 1020, "split": "val"}
+{"img_path": "cot/gqa/2319890.jpg", "expression": "What's in front of the window?", "bbox": [40, 0, 275, 222], "height": 400, "width": 500, "question_id": 1028, "split": "val"}
+{"img_path": "cot/gqa/2376692.jpg", "expression": "What vegetables are to the left of the paper towel?", "bbox": [52, 70, 100, 98], "height": 134, "width": 500, "question_id": 1043, "split": "val"}
+{"img_path": "cot/gqa/2406305.jpg", "expression": "Which kind of fruit is to the left of the ladle?", "bbox": [230, 72, 271, 103], "height": 375, "width": 500, "question_id": 1050, "split": "val"}
+{"img_path": "cot/gqa/4260.jpg", "expression": "What is the item of furniture to the left of the sheet on the right?", "bbox": [392, 134, 474, 227], "height": 512, "width": 768, "question_id": 1096, "split": "val"}
+{"img_path": "cot/gqa/2343416.jpg", "expression": "What's located on top of the cake?", "bbox": [155, 109, 320, 176], "height": 375, "width": 500, "question_id": 1132, "split": "val"}
+{"img_path": "cot/gqa/2366816.jpg", "expression": "What is displayed on the person that is to the right of the woman?", "bbox": [301, 245, 361, 285], "height": 375, "width": 500, "question_id": 1182, "split": "val"}
+{"img_path": "cot/gqa/2354803.jpg", "expression": "What kind of baked good is the person to the left of the microphone holding?", "bbox": [175, 275, 210, 301], "height": 400, "width": 500, "question_id": 1183, "split": "val"}
+{"img_path": "cot/gqa/2337240.jpg", "expression": "The grass is in front of what?", "bbox": [79, 214, 296, 312], "height": 500, "width": 296, "question_id": 1206, "split": "val"}
+{"img_path": "cot/gqa/498153.jpg", "expression": "How is the device to the right of the cart called?", "bbox": [588, 367, 676, 467], "height": 768, "width": 1024, "question_id": 1218, "split": "val"}
+{"img_path": "cot/gqa/2343123.jpg", "expression": "What is the fruit that the sign is in front of called?", "bbox": [146, 205, 204, 269], "height": 375, "width": 500, "question_id": 1233, "split": "val"}
+{"img_path": "cot/gqa/2347801.jpg", "expression": "What do you think is the device to the left of the animal on the desk?", "bbox": [2, 12, 152, 204], "height": 375, "width": 500, "question_id": 1236, "split": "val"}
+{"img_path": "cot/gqa/2330638.jpg", "expression": "What is under the device on the table?", "bbox": [76, 291, 159, 332], "height": 332, "width": 500, "question_id": 1273, "split": "val"}
+{"img_path": "cot/gqa/2406024.jpg", "expression": "What is the fence in front of?", "bbox": [282, 1, 442, 154], "height": 375, "width": 500, "question_id": 1279, "split": "val"}
+{"img_path": "cot/gqa/2380228.jpg", "expression": "What kind of animal is the window behind of?", "bbox": [76, 136, 326, 282], "height": 500, "width": 339, "question_id": 1284, "split": "val"}
+{"img_path": "cot/gqa/2373177.jpg", "expression": "What kind of device is to the right of the speaker?", "bbox": [192, 222, 443, 375], "height": 375, "width": 500, "question_id": 1294, "split": "val"}
+{"img_path": "cot/gqa/2328916.jpg", "expression": "What kind of furniture is the dog in front of?", "bbox": [204, 0, 373, 131], "height": 500, "width": 374, "question_id": 1311, "split": "val"}
+{"img_path": "cot/gqa/2355358.jpg", "expression": "What is the car in front of?", "bbox": [201, 247, 443, 351], "height": 390, "width": 500, "question_id": 1339, "split": "val"}
+{"img_path": "cot/gqa/2352288.jpg", "expression": "What pieces of furniture are to the right of the device that is of the laptop?", "bbox": [227, 125, 302, 226], "height": 335, "width": 500, "question_id": 1340, "split": "val"}
+{"img_path": "cot/gqa/733.jpg", "expression": "What does the person to the left of the person ride on?", "bbox": [577, 422, 737, 577], "height": 600, "width": 800, "question_id": 1387, "split": "val"}
+{"img_path": "cot/gqa/498153.jpg", "expression": "What is the piece of furniture to the right of the trash bin in the bottom?", "bbox": [788, 419, 1023, 768], "height": 768, "width": 1024, "question_id": 1412, "split": "val"}
+{"img_path": "cot/gqa/2353601.jpg", "expression": "What is the fruit to the left of the vegetable that is on top of the bath tub?", "bbox": [53, 222, 108, 253], "height": 375, "width": 500, "question_id": 1420, "split": "val"}
+{"img_path": "cot/gqa/2354541.jpg", "expression": "What type of furniture is to the right of him?", "bbox": [348, 176, 498, 258], "height": 375, "width": 500, "question_id": 1425, "split": "val"}
+{"img_path": "cot/gqa/2390843.jpg", "expression": "What is the animal in front of the drawing?", "bbox": [243, 95, 364, 204], "height": 333, "width": 500, "question_id": 1429, "split": "val"}
+{"img_path": "cot/gqa/2381217.jpg", "expression": "What is in front of the giraffe?", "bbox": [244, 0, 281, 211], "height": 500, "width": 375, "question_id": 1431, "split": "val"}
+{"img_path": "cot/gqa/2399307.jpg", "expression": "Which kind of dessert is to the right of the bowl?", "bbox": [356, 360, 409, 390], "height": 500, "width": 500, "question_id": 1445, "split": "val"}
+{"img_path": "cot/gqa/2385959.jpg", "expression": "Who is in front of the water?", "bbox": [268, 69, 337, 199], "height": 324, "width": 500, "question_id": 1449, "split": "val"}
+{"img_path": "cot/gqa/2353835.jpg", "expression": "What is in front of the large trees?", "bbox": [0, 36, 355, 316], "height": 375, "width": 500, "question_id": 1455, "split": "val"}
+{"img_path": "cot/gqa/2403314.jpg", "expression": "Which kind of cooking utensil is under the pizza?", "bbox": [0, 323, 106, 398], "height": 500, "width": 500, "question_id": 1463, "split": "val"}
+{"img_path": "cot/gqa/2358888.jpg", "expression": "What animal is behind the tree?", "bbox": [72, 72, 353, 343], "height": 375, "width": 500, "question_id": 1465, "split": "val"}
+{"img_path": "cot/gqa/2392638.jpg", "expression": "What vegetables are to the right of the plate?", "bbox": [340, 215, 390, 297], "height": 500, "width": 500, "question_id": 1471, "split": "val"}
+{"img_path": "cot/gqa/2362019.jpg", "expression": "What is located on top of the icing?", "bbox": [296, 166, 341, 203], "height": 333, "width": 500, "question_id": 1474, "split": "val"}
+{"img_path": "cot/gqa/2414748.jpg", "expression": "How is the vehicle to the left of the guy on the right called?", "bbox": [154, 132, 338, 364], "height": 439, "width": 500, "question_id": 1484, "split": "val"}
+{"img_path": "cot/gqa/2361463.jpg", "expression": "What animal is standing behind the girl?", "bbox": [192, 16, 391, 250], "height": 333, "width": 500, "question_id": 1501, "split": "val"}
+{"img_path": "cot/gqa/2329839.jpg", "expression": "What is the person that is to the right of the catcher wearing?", "bbox": [356, 103, 373, 131], "height": 375, "width": 500, "question_id": 1503, "split": "val"}
+{"img_path": "cot/gqa/2316051.jpg", "expression": "What are the vegetables to the left of the utensil on the right?", "bbox": [174, 85, 270, 168], "height": 375, "width": 500, "question_id": 1504, "split": "val"}
+{"img_path": "cot/gqa/2403964.jpg", "expression": "What kind of device is to the right of the chair?", "bbox": [73, 112, 191, 191], "height": 318, "width": 500, "question_id": 1506, "split": "val"}
+{"img_path": "cot/gqa/2330040.jpg", "expression": "What device is to the right of the bowl?", "bbox": [220, 32, 455, 293], "height": 375, "width": 500, "question_id": 1522, "split": "val"}
+{"img_path": "cot/gqa/2396887.jpg", "expression": "This girl is in front of what?", "bbox": [0, 373, 67, 498], "height": 500, "width": 374, "question_id": 1524, "split": "val"}
+{"img_path": "cot/gqa/2320081.jpg", "expression": "Where is the banana above the box lying?", "bbox": [0, 0, 500, 214], "height": 214, "width": 500, "question_id": 1539, "split": "val"}
+{"img_path": "cot/gqa/2357550.jpg", "expression": "Who is walking behind the cow?", "bbox": [136, 30, 271, 301], "height": 375, "width": 500, "question_id": 1562, "split": "val"}
+{"img_path": "cot/gqa/2365311.jpg", "expression": "What is the device that the girls to the right of the spoon are playing with?", "bbox": [161, 240, 211, 265], "height": 500, "width": 375, "question_id": 1587, "split": "val"}
+{"img_path": "cot/gqa/2414973.jpg", "expression": "What does the man to the right of the surfboard wear?", "bbox": [427, 187, 445, 203], "height": 333, "width": 500, "question_id": 1603, "split": "val"}
+{"img_path": "cot/gqa/1592105.jpg", "expression": "Which kind of bag is to the left of the purse?", "bbox": [184, 465, 216, 520], "height": 678, "width": 1024, "question_id": 1607, "split": "val"}
+{"img_path": "cot/gqa/2315512.jpg", "expression": "What is the woman to the left of the man wearing?", "bbox": [292, 458, 311, 469], "height": 500, "width": 384, "question_id": 1622, "split": "val"}
+{"img_path": "cot/gqa/42.jpg", "expression": "What is located on top of the table?", "bbox": [34, 379, 119, 412], "height": 600, "width": 800, "question_id": 1626, "split": "val"}
+{"img_path": "cot/gqa/2366879.jpg", "expression": "What kind of furniture is to the left of the nightstand that is on the right of the photo?", "bbox": [89, 115, 444, 330], "height": 333, "width": 500, "question_id": 1641, "split": "val"}
+{"img_path": "cot/gqa/2341030.jpg", "expression": "What drink is to the left of the box?", "bbox": [213, 215, 241, 314], "height": 500, "width": 375, "question_id": 1659, "split": "val"}
+{"img_path": "cot/gqa/2389044.jpg", "expression": "What device is to the left of the Caucasian man?", "bbox": [102, 111, 125, 154], "height": 333, "width": 500, "question_id": 1663, "split": "val"}
+{"img_path": "cot/gqa/2355200.jpg", "expression": "What is in the containers on the left side?", "bbox": [46, 224, 78, 254], "height": 333, "width": 500, "question_id": 1679, "split": "val"}
+{"img_path": "cot/gqa/2399523.jpg", "expression": "What watercraft is to the left of the planter?", "bbox": [14, 213, 172, 247], "height": 333, "width": 500, "question_id": 1689, "split": "val"}
+{"img_path": "cot/gqa/2342224.jpg", "expression": "What food is to the left of the onion that is in the middle?", "bbox": [227, 142, 285, 201], "height": 332, "width": 500, "question_id": 1714, "split": "val"}
+{"img_path": "cot/gqa/2412431.jpg", "expression": "What is under the glass that is in front of the bottle?", "bbox": [18, 209, 167, 327], "height": 375, "width": 500, "question_id": 1733, "split": "val"}
+{"img_path": "cot/gqa/2388476.jpg", "expression": "What is he in front of?", "bbox": [85, 4, 332, 111], "height": 500, "width": 335, "question_id": 1734, "split": "val"}
+{"img_path": "cot/gqa/2366537.jpg", "expression": "Which kind of food is to the left of the broccoli?", "bbox": [0, 232, 130, 495], "height": 500, "width": 500, "question_id": 1809, "split": "val"}
+{"img_path": "cot/gqa/2414938.jpg", "expression": "What's in front of the building?", "bbox": [67, 174, 126, 228], "height": 375, "width": 500, "question_id": 1834, "split": "val"}
+{"img_path": "cot/gqa/1170.jpg", "expression": "How is the appliance to the right of the bookshelf in the center called?", "bbox": [473, 250, 511, 316], "height": 450, "width": 700, "question_id": 1860, "split": "val"}
+{"img_path": "cot/gqa/2331231.jpg", "expression": "What is the pitcher in front of?", "bbox": [0, 430, 334, 500], "height": 500, "width": 335, "question_id": 1894, "split": "val"}
+{"img_path": "cot/gqa/2372955.jpg", "expression": "What vehicle is to the left of the hydrant in the middle of the photo?", "bbox": [71, 147, 189, 241], "height": 375, "width": 500, "question_id": 1949, "split": "val"}
+{"img_path": "cot/gqa/2344774.jpg", "expression": "What does the boy that to the left of the man sit on?", "bbox": [21, 102, 94, 227], "height": 375, "width": 500, "question_id": 1981, "split": "val"}
+{"img_path": "cot/gqa/4981.jpg", "expression": "What is the vehicle to the left of the garbage can?", "bbox": [252, 335, 406, 442], "height": 600, "width": 800, "question_id": 1990, "split": "val"}
+{"img_path": "cot/gqa/2329092.jpg", "expression": "What is the man to the left of the woman wearing?", "bbox": [220, 288, 357, 332], "height": 333, "width": 500, "question_id": 1993, "split": "val"}
+{"img_path": "cot/gqa/2336102.jpg", "expression": "What is the name of the vegetable to the right of the bananas in the plate?", "bbox": [286, 86, 314, 111], "height": 375, "width": 500, "question_id": 1998, "split": "val"}
+{"img_path": "cot/gqa/2401255.jpg", "expression": "What is in front of the woman on the left of the image?", "bbox": [36, 242, 143, 283], "height": 409, "width": 500, "question_id": 2016, "split": "val"}
+{"img_path": "cot/gqa/2392468.jpg", "expression": "What is in front of the water?", "bbox": [8, 333, 25, 360], "height": 500, "width": 334, "question_id": 2035, "split": "val"}
+{"img_path": "cot/gqa/2375137.jpg", "expression": "Which kind of device is the keyboard in front of?", "bbox": [118, 68, 253, 174], "height": 333, "width": 500, "question_id": 2039, "split": "val"}
+{"img_path": "cot/gqa/2336005.jpg", "expression": "What is the cooking utensil to the right of the container called?", "bbox": [181, 183, 221, 236], "height": 500, "width": 333, "question_id": 2045, "split": "val"}
+{"img_path": "cot/gqa/2346622.jpg", "expression": "What drink is to the right of the can?", "bbox": [409, 221, 441, 294], "height": 375, "width": 500, "question_id": 2054, "split": "val"}
+{"img_path": "cot/gqa/2400721.jpg", "expression": "What is the man to the right of the backpack wearing?", "bbox": [428, 97, 450, 135], "height": 332, "width": 500, "question_id": 2083, "split": "val"}
+{"img_path": "cot/gqa/2382511.jpg", "expression": "What is the man to the right of the people carrying?", "bbox": [212, 150, 299, 174], "height": 281, "width": 500, "question_id": 2132, "split": "val"}
+{"img_path": "cot/gqa/2407550.jpg", "expression": "Which kind of furniture is to the left of the table?", "bbox": [314, 271, 383, 308], "height": 333, "width": 500, "question_id": 2169, "split": "val"}
+{"img_path": "cot/gqa/2394453.jpg", "expression": "What vehicle is to the right of the lady?", "bbox": [148, 87, 352, 263], "height": 303, "width": 500, "question_id": 2170, "split": "val"}
+{"img_path": "cot/gqa/2325464.jpg", "expression": "What is the animal that is to the left of the large fence?", "bbox": [179, 147, 321, 322], "height": 375, "width": 500, "question_id": 2171, "split": "val"}
+{"img_path": "cot/gqa/2325876.jpg", "expression": "What is the device that the girl to the left of the curtains is playing with?", "bbox": [213, 275, 303, 307], "height": 375, "width": 500, "question_id": 2185, "split": "val"}
+{"img_path": "cot/gqa/2401393.jpg", "expression": "What vegetable is to the left of the cheese?", "bbox": [144, 131, 301, 234], "height": 333, "width": 500, "question_id": 2210, "split": "val"}
+{"img_path": "cot/gqa/2349794.jpg", "expression": "What is the person to the left of the plate wearing?", "bbox": [130, 173, 204, 195], "height": 331, "width": 500, "question_id": 2217, "split": "val"}
+{"img_path": "cot/gqa/2367099.jpg", "expression": "What's the bench in front of?", "bbox": [1, 24, 499, 241], "height": 333, "width": 500, "question_id": 2248, "split": "val"}
+{"img_path": "cot/gqa/2405548.jpg", "expression": "What is the man that is to the right of the can riding?", "bbox": [70, 64, 392, 263], "height": 333, "width": 500, "question_id": 2254, "split": "val"}
+{"img_path": "cot/gqa/2394832.jpg", "expression": "Which kind of appliance is above the gas stove?", "bbox": [0, 75, 179, 160], "height": 375, "width": 500, "question_id": 2257, "split": "val"}
+{"img_path": "cot/gqa/2368298.jpg", "expression": "What is the man that is to the right of the laptop wearing?", "bbox": [477, 118, 500, 134], "height": 375, "width": 500, "question_id": 2259, "split": "val"}
+{"img_path": "cot/gqa/1214.jpg", "expression": "What is the bag to the left of the person that is to the left of the water bottle?", "bbox": [118, 109, 192, 230], "height": 600, "width": 800, "question_id": 2265, "split": "val"}
+{"img_path": "cot/gqa/1592220.jpg", "expression": "What is the child that is to the right of the woman standing on?", "bbox": [304, 607, 581, 705], "height": 768, "width": 1024, "question_id": 2279, "split": "val"}
+{"img_path": "cot/gqa/1711.jpg", "expression": "What is the person to the left of the woman wearing?", "bbox": [510, 202, 560, 280], "height": 480, "width": 640, "question_id": 2300, "split": "val"}
+{"img_path": "cot/gqa/2348395.jpg", "expression": "The umpire is standing behind who?", "bbox": [302, 164, 368, 219], "height": 333, "width": 500, "question_id": 2306, "split": "val"}
+{"img_path": "cot/gqa/2347554.jpg", "expression": "What is the animal that is to the right of the vehicles behind the animals?", "bbox": [178, 103, 218, 181], "height": 335, "width": 500, "question_id": 2325, "split": "val"}
+{"img_path": "cot/gqa/2316984.jpg", "expression": "What kind of appliance is to the left of the wine?", "bbox": [102, 242, 225, 291], "height": 333, "width": 500, "question_id": 2329, "split": "val"}
+{"img_path": "cot/gqa/2416952.jpg", "expression": "What vegetable is to the right of the cheese on the left of the photo?", "bbox": [145, 100, 202, 158], "height": 375, "width": 500, "question_id": 2343, "split": "val"}
+{"img_path": "cot/gqa/2326513.jpg", "expression": "Who is in front of the building?", "bbox": [13, 135, 319, 454], "height": 500, "width": 333, "question_id": 2387, "split": "val"}
+{"img_path": "cot/gqa/1160.jpg", "expression": "What is on the rock the plant is beside of?", "bbox": [47, 430, 134, 598], "height": 600, "width": 398, "question_id": 2400, "split": "val"}
+{"img_path": "cot/gqa/2396341.jpg", "expression": "What is on the plate that is to the right of the jar?", "bbox": [455, 192, 501, 229], "height": 375, "width": 500, "question_id": 2440, "split": "val"}
+{"img_path": "cot/gqa/2394878.jpg", "expression": "What is the vehicle to the right of the driver that is to the right of the bus?", "bbox": [368, 101, 500, 245], "height": 281, "width": 500, "question_id": 2472, "split": "val"}
+{"img_path": "cot/gqa/2366498.jpg", "expression": "What is the drink to the left of the bottle?", "bbox": [408, 285, 440, 368], "height": 375, "width": 500, "question_id": 2479, "split": "val"}
+{"img_path": "cot/gqa/2411851.jpg", "expression": "Who is in front of the bench?", "bbox": [110, 86, 352, 497], "height": 500, "width": 468, "question_id": 2487, "split": "val"}
+{"img_path": "cot/gqa/2407456.jpg", "expression": "What is under the device that is in the top of the image?", "bbox": [394, 93, 440, 135], "height": 375, "width": 500, "question_id": 2496, "split": "val"}
+{"img_path": "cot/gqa/2385236.jpg", "expression": "What is the person to the left of the man holding?", "bbox": [238, 232, 246, 246], "height": 375, "width": 500, "question_id": 2498, "split": "val"}
+{"img_path": "cot/gqa/2409937.jpg", "expression": "Which kind of device is to the left of the curtains?", "bbox": [74, 143, 195, 428], "height": 500, "width": 375, "question_id": 2514, "split": "val"}
+{"img_path": "cot/gqa/2315544.jpg", "expression": "What type of device is to the right of the chair that is on the left of the image?", "bbox": [212, 267, 235, 311], "height": 500, "width": 367, "question_id": 2527, "split": "val"}
+{"img_path": "cot/gqa/2396866.jpg", "expression": "Which kind of baked good is to the left of the tomato?", "bbox": [152, 100, 246, 266], "height": 375, "width": 500, "question_id": 2531, "split": "val"}
+{"img_path": "cot/gqa/2347655.jpg", "expression": "Who is standing near the building that is near the man?", "bbox": [339, 236, 421, 346], "height": 375, "width": 500, "question_id": 2556, "split": "val"}
+{"img_path": "cot/gqa/2399972.jpg", "expression": "What is the woman in front of?", "bbox": [200, 1, 374, 253], "height": 375, "width": 500, "question_id": 2588, "split": "val"}
+{"img_path": "cot/gqa/2382507.jpg", "expression": "What is the water in front of?", "bbox": [427, 233, 469, 243], "height": 334, "width": 500, "question_id": 2633, "split": "val"}
+{"img_path": "cot/gqa/2366618.jpg", "expression": "What is located on top of the ceiling?", "bbox": [411, 0, 424, 30], "height": 375, "width": 500, "question_id": 2658, "split": "val"}
+{"img_path": "cot/gqa/2368310.jpg", "expression": "What is the fence in front of?", "bbox": [355, 0, 500, 167], "height": 500, "width": 500, "question_id": 2671, "split": "val"}
+{"img_path": "cot/gqa/2370925.jpg", "expression": "What is located on top of the oven?", "bbox": [102, 262, 163, 311], "height": 500, "width": 375, "question_id": 2679, "split": "val"}
+{"img_path": "cot/gqa/2360754.jpg", "expression": "Which kind of animal is the wall behind of?", "bbox": [7, 85, 404, 290], "height": 333, "width": 500, "question_id": 2685, "split": "val"}
+{"img_path": "cot/gqa/2329122.jpg", "expression": "What is the man in front of?", "bbox": [32, 0, 500, 374], "height": 375, "width": 500, "question_id": 2792, "split": "val"}
+{"img_path": "cot/gqa/2358109.jpg", "expression": "What is the baseball bat in front of?", "bbox": [37, 235, 113, 324], "height": 500, "width": 333, "question_id": 2798, "split": "val"}
+{"img_path": "cot/gqa/2389332.jpg", "expression": "What is the item of furniture that the armchair is behind of?", "bbox": [0, 43, 426, 375], "height": 375, "width": 500, "question_id": 2806, "split": "val"}
+{"img_path": "cot/gqa/2351960.jpg", "expression": "What is on the doughnut that the sign is under of?", "bbox": [112, 50, 289, 222], "height": 375, "width": 500, "question_id": 2813, "split": "val"}
+{"img_path": "cot/gqa/2331765.jpg", "expression": "What is the vehicle that is to the right of the fence on the right side?", "bbox": [450, 209, 499, 295], "height": 333, "width": 500, "question_id": 2815, "split": "val"}
+{"img_path": "cot/gqa/61545.jpg", "expression": "How is the item of furniture to the left of the person who is behind the girl called?", "bbox": [539, 0, 693, 193], "height": 768, "width": 1024, "question_id": 2817, "split": "val"}
+{"img_path": "cot/gqa/2379970.jpg", "expression": "What is the man to the right of the bag holding?", "bbox": [204, 170, 333, 236], "height": 500, "width": 333, "question_id": 2820, "split": "val"}
+{"img_path": "cot/gqa/2386060.jpg", "expression": "What kind of food is inside the sandwich that is in front of the food?", "bbox": [172, 251, 206, 293], "height": 373, "width": 500, "question_id": 2828, "split": "val"}
+{"img_path": "cot/gqa/2407627.jpg", "expression": "What is in front of the building?", "bbox": [0, 0, 249, 94], "height": 500, "width": 375, "question_id": 2833, "split": "val"}
+{"img_path": "cot/gqa/2371315.jpg", "expression": "What animal is to the left of the cowboy?", "bbox": [57, 150, 247, 475], "height": 500, "width": 333, "question_id": 2857, "split": "val"}
+{"img_path": "cot/gqa/2380139.jpg", "expression": "Which kind of furniture is to the left of the bed?", "bbox": [0, 318, 34, 418], "height": 500, "width": 375, "question_id": 2884, "split": "val"}
+{"img_path": "cot/gqa/4133.jpg", "expression": "What is in front of the building?", "bbox": [0, 81, 82, 165], "height": 316, "width": 450, "question_id": 2890, "split": "val"}
+{"img_path": "cot/gqa/2347122.jpg", "expression": "What's in front of the fence?", "bbox": [337, 0, 404, 474], "height": 500, "width": 465, "question_id": 2945, "split": "val"}
+{"img_path": "cot/gqa/2405365.jpg", "expression": "What is the tree in front of?", "bbox": [0, 0, 230, 292], "height": 500, "width": 375, "question_id": 2957, "split": "val"}
+{"img_path": "cot/gqa/2412301.jpg", "expression": "What is the item of furniture that is to the right of the cream on the right side?", "bbox": [428, 162, 499, 374], "height": 375, "width": 500, "question_id": 2986, "split": "val"}
+{"img_path": "cot/gqa/2378585.jpg", "expression": "What is the piece of furniture to the left of the plate on the table?", "bbox": [39, 273, 173, 361], "height": 389, "width": 500, "question_id": 2991, "split": "val"}
+{"img_path": "cot/gqa/202.jpg", "expression": "What is in front of the tree?", "bbox": [42, 138, 57, 305], "height": 600, "width": 800, "question_id": 2998, "split": "val"}
+{"img_path": "cot/gqa/2399264.jpg", "expression": "What is located on top of the toilet?", "bbox": [221, 144, 236, 172], "height": 375, "width": 500, "question_id": 3029, "split": "val"}
+{"img_path": "cot/gqa/2332603.jpg", "expression": "What is the person in front of the wall wearing?", "bbox": [273, 198, 280, 217], "height": 500, "width": 350, "question_id": 3073, "split": "val"}
+{"img_path": "cot/gqa/2327021.jpg", "expression": "What is the vegetable on the bun to the left of the veggies?", "bbox": [95, 152, 245, 257], "height": 375, "width": 500, "question_id": 3092, "split": "val"}
+{"img_path": "cot/gqa/2325342.jpg", "expression": "How is the fruit to the right of the paper towel on the left side of the picture called?", "bbox": [179, 0, 400, 44], "height": 266, "width": 400, "question_id": 3097, "split": "val"}
+{"img_path": "cot/gqa/2364927.jpg", "expression": "What does the man that to the left of the woman wear?", "bbox": [155, 194, 211, 260], "height": 333, "width": 500, "question_id": 3121, "split": "val"}
+{"img_path": "cot/gqa/2415225.jpg", "expression": "What is the child that is to the left of the microwave wearing?", "bbox": [185, 126, 275, 223], "height": 375, "width": 500, "question_id": 3125, "split": "val"}
+{"img_path": "cot/gqa/2364062.jpg", "expression": "What type of furniture is below the counter?", "bbox": [351, 74, 380, 108], "height": 142, "width": 500, "question_id": 3165, "split": "val"}
+{"img_path": "cot/gqa/2381238.jpg", "expression": "Who is this fence in front of?", "bbox": [293, 19, 305, 46], "height": 332, "width": 500, "question_id": 3168, "split": "val"}
+{"img_path": "cot/gqa/2374683.jpg", "expression": "What is the vegetable that is to the right of the small bowl?", "bbox": [275, 230, 309, 252], "height": 375, "width": 500, "question_id": 3208, "split": "val"}
+{"img_path": "cot/gqa/2359638.jpg", "expression": "What kind of appliance is below the paper?", "bbox": [2, 228, 46, 300], "height": 372, "width": 500, "question_id": 3209, "split": "val"}
+{"img_path": "cot/gqa/2386529.jpg", "expression": "What is in front of the water?", "bbox": [0, 186, 500, 333], "height": 333, "width": 500, "question_id": 3225, "split": "val"}
+{"img_path": "cot/gqa/2362508.jpg", "expression": "What are the items of furniture to the right of the person the rug is to the left of?", "bbox": [314, 204, 500, 351], "height": 352, "width": 500, "question_id": 3232, "split": "val"}
+{"img_path": "cot/gqa/2376830.jpg", "expression": "What is under the cheese pizza?", "bbox": [3, 106, 319, 362], "height": 375, "width": 500, "question_id": 3249, "split": "val"}
+{"img_path": "cot/gqa/2388558.jpg", "expression": "What is the item of furniture to the left of the table called?", "bbox": [250, 158, 398, 252], "height": 333, "width": 500, "question_id": 3258, "split": "val"}
+{"img_path": "cot/gqa/2360863.jpg", "expression": "What type of vehicle do you think is to the left of the man on the right?", "bbox": [208, 237, 343, 332], "height": 375, "width": 500, "question_id": 3268, "split": "val"}
+{"img_path": "cot/gqa/2333270.jpg", "expression": "What's the giraffe in front of?", "bbox": [341, 0, 500, 287], "height": 312, "width": 500, "question_id": 3278, "split": "val"}
+{"img_path": "cot/gqa/2352969.jpg", "expression": "What is in front of the window?", "bbox": [198, 175, 258, 189], "height": 332, "width": 500, "question_id": 3283, "split": "val"}
+{"img_path": "cot/gqa/2316041.jpg", "expression": "What is under the cow to the left of the woman?", "bbox": [0, 124, 374, 499], "height": 500, "width": 375, "question_id": 3299, "split": "val"}
+{"img_path": "cot/gqa/2354653.jpg", "expression": "What is the vehicle on the road behind the woman?", "bbox": [0, 58, 186, 174], "height": 500, "width": 375, "question_id": 3315, "split": "val"}
+{"img_path": "cot/gqa/2381408.jpg", "expression": "What is on the building the garbage is beside of?", "bbox": [123, 182, 171, 205], "height": 333, "width": 500, "question_id": 3323, "split": "val"}
+{"img_path": "cot/gqa/1159356.jpg", "expression": "What does the person that to the right of the container wear?", "bbox": [487, 189, 559, 246], "height": 768, "width": 1024, "question_id": 3369, "split": "val"}
+{"img_path": "cot/gqa/2391765.jpg", "expression": "What's the toilet in front of?", "bbox": [179, 184, 236, 209], "height": 500, "width": 323, "question_id": 3392, "split": "val"}
+{"img_path": "cot/gqa/2331365.jpg", "expression": "What is the man to the left of the chair watching?", "bbox": [58, 126, 102, 142], "height": 333, "width": 500, "question_id": 3403, "split": "val"}
+{"img_path": "cot/gqa/2407518.jpg", "expression": "The people to the right of the ball are watching what?", "bbox": [256, 61, 398, 397], "height": 400, "width": 500, "question_id": 3444, "split": "val"}
+{"img_path": "cot/gqa/2370678.jpg", "expression": "What does the person to the left of the surfboard wear?", "bbox": [371, 153, 391, 173], "height": 332, "width": 500, "question_id": 3445, "split": "val"}
+{"img_path": "cot/gqa/2384071.jpg", "expression": "What is located on top of the jersey?", "bbox": [323, 124, 362, 151], "height": 400, "width": 500, "question_id": 3469, "split": "val"}
+{"img_path": "cot/gqa/2417325.jpg", "expression": "What is the device to the left of the telephone on the right?", "bbox": [200, 35, 375, 374], "height": 375, "width": 500, "question_id": 3476, "split": "val"}
+{"img_path": "cot/gqa/4001.jpg", "expression": "What is that fence in front of?", "bbox": [142, 68, 237, 126], "height": 374, "width": 564, "question_id": 3483, "split": "val"}
+{"img_path": "cot/gqa/2335593.jpg", "expression": "What is located on top of the table made of wood?", "bbox": [0, 193, 168, 374], "height": 375, "width": 500, "question_id": 3511, "split": "val"}
+{"img_path": "cot/gqa/2360989.jpg", "expression": "What is the appliance that is to the left of the toilet paper in the top part of the image?", "bbox": [2, 100, 89, 236], "height": 500, "width": 282, "question_id": 3531, "split": "val"}
+{"img_path": "cot/gqa/1160011.jpg", "expression": "What is in front of the person in the center of the photo?", "bbox": [184, 484, 239, 517], "height": 600, "width": 900, "question_id": 3546, "split": "val"}
+{"img_path": "cot/gqa/2417195.jpg", "expression": "What is located on top of the shelf?", "bbox": [229, 80, 265, 102], "height": 374, "width": 500, "question_id": 3562, "split": "val"}
+{"img_path": "cot/gqa/2412281.jpg", "expression": "What kind of aircraft is the building behind of?", "bbox": [3, 2, 499, 297], "height": 333, "width": 500, "question_id": 3619, "split": "val"}
+{"img_path": "cot/gqa/2335734.jpg", "expression": "What is in front of the building?", "bbox": [261, 290, 500, 329], "height": 375, "width": 500, "question_id": 3641, "split": "val"}
+{"img_path": "cot/gqa/2375125.jpg", "expression": "What is the item of furniture to the right of the table?", "bbox": [261, 126, 300, 155], "height": 246, "width": 500, "question_id": 3657, "split": "val"}
+{"img_path": "cot/gqa/2401610.jpg", "expression": "What's in front of the building?", "bbox": [6, 192, 106, 271], "height": 333, "width": 500, "question_id": 3659, "split": "val"}
+{"img_path": "cot/gqa/2396125.jpg", "expression": "What is under the pastry in the bottom?", "bbox": [347, 450, 485, 505], "height": 500, "width": 500, "question_id": 3684, "split": "val"}
+{"img_path": "cot/gqa/2368312.jpg", "expression": "What is the person to the right of the lamp wearing?", "bbox": [26, 153, 346, 397], "height": 400, "width": 500, "question_id": 3745, "split": "val"}
+{"img_path": "cot/gqa/2318510.jpg", "expression": "What is in front of the cow which is standing in the field?", "bbox": [0, 119, 500, 135], "height": 333, "width": 500, "question_id": 3762, "split": "val"}
+{"img_path": "cot/gqa/2350251.jpg", "expression": "What is located on top of the wall?", "bbox": [211, 0, 316, 99], "height": 333, "width": 500, "question_id": 3817, "split": "val"}
+{"img_path": "cot/gqa/2320061.jpg", "expression": "What kind of furniture is under the cat?", "bbox": [156, 170, 500, 375], "height": 375, "width": 500, "question_id": 3825, "split": "val"}
+{"img_path": "cot/gqa/2317337.jpg", "expression": "What type of fruit is to the right of the box that is on the left side?", "bbox": [142, 0, 270, 56], "height": 271, "width": 500, "question_id": 3828, "split": "val"}
+{"img_path": "cot/gqa/2330531.jpg", "expression": "What is the person that is to the left of the candle wearing?", "bbox": [55, 127, 148, 150], "height": 500, "width": 500, "question_id": 3852, "split": "val"}
+{"img_path": "cot/gqa/2358262.jpg", "expression": "The bird to the left of the palm trees is standing on what?", "bbox": [2, 201, 153, 330], "height": 332, "width": 500, "question_id": 3866, "split": "val"}
+{"img_path": "cot/gqa/2401335.jpg", "expression": "What type of furniture is to the left of the pillows?", "bbox": [108, 218, 196, 266], "height": 375, "width": 500, "question_id": 3873, "split": "val"}
+{"img_path": "cot/gqa/2346922.jpg", "expression": "What kind of device is to the left of the keyboard on the right?", "bbox": [151, 279, 254, 375], "height": 375, "width": 500, "question_id": 3879, "split": "val"}
+{"img_path": "cot/gqa/2346666.jpg", "expression": "What fruit is to the left of the boy?", "bbox": [138, 81, 208, 157], "height": 375, "width": 500, "question_id": 3881, "split": "val"}
+{"img_path": "cot/gqa/2369525.jpg", "expression": "Which kind of vehicle is to the left of the bull?", "bbox": [101, 327, 156, 359], "height": 500, "width": 375, "question_id": 3960, "split": "val"}
+{"img_path": "cot/gqa/2336826.jpg", "expression": "Who is under the blanket?", "bbox": [25, 216, 320, 348], "height": 500, "width": 333, "question_id": 3963, "split": "val"}
+{"img_path": "cot/gqa/2347090.jpg", "expression": "What is the person to the left of the rope wearing?", "bbox": [163, 133, 193, 159], "height": 375, "width": 500, "question_id": 3974, "split": "val"}
+{"img_path": "cot/gqa/2321151.jpg", "expression": "What is the device that is to the left of the can?", "bbox": [55, 39, 248, 274], "height": 333, "width": 500, "question_id": 3997, "split": "val"}
+{"img_path": "cot/gqa/2364285.jpg", "expression": "What is the girl to the right of the beer bottle wearing?", "bbox": [165, 185, 324, 373], "height": 375, "width": 500, "question_id": 4005, "split": "val"}
+{"img_path": "cot/gqa/2389126.jpg", "expression": "What is the standing person to the left of the woman watching?", "bbox": [290, 204, 305, 216], "height": 333, "width": 500, "question_id": 4017, "split": "val"}
+{"img_path": "cot/gqa/2368312.jpg", "expression": "What kind of device is to the left of the dad that is in the living room?", "bbox": [86, 141, 133, 192], "height": 400, "width": 500, "question_id": 4030, "split": "val"}
+{"img_path": "cot/gqa/2364901.jpg", "expression": "What is in front of the tower?", "bbox": [173, 90, 196, 114], "height": 500, "width": 481, "question_id": 4045, "split": "val"}
+{"img_path": "cot/gqa/2393527.jpg", "expression": "What is the ground in front of?", "bbox": [0, 9, 499, 74], "height": 216, "width": 500, "question_id": 4084, "split": "val"}
+{"img_path": "cot/gqa/2371647.jpg", "expression": "What is the woman to the left of the dog carrying?", "bbox": [244, 196, 272, 264], "height": 375, "width": 500, "question_id": 4112, "split": "val"}
+{"img_path": "cot/gqa/2343370.jpg", "expression": "What is he in front of?", "bbox": [1, 3, 501, 281], "height": 281, "width": 500, "question_id": 4121, "split": "val"}
+{"img_path": "cot/gqa/2343370.jpg", "expression": "What is the man in front of?", "bbox": [1, 3, 501, 281], "height": 281, "width": 500, "question_id": 4122, "split": "val"}
+{"img_path": "cot/gqa/1307.jpg", "expression": "What is located on top of the table?", "bbox": [246, 336, 301, 375], "height": 640, "width": 480, "question_id": 4153, "split": "val"}
+{"img_path": "cot/gqa/2401470.jpg", "expression": "What is the lighthouse in front of?", "bbox": [463, 144, 500, 179], "height": 321, "width": 500, "question_id": 4159, "split": "val"}
+{"img_path": "cot/gqa/2393963.jpg", "expression": "What is the piece of furniture to the left of him called?", "bbox": [0, 74, 164, 260], "height": 375, "width": 500, "question_id": 4162, "split": "val"}
+{"img_path": "cot/gqa/2402759.jpg", "expression": "What is the device that the person that is to the left of the fence is holding?", "bbox": [41, 156, 54, 168], "height": 375, "width": 500, "question_id": 4164, "split": "val"}
+{"img_path": "cot/gqa/2414973.jpg", "expression": "The man to the right of the surfer wears what?", "bbox": [417, 154, 430, 165], "height": 333, "width": 500, "question_id": 4202, "split": "val"}
+{"img_path": "cot/gqa/2369343.jpg", "expression": "What do you think is the aircraft below the clouds?", "bbox": [102, 145, 340, 242], "height": 332, "width": 500, "question_id": 4224, "split": "val"}
+{"img_path": "cot/gqa/2383815.jpg", "expression": "What is located on top of the old building?", "bbox": [182, 51, 234, 101], "height": 500, "width": 375, "question_id": 4229, "split": "val"}
+{"img_path": "cot/gqa/2357710.jpg", "expression": "What is the fence in front of?", "bbox": [3, 1, 500, 89], "height": 375, "width": 500, "question_id": 4234, "split": "val"}
+{"img_path": "cot/gqa/2390903.jpg", "expression": "What appliance is to the left of the bench?", "bbox": [169, 253, 189, 368], "height": 500, "width": 453, "question_id": 4240, "split": "val"}
+{"img_path": "cot/gqa/2415877.jpg", "expression": "What kind of furniture is to the right of the towel?", "bbox": [223, 260, 246, 285], "height": 333, "width": 500, "question_id": 4241, "split": "val"}
+{"img_path": "cot/gqa/2370555.jpg", "expression": "What is on the tray that is to the right of the fruit?", "bbox": [193, 158, 241, 188], "height": 334, "width": 500, "question_id": 4265, "split": "val"}
+{"img_path": "cot/gqa/2367035.jpg", "expression": "What is the person that is to the right of the skier wearing?", "bbox": [366, 188, 372, 194], "height": 500, "width": 500, "question_id": 4295, "split": "val"}
+{"img_path": "cot/gqa/2360251.jpg", "expression": "What kind of vehicle is to the right of the fence?", "bbox": [329, 125, 382, 169], "height": 400, "width": 500, "question_id": 4305, "split": "val"}
+{"img_path": "cot/gqa/2404514.jpg", "expression": "What are the shrubs in front of?", "bbox": [0, 102, 499, 331], "height": 333, "width": 500, "question_id": 4319, "split": "val"}
+{"img_path": "cot/gqa/285921.jpg", "expression": "Which kind of animal is to the right of the bench?", "bbox": [594, 419, 757, 534], "height": 681, "width": 1024, "question_id": 4347, "split": "val"}
+{"img_path": "cot/gqa/2349892.jpg", "expression": "Which kind of toy is to the right of the bear?", "bbox": [214, 78, 351, 334], "height": 335, "width": 500, "question_id": 4387, "split": "val"}
+{"img_path": "cot/gqa/2375794.jpg", "expression": "What are the trees in front of?", "bbox": [6, 56, 68, 113], "height": 500, "width": 500, "question_id": 4408, "split": "val"}
+{"img_path": "cot/gqa/2351622.jpg", "expression": "What is on the nightstand on the right side?", "bbox": [356, 322, 386, 340], "height": 500, "width": 500, "question_id": 4426, "split": "val"}
+{"img_path": "cot/gqa/2407000.jpg", "expression": "What device is to the right of the baby?", "bbox": [107, 15, 402, 238], "height": 375, "width": 500, "question_id": 4447, "split": "val"}
+{"img_path": "cot/gqa/2322715.jpg", "expression": "What does the person to the right of the ball wear?", "bbox": [290, 200, 309, 224], "height": 333, "width": 500, "question_id": 4471, "split": "val"}
+{"img_path": "cot/gqa/2395504.jpg", "expression": "What is located on top of the clothes?", "bbox": [33, 252, 72, 331], "height": 375, "width": 500, "question_id": 4485, "split": "val"}
+{"img_path": "cot/gqa/2327438.jpg", "expression": "What is the vehicle that is to the left of the car on the right?", "bbox": [328, 330, 402, 390], "height": 390, "width": 500, "question_id": 4489, "split": "val"}
+{"img_path": "cot/gqa/2332377.jpg", "expression": "What is located on top of the stick?", "bbox": [59, 63, 273, 290], "height": 500, "width": 333, "question_id": 4495, "split": "val"}
+{"img_path": "cot/gqa/2404622.jpg", "expression": "The bench is in front of what?", "bbox": [292, 1, 402, 50], "height": 375, "width": 500, "question_id": 4503, "split": "val"}
+{"img_path": "cot/gqa/2412781.jpg", "expression": "What kind of aircraft is above the grass?", "bbox": [154, 66, 244, 118], "height": 281, "width": 500, "question_id": 4506, "split": "val"}
+{"img_path": "cot/gqa/2412163.jpg", "expression": "What is the vehicle that is behind the large boat?", "bbox": [0, 196, 96, 259], "height": 331, "width": 500, "question_id": 4560, "split": "val"}
+{"img_path": "cot/gqa/2407667.jpg", "expression": "What is the cow in front of?", "bbox": [183, 0, 302, 94], "height": 323, "width": 500, "question_id": 4563, "split": "val"}
+{"img_path": "cot/gqa/2400368.jpg", "expression": "What is the name of the animal above the towel the laptop is to the left of?", "bbox": [0, 112, 276, 500], "height": 500, "width": 447, "question_id": 4585, "split": "val"}
+{"img_path": "cot/gqa/2344720.jpg", "expression": "Which kind of vehicle is to the left of the van?", "bbox": [191, 131, 359, 198], "height": 332, "width": 500, "question_id": 4596, "split": "val"}
+{"img_path": "cot/gqa/2371705.jpg", "expression": "What is the animal in front of?", "bbox": [3, 166, 11, 212], "height": 375, "width": 500, "question_id": 4616, "split": "val"}
+{"img_path": "cot/gqa/2376677.jpg", "expression": "What is the giraffe in front of the trees licking?", "bbox": [199, 0, 361, 332], "height": 333, "width": 500, "question_id": 4677, "split": "val"}
+{"img_path": "cot/gqa/2417916.jpg", "expression": "What is on the sandwich to the left of the plate?", "bbox": [119, 85, 261, 149], "height": 332, "width": 500, "question_id": 4698, "split": "val"}
+{"img_path": "cot/gqa/2408705.jpg", "expression": "What is the person that is to the right of the cup wearing?", "bbox": [250, 195, 322, 297], "height": 375, "width": 500, "question_id": 4747, "split": "val"}
+{"img_path": "cot/gqa/2391157.jpg", "expression": "What device is to the right of the man?", "bbox": [248, 186, 460, 319], "height": 375, "width": 500, "question_id": 4781, "split": "val"}
+{"img_path": "cot/gqa/2367104.jpg", "expression": "The train is in front of what?", "bbox": [59, 2, 121, 109], "height": 281, "width": 500, "question_id": 4790, "split": "val"}
+{"img_path": "cot/gqa/2388931.jpg", "expression": "In front of what is this man?", "bbox": [225, 6, 331, 154], "height": 500, "width": 333, "question_id": 4792, "split": "val"}
+{"img_path": "cot/gqa/2390095.jpg", "expression": "What is the bridge in front of?", "bbox": [0, 33, 454, 124], "height": 282, "width": 500, "question_id": 4802, "split": "val"}
+{"img_path": "cot/gqa/2386498.jpg", "expression": "What is in front of the giraffe?", "bbox": [12, 192, 95, 497], "height": 500, "width": 333, "question_id": 4803, "split": "val"}
+{"img_path": "cot/gqa/2328192.jpg", "expression": "What is the vehicle to the right of the fruit that the man is with called?", "bbox": [322, 213, 374, 273], "height": 500, "width": 375, "question_id": 4804, "split": "val"}
+{"img_path": "cot/gqa/2348251.jpg", "expression": "What is the animal to the right of the person who is standing in the ocean called?", "bbox": [268, 102, 500, 240], "height": 333, "width": 500, "question_id": 4817, "split": "val"}
+{"img_path": "cot/gqa/2351043.jpg", "expression": "What is the animal above the ground?", "bbox": [39, 70, 289, 457], "height": 500, "width": 334, "question_id": 4857, "split": "val"}
+{"img_path": "cot/gqa/2383201.jpg", "expression": "What is the vehicle behind the dirty window?", "bbox": [83, 52, 383, 373], "height": 387, "width": 500, "question_id": 4861, "split": "val"}
+{"img_path": "cot/gqa/2349786.jpg", "expression": "What animal is in front of the wall?", "bbox": [280, 230, 342, 362], "height": 374, "width": 500, "question_id": 4865, "split": "val"}
+{"img_path": "cot/gqa/2330531.jpg", "expression": "What animal is to the left of the candle that is to the left of the person?", "bbox": [10, 158, 156, 400], "height": 500, "width": 500, "question_id": 4892, "split": "val"}
+{"img_path": "cot/gqa/2346752.jpg", "expression": "What is on the napkin on the right side?", "bbox": [314, 246, 374, 280], "height": 500, "width": 375, "question_id": 4895, "split": "val"}

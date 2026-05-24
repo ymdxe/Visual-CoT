@@ -1,0 +1,18 @@
+{
+  "target_samples": 100,
+  "selected_samples": 100,
+  "detection_samples": 100,
+  "skipped_detection_rows": 0,
+  "dataset_priority": [
+    "infographicsvqa"
+  ],
+  "stats": {
+    "infographicsvqa": {
+      "missing_file": false,
+      "total": 360,
+      "available": 360,
+      "missing_images": 0,
+      "selected": 100
+    }
+  }
+}

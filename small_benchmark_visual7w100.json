@@ -1,0 +1,2702 @@
+[
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 1777,
+    "image": [
+      "cot/v7w/v7w_2385707.jpg",
+      "cot/v7w/v7w_2385707.jpg###[0, 83, 499, 285]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhere is this shot? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.000, 0.380, 0.998, 0.784]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Street."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 1959,
+    "image": [
+      "cot/v7w/v7w_2388926.jpg",
+      "cot/v7w/v7w_2388926.jpg###[0, 415, 105, 500]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the bench made from? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.124, 0.830, 0.334, 1.000]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Wood."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 165,
+    "image": [
+      "cot/v7w/v7w_2362902.jpg",
+      "cot/v7w/v7w_2362902.jpg###[191, 321, 316, 472]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWho is sitting on a skateboard? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.382, 0.642, 0.632, 0.944]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Boy."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 4069,
+    "image": [
+      "cot/v7w/v7w_2326138.jpg",
+      "cot/v7w/v7w_2326138.jpg###[213, 42, 424, 306]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWho has a maroon shirt? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.426, 0.252, 0.848, 0.780]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "The woman."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 3970,
+    "image": [
+      "cot/v7w/v7w_2324386.jpg",
+      "cot/v7w/v7w_2324386.jpg###[0, 250, 498, 373]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhere are the people standing? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.000, 0.624, 0.996, 0.870]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "In the road."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 926,
+    "image": [
+      "cot/v7w/v7w_1591878.jpg",
+      "cot/v7w/v7w_1591878.jpg###[480, 726, 515, 740]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat color sign is the white arrow on? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.469, 0.845, 0.503, 0.858]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "A blue sign."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 5756,
+    "image": [
+      "cot/v7w/v7w_2352504.jpg",
+      "cot/v7w/v7w_2352504.jpg###[91, 147, 124, 175]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat pattern is on the animals? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.182, 0.484, 0.248, 0.540]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Stripes."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 2449,
+    "image": [
+      "cot/v7w/v7w_2399726.jpg",
+      "cot/v7w/v7w_2399726.jpg###[330, 90, 481, 226]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhy was the picture taken? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.660, 0.402, 0.962, 0.674]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "To show how lamb cubs stay closeby mother."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 58,
+    "image": [
+      "cot/v7w/v7w_2360759.jpg",
+      "cot/v7w/v7w_2360759.jpg###[39, 308, 65, 356]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWho is she holding? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.244, 0.616, 0.296, 0.712]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "A child."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 3865,
+    "image": [
+      "cot/v7w/v7w_2322131.jpg",
+      "cot/v7w/v7w_2322131.jpg###[390, 145, 437, 166]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the name of the street, according to the sign? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.780, 0.374, 0.874, 0.416]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Foord St."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 4313,
+    "image": [
+      "cot/v7w/v7w_2330812.jpg",
+      "cot/v7w/v7w_2330812.jpg###[1, 117, 333, 500]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhere is this man? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.168, 0.234, 0.832, 1.000]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "On a ski slope."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 3102,
+    "image": [
+      "cot/v7w/v7w_2413783.jpg",
+      "cot/v7w/v7w_2413783.jpg###[88, 17, 119, 42]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is on the man's hands? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.176, 0.214, 0.238, 0.264]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Protective gloves."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 613,
+    "image": [
+      "cot/v7w/v7w_2371737.jpg",
+      "cot/v7w/v7w_2371737.jpg###[115, 201, 159, 256]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat are these animals? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.230, 0.568, 0.318, 0.678]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Cows."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 5836,
+    "image": [
+      "cot/v7w/v7w_2354014.jpg",
+      "cot/v7w/v7w_2354014.jpg###[254, 123, 271, 181]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWho is holding flags? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.508, 0.412, 0.542, 0.528]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Some people."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 4037,
+    "image": [
+      "cot/v7w/v7w_2325590.jpg",
+      "cot/v7w/v7w_2325590.jpg###[77, 165, 94, 180]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is pictured? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.154, 0.454, 0.188, 0.484]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Birds."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 1842,
+    "image": [
+      "cot/v7w/v7w_2387034.jpg",
+      "cot/v7w/v7w_2387034.jpg###[432, 63, 498, 120]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nHow are the zebras secured? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.864, 0.320, 0.996, 0.434]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Fence."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 3576,
+    "image": [
+      "cot/v7w/v7w_2315602.jpg",
+      "cot/v7w/v7w_2315602.jpg###[5, 140, 277, 500]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhy is lady smiling? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.132, 0.280, 0.676, 1.000]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "She is happy."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 306,
+    "image": [
+      "cot/v7w/v7w_2365726.jpg",
+      "cot/v7w/v7w_2365726.jpg###[0, 0, 500, 376]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhere is the laptop sitting? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.000, 0.124, 1.000, 0.876]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Grass."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 2493,
+    "image": [
+      "cot/v7w/v7w_2400707.jpg",
+      "cot/v7w/v7w_2400707.jpg###[60, 179, 286, 290]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is yellow and white? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.120, 0.524, 0.572, 0.746]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Truck."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 5145,
+    "image": [
+      "cot/v7w/v7w_2341538.jpg",
+      "cot/v7w/v7w_2341538.jpg###[0, 0, 282, 278]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWho is eating? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.000, 0.166, 0.564, 0.722]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "A dog."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 3115,
+    "image": [
+      "cot/v7w/v7w_2413936.jpg",
+      "cot/v7w/v7w_2413936.jpg###[182, 191, 193, 214]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWho is on the beach? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.364, 0.632, 0.386, 0.678]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Spectators."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 2550,
+    "image": [
+      "cot/v7w/v7w_2401842.jpg",
+      "cot/v7w/v7w_2401842.jpg###[178, 214, 249, 321]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is wrapped around the woman in pink's torso? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.480, 0.428, 0.622, 0.642]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "A sash."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 3674,
+    "image": [
+      "cot/v7w/v7w_2317734.jpg",
+      "cot/v7w/v7w_2317734.jpg###[203, 163, 292, 192]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the man standing on? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.406, 0.492, 0.584, 0.550]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Surfboard."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 2749,
+    "image": [
+      "cot/v7w/v7w_2406476.jpg",
+      "cot/v7w/v7w_2406476.jpg###[230, 113, 239, 121]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat kind of ball is it? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.460, 0.350, 0.478, 0.366]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "A tennis ball."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 2275,
+    "image": [
+      "cot/v7w/v7w_2396087.jpg",
+      "cot/v7w/v7w_2396087.jpg###[267, 374, 281, 391]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhere do you participate in this sport? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.700, 0.748, 0.728, 0.782]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "In the snow."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 1631,
+    "image": [
+      "cot/v7w/v7w_285963.jpg",
+      "cot/v7w/v7w_285963.jpg###[319, 154, 627, 880]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat sex is the person? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.411, 0.150, 0.712, 0.859]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "A woman."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 3292,
+    "image": [
+      "cot/v7w/v7w_2417076.jpg",
+      "cot/v7w/v7w_2417076.jpg###[0, 328, 333, 498]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhere is the cake? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.166, 0.656, 0.832, 0.996]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "On table."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 5554,
+    "image": [
+      "cot/v7w/v7w_2348792.jpg",
+      "cot/v7w/v7w_2348792.jpg###[0, 6, 496, 334]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhere is he? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.000, 0.178, 0.992, 0.834]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "On a hill."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 2037,
+    "image": [
+      "cot/v7w/v7w_2390689.jpg",
+      "cot/v7w/v7w_2390689.jpg###[317, 138, 333, 170]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWho is on the bus? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.634, 0.438, 0.666, 0.502]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Passengers."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 149,
+    "image": [
+      "cot/v7w/v7w_2362494.jpg",
+      "cot/v7w/v7w_2362494.jpg###[66, 52, 75, 99]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the fence made of? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.132, 0.228, 0.150, 0.322]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Metal."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 4815,
+    "image": [
+      "cot/v7w/v7w_2338170.jpg",
+      "cot/v7w/v7w_2338170.jpg###[171, 124, 209, 197]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the man riding on? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.342, 0.372, 0.418, 0.518]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "A motorcycle."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 4857,
+    "image": [
+      "cot/v7w/v7w_1159348.jpg",
+      "cot/v7w/v7w_1159348.jpg###[649, 446, 707, 531]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is travelling down the road? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.634, 0.601, 0.690, 0.684]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Motorcycles."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 5442,
+    "image": [
+      "cot/v7w/v7w_2346873.jpg",
+      "cot/v7w/v7w_2346873.jpg###[257, 151, 260, 154]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is on in the photo? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.514, 0.426, 0.520, 0.432]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Lights."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 4434,
+    "image": [
+      "cot/v7w/v7w_498011.jpg",
+      "cot/v7w/v7w_498011.jpg###[128, 331, 209, 359]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is written on the bus in the background? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.100, 0.384, 0.163, 0.405]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Ctv."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 2429,
+    "image": [
+      "cot/v7w/v7w_2399535.jpg",
+      "cot/v7w/v7w_2399535.jpg###[0, 98, 137, 286]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is it? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.124, 0.196, 0.398, 0.572]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Hot dogs."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 2213,
+    "image": [
+      "cot/v7w/v7w_2394530.jpg",
+      "cot/v7w/v7w_2394530.jpg###[127, 107, 264, 294]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhere is the baby? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.254, 0.338, 0.528, 0.712]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "In a carrier on the mother."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 5362,
+    "image": [
+      "cot/v7w/v7w_2345459.jpg",
+      "cot/v7w/v7w_2345459.jpg###[81, 231, 233, 329]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhere is the mirror? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.162, 0.628, 0.466, 0.824]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Above the sink."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 790,
+    "image": [
+      "cot/v7w/v7w_2375577.jpg",
+      "cot/v7w/v7w_2375577.jpg###[0, 0, 499, 374]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is beneath his feet? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.000, 0.124, 0.998, 0.872]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Snow."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 5361,
+    "image": [
+      "cot/v7w/v7w_2345440.jpg",
+      "cot/v7w/v7w_2345440.jpg###[54, 53, 285, 268]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is on top of the stove? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.274, 0.106, 0.736, 0.536]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Cooking pot."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 4983,
+    "image": [
+      "cot/v7w/v7w_1159834.jpg",
+      "cot/v7w/v7w_1159834.jpg###[226, 247, 665, 764]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWho is wearing black glasses? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.221, 0.366, 0.649, 0.871]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "The women."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 2529,
+    "image": [
+      "cot/v7w/v7w_2401478.jpg",
+      "cot/v7w/v7w_2401478.jpg###[1, 48, 500, 330]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhy is the water different colors? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.002, 0.262, 1.000, 0.826]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "The sky is reflected in it."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 1572,
+    "image": [
+      "cot/v7w/v7w_2383002.jpg",
+      "cot/v7w/v7w_2383002.jpg###[230, 242, 333, 394]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is white? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.626, 0.484, 0.832, 0.788]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Pitcher's uniform."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 3650,
+    "image": [
+      "cot/v7w/v7w_2317469.jpg",
+      "cot/v7w/v7w_2317469.jpg###[342, 310, 368, 329]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is covering the ground? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.684, 0.744, 0.736, 0.782]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Snow."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 2456,
+    "image": [
+      "cot/v7w/v7w_2399995.jpg",
+      "cot/v7w/v7w_2399995.jpg###[274, 97, 281, 127]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWho is there? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.548, 0.360, 0.562, 0.420]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "People."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 864,
+    "image": [
+      "cot/v7w/v7w_2377175.jpg",
+      "cot/v7w/v7w_2377175.jpg###[367, 45, 389, 56]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is on the mountain? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.734, 0.214, 0.778, 0.236]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Snow."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 4003,
+    "image": [
+      "cot/v7w/v7w_2325041.jpg",
+      "cot/v7w/v7w_2325041.jpg###[126, 93, 172, 118]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is on the man's head? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.252, 0.352, 0.344, 0.402]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "A hat."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 951,
+    "image": [
+      "cot/v7w/v7w_1591914.jpg",
+      "cot/v7w/v7w_1591914.jpg###[645, 280, 751, 384]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWho is wearing a yarmulke? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.630, 0.399, 0.733, 0.501]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "The man."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 4624,
+    "image": [
+      "cot/v7w/v7w_2334532.jpg",
+      "cot/v7w/v7w_2334532.jpg###[290, 95, 395, 243]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhy is the man swinging a bat? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.580, 0.356, 0.790, 0.652]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "He's playing baseball."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 4488,
+    "image": [
+      "cot/v7w/v7w_2333245.jpg",
+      "cot/v7w/v7w_2333245.jpg###[224, 177, 281, 193]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does it say on the front of the bus at the top? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.448, 0.520, 0.562, 0.552]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Laneuveville Centre."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 582,
+    "image": [
+      "cot/v7w/v7w_2371316.jpg",
+      "cot/v7w/v7w_2371316.jpg###[25, 64, 95, 93]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is he swinging? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.050, 0.396, 0.190, 0.454]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "A bat."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 1951,
+    "image": [
+      "cot/v7w/v7w_2388828.jpg",
+      "cot/v7w/v7w_2388828.jpg###[357, 170, 498, 250]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhy is the water rough? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.714, 0.590, 0.996, 0.750]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "A wave."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 26,
+    "image": [
+      "cot/v7w/v7w_2360128.jpg",
+      "cot/v7w/v7w_2360128.jpg###[89, 113, 411, 300]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat kind of bike is that? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.178, 0.392, 0.822, 0.766]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Motorbike."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 6098,
+    "image": [
+      "cot/v7w/v7w_2359224.jpg",
+      "cot/v7w/v7w_2359224.jpg###[195, 265, 302, 360]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is he eating? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.390, 0.654, 0.604, 0.844]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Food."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 5082,
+    "image": [
+      "cot/v7w/v7w_2340152.jpg",
+      "cot/v7w/v7w_2340152.jpg###[413, 121, 442, 179]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWho is on the soccer field? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.826, 0.412, 0.884, 0.528]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Kids."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 1172,
+    "image": [
+      "cot/v7w/v7w_2379021.jpg",
+      "cot/v7w/v7w_2379021.jpg###[151, 299, 167, 343]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat type of drink bottle is on the table? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.302, 0.722, 0.334, 0.810]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Beer."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 929,
+    "image": [
+      "cot/v7w/v7w_1591891.jpg",
+      "cot/v7w/v7w_1591891.jpg###[170, 220, 336, 372]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat keeps the people on the elephant? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.166, 0.382, 0.328, 0.530]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "A chair is strapped to the elephant."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 3583,
+    "image": [
+      "cot/v7w/v7w_2315873.jpg",
+      "cot/v7w/v7w_2315873.jpg###[273, 129, 457, 228]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is on the arm of the chair? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.546, 0.454, 0.914, 0.652]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "The black remote."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 3789,
+    "image": [
+      "cot/v7w/v7w_2320241.jpg",
+      "cot/v7w/v7w_2320241.jpg###[296, 304, 334, 323]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the floor made of? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.592, 0.726, 0.668, 0.764]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Wood."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 5811,
+    "image": [
+      "cot/v7w/v7w_2353563.jpg",
+      "cot/v7w/v7w_2353563.jpg###[349, 156, 402, 205]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is to the right of the scissors? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.698, 0.448, 0.804, 0.546]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Pencils."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 4633,
+    "image": [
+      "cot/v7w/v7w_2334757.jpg",
+      "cot/v7w/v7w_2334757.jpg###[194, 39, 370, 252]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWho is in the room? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.388, 0.202, 0.740, 0.628]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Two men."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 865,
+    "image": [
+      "cot/v7w/v7w_2377192.jpg",
+      "cot/v7w/v7w_2377192.jpg###[136, 175, 369, 363]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhere is the spoon? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.272, 0.474, 0.738, 0.850]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "To the left of the soup bowl."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 4474,
+    "image": [
+      "cot/v7w/v7w_498163.jpg",
+      "cot/v7w/v7w_498163.jpg###[418, 165, 510, 256]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat type of toy is next to the plate? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.683, 0.270, 0.833, 0.418]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Lego."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 5180,
+    "image": [
+      "cot/v7w/v7w_2342437.jpg",
+      "cot/v7w/v7w_2342437.jpg###[74, 130, 277, 236]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the truck carrying? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.148, 0.460, 0.554, 0.672]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "A house."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 5301,
+    "image": [
+      "cot/v7w/v7w_2344533.jpg",
+      "cot/v7w/v7w_2344533.jpg###[0, 374, 349, 499]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhere is the picture taken? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.150, 0.748, 0.848, 0.998]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "On a street."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 4155,
+    "image": [
+      "cot/v7w/v7w_2327545.jpg",
+      "cot/v7w/v7w_2327545.jpg###[46, 41, 330, 441]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat kind of animal is this? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.260, 0.082, 0.828, 0.882]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Elephant."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 3479,
+    "image": [
+      "cot/v7w/v7w_713776.jpg",
+      "cot/v7w/v7w_713776.jpg###[99, 72, 695, 678]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWho is the glass of beer in front of? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.222, 0.070, 0.804, 0.662]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "The man."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 5594,
+    "image": [
+      "cot/v7w/v7w_2349515.jpg",
+      "cot/v7w/v7w_2349515.jpg###[293, 265, 373, 401]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhen will the man put the cases down? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.710, 0.530, 0.870, 0.802]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "After he reaches the table."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 312,
+    "image": [
+      "cot/v7w/v7w_2365873.jpg",
+      "cot/v7w/v7w_2365873.jpg###[0, 265, 500, 374]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhere are the bikes? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.000, 0.654, 1.000, 0.872]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "In the road."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 3762,
+    "image": [
+      "cot/v7w/v7w_2319679.jpg",
+      "cot/v7w/v7w_2319679.jpg###[0, 156, 498, 330]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhere is he at? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.000, 0.480, 0.996, 0.828]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Skate park."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 5498,
+    "image": [
+      "cot/v7w/v7w_2348191.jpg",
+      "cot/v7w/v7w_2348191.jpg###[4, 342, 23, 352]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is next to the flowers? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.008, 0.794, 0.046, 0.814]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Hand towels."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 1152,
+    "image": [
+      "cot/v7w/v7w_1592572.jpg",
+      "cot/v7w/v7w_1592572.jpg###[439, 0, 474, 682]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nHow is the banner on the building? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.429, 0.166, 0.463, 0.832]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Hanging from a pole."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 2860,
+    "image": [
+      "cot/v7w/v7w_2408661.jpg",
+      "cot/v7w/v7w_2408661.jpg###[16, 228, 183, 332]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat electronic is the man using? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.032, 0.622, 0.366, 0.830]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "A laptop."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 3857,
+    "image": [
+      "cot/v7w/v7w_2321965.jpg",
+      "cot/v7w/v7w_2321965.jpg###[78, 206, 498, 331]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhere was this picture taken? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.156, 0.578, 0.996, 0.828]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Railroad tracks."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 2798,
+    "image": [
+      "cot/v7w/v7w_2407215.jpg",
+      "cot/v7w/v7w_2407215.jpg###[196, 304, 218, 341]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is on the pizza? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.518, 0.608, 0.562, 0.682]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Cheese."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 535,
+    "image": [
+      "cot/v7w/v7w_285863.jpg",
+      "cot/v7w/v7w_285863.jpg###[196, 693, 246, 859]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWho is crossing the street? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.344, 0.677, 0.393, 0.839]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Four people."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 4137,
+    "image": [
+      "cot/v7w/v7w_2327197.jpg",
+      "cot/v7w/v7w_2327197.jpg###[297, 72, 304, 81]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhen will the ball be hit? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.594, 0.268, 0.608, 0.286]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "When it is served."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 1294,
+    "image": [
+      "cot/v7w/v7w_1593088.jpg",
+      "cot/v7w/v7w_1593088.jpg###[263, 31, 651, 726]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWho is the man? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.257, 0.144, 0.636, 0.822]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "A homeless man."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 1474,
+    "image": [
+      "cot/v7w/v7w_2382481.jpg",
+      "cot/v7w/v7w_2382481.jpg###[330, 76, 365, 106]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is in the background? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.660, 0.276, 0.730, 0.336]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Trees."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 5831,
+    "image": [
+      "cot/v7w/v7w_2353859.jpg",
+      "cot/v7w/v7w_2353859.jpg###[0, 161, 16, 167]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is next to the two? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.086, 0.322, 0.118, 0.334]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "A body of water."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 2691,
+    "image": [
+      "cot/v7w/v7w_2404673.jpg",
+      "cot/v7w/v7w_2404673.jpg###[60, 62, 281, 499]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is in the window? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.286, 0.124, 0.728, 0.998]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "A ceramic figure."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 5762,
+    "image": [
+      "cot/v7w/v7w_2352608.jpg",
+      "cot/v7w/v7w_2352608.jpg###[277, 187, 299, 272]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat kind of pants does the man have on? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.554, 0.540, 0.598, 0.710]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Jeans."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 3832,
+    "image": [
+      "cot/v7w/v7w_2321344.jpg",
+      "cot/v7w/v7w_2321344.jpg###[1, 186, 393, 331]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the focus of the photo? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.002, 0.538, 0.786, 0.828]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "The clock and street."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 3587,
+    "image": [
+      "cot/v7w/v7w_2315964.jpg",
+      "cot/v7w/v7w_2315964.jpg###[0, 214, 499, 332]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhere is the worker and their car? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.000, 0.594, 0.998, 0.830]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "On a road."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 4145,
+    "image": [
+      "cot/v7w/v7w_2327419.jpg",
+      "cot/v7w/v7w_2327419.jpg###[160, 10, 228, 55]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhere are the girls hands? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.486, 0.020, 0.622, 0.110]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "On her helmet."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 3692,
+    "image": [
+      "cot/v7w/v7w_2318172.jpg",
+      "cot/v7w/v7w_2318172.jpg###[0, 2, 500, 373]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhere is keyboard? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.000, 0.128, 1.000, 0.870]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Desk."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 3332,
+    "image": [
+      "cot/v7w/v7w_713248.jpg",
+      "cot/v7w/v7w_713248.jpg###[0, 101, 766, 1016]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhere are the skiers? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.125, 0.099, 0.873, 0.992]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "On a mountain."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 1877,
+    "image": [
+      "cot/v7w/v7w_2387690.jpg",
+      "cot/v7w/v7w_2387690.jpg###[425, 184, 460, 220]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is on the side of the train? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.850, 0.536, 0.920, 0.608]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Trees."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 2076,
+    "image": [
+      "cot/v7w/v7w_2391550.jpg",
+      "cot/v7w/v7w_2391550.jpg###[101, 185, 169, 328]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWho is sitting on the horse? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.368, 0.370, 0.504, 0.656]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Man."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 4961,
+    "image": [
+      "cot/v7w/v7w_1159723.jpg",
+      "cot/v7w/v7w_1159723.jpg###[0, 287, 1017, 471]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhere is the black garbage? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.000, 0.405, 0.993, 0.585]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Near grass."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 3147,
+    "image": [
+      "cot/v7w/v7w_2414638.jpg",
+      "cot/v7w/v7w_2414638.jpg###[131, 48, 169, 70]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is in the sky? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.262, 0.262, 0.338, 0.306]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Clouds."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 0,
+    "image": [
+      "cot/v7w/v7w_2359399.jpg",
+      "cot/v7w/v7w_2359399.jpg###[2, 0, 390, 282]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is behind the bench? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.004, 0.124, 0.780, 0.688]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Foliage."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 733,
+    "image": [
+      "cot/v7w/v7w_2374492.jpg",
+      "cot/v7w/v7w_2374492.jpg###[0, 441, 67, 494]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat two, large letters are at the bottom left of the frame? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.166, 0.882, 0.300, 0.988]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "RA."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 104,
+    "image": [
+      "cot/v7w/v7w_2361575.jpg",
+      "cot/v7w/v7w_2361575.jpg###[236, 115, 363, 190]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhy is he in the air? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.472, 0.396, 0.726, 0.546]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "He jumped."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 5757,
+    "image": [
+      "cot/v7w/v7w_2352584.jpg",
+      "cot/v7w/v7w_2352584.jpg###[225, 180, 263, 187]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does it say in red on the bottom of the sign? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.450, 0.524, 0.526, 0.538]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Welcomes you."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 4903,
+    "image": [
+      "cot/v7w/v7w_1159568.jpg",
+      "cot/v7w/v7w_1159568.jpg###[36, 302, 96, 458]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWho is wearing a pink shirt? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.035, 0.461, 0.094, 0.613]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "A woman."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 5108,
+    "image": [
+      "cot/v7w/v7w_2340620.jpg",
+      "cot/v7w/v7w_2340620.jpg###[0, 73, 322, 479]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhen kind of glass is it? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.124, 0.146, 0.768, 0.958]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Martini."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 4061,
+    "image": [
+      "cot/v7w/v7w_2326022.jpg",
+      "cot/v7w/v7w_2326022.jpg###[349, 93, 359, 242]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat are the walls on the right made of? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.812, 0.347, 0.835, 0.693]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Windows."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 2222,
+    "image": [
+      "cot/v7w/v7w_2394857.jpg",
+      "cot/v7w/v7w_2394857.jpg###[212, 194, 227, 208]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWho is driving the bus? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.424, 0.532, 0.454, 0.560]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Bus driver."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 952,
+    "image": [
+      "cot/v7w/v7w_2378379.jpg",
+      "cot/v7w/v7w_2378379.jpg###[187, 0, 200, 96]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the ceiling made out of? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.374, 0.124, 0.400, 0.316]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Wood planks."
+      }
+    ]
+  },
+  {
+    "dataset": "v7w",
+    "split": "val",
+    "question_id": 2891,
+    "image": [
+      "cot/v7w/v7w_2409135.jpg",
+      "cot/v7w/v7w_2409135.jpg###[0, 0, 500, 375]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat type of tower is this? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.000, 0.124, 1.000, 0.874]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Church tower."
+      }
+    ]
+  }
+]

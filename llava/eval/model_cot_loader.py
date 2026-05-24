@@ -115,6 +115,7 @@ MODE_PRESETS = {
     "vision_pruned": ("pred", "full_crop", "none", False),
     "feature_pca": ("pred", "full_crop", "none", False),
     "topk_crops": ("pred", "full_crop", "none", False),
+    "dsac": ("pred", "full_crop", "structured", False),
 }
 
 
@@ -685,6 +686,62 @@ def parse_structured_output(text):
     return sections
 
 
+# ============ §4.6 双端自适应控制器（DSAC，本文提出） ============
+
+def compute_scs(parsed):
+    """结构一致性得分 SCS 与四段产出 flags。
+
+    parsed: parse_structured_output() 返回值。
+    """
+    flags = {
+        "region":          int(bool((parsed.get("region_text") or "").strip())),
+        "visual_evidence": int(bool((parsed.get("visual_evidence_text") or "").strip())),
+        "reasoning":       int(bool((parsed.get("reasoning_text") or "").strip())),
+        "answer":          int(bool((parsed.get("answer_extracted") or "").strip())),
+    }
+    scs = sum(flags.values()) / 4.0
+    return {"scs": scs, "flags": flags}
+
+
+def adaptive_extract(parsed, flags, raw_output):
+    """档 2 (re_extract) 的自适应答案抽取算子 ExtractAdaptive。"""
+    if flags["answer"]:
+        return parsed.get("answer_extracted") or raw_output.strip()
+    if flags["reasoning"]:
+        sents = split_sentences(parsed.get("reasoning_text") or "")
+        return sents[-1] if sents else (parsed.get("reasoning_text") or raw_output).strip()
+    if flags["visual_evidence"]:
+        sents = split_sentences(parsed.get("visual_evidence_text") or "")
+        return sents[-1] if sents else (parsed.get("visual_evidence_text") or raw_output).strip()
+    sents = split_sentences(raw_output)
+    return sents[-1] if sents else raw_output.strip()
+
+
+def composite_decision(score_info, scs_info, args):
+    """composite = alpha*score(b̂) + (1-alpha)*SCS(y)，三档决策。"""
+    alpha = float(getattr(args, "adaptive_alpha", 0.5))
+    theta_low = float(getattr(args, "adaptive_theta_low", 0.3))
+    theta_high = float(getattr(args, "adaptive_theta_high", 0.7))
+    s_in = float(score_info["score"]) if score_info else 0.0
+    s_out = float(scs_info["scs"])
+    composite = alpha * s_in + (1.0 - alpha) * s_out
+    if composite >= theta_high:
+        decision = "accept"
+    elif composite >= theta_low:
+        decision = "re_extract"
+    else:
+        decision = "fallback"
+    return {
+        "alpha": alpha,
+        "theta_low": theta_low,
+        "theta_high": theta_high,
+        "s_in": s_in,
+        "s_out": s_out,
+        "composite": composite,
+        "decision": decision,
+    }
+
+
 KEY_EVIDENCE_WORDS = {
     "color", "colour", "wing", "head", "tail", "beak", "bill", "body", "breast",
     "belly", "back", "eye", "stripe", "spot", "shape", "pattern", "texture",
@@ -1015,6 +1072,44 @@ def eval_model(args):
                     args.step_selector_topk,
                 )
             answer_extracted = parsed.get("answer_extracted") or output
+
+            # === §4.6 双端自适应控制器（DSAC） ===
+            gate_info = None
+            if getattr(args, "adaptive_gate", False) and score_info is not None:
+                scs_info = compute_scs(parsed)
+                gate_info = composite_decision(score_info, scs_info, args)
+                gate_info["scs_flags"] = scs_info["flags"]
+                gate_info["second_pass"] = False
+                gate_info["fallback_box"] = None
+
+                if gate_info["decision"] == "accept":
+                    pass
+                elif gate_info["decision"] == "re_extract":
+                    answer_extracted = adaptive_extract(parsed, scs_info["flags"], output)
+                else:
+                    fallback_kind = args.adaptive_fallback
+                    if fallback_kind == "center":
+                        fb_box = _center_box()
+                    elif fallback_kind == "oracle":
+                        fb_box = oracle_box(line) or _center_box()
+                    else:
+                        fb_box = chosen_box
+                    fb_images, _ = prepare_images(args, full_img, fb_box)
+                    fb_prompt, _fb_prompt_text = make_conv_prompt(
+                        args, model.config, question, fb_box, len(fb_images)
+                    )
+                    fb_output = generate(
+                        model, tokenizer, image_processor, model.config,
+                        args, fb_prompt, fb_images, dtype,
+                    )
+                    fb_parsed = parse_structured_output(fb_output)
+                    answer_extracted = fb_parsed.get("answer_extracted") or fb_output
+                    gate_info["second_pass"] = True
+                    gate_info["fallback_box"] = list(fb_box) if fb_box is not None else None
+                    output = output + "\n[DSAC fallback]\n" + fb_output
+
+                metadata["composite_gate"] = gate_info
+
             metadata["hit"] = contains_match(answer_extracted, gold)
             bbox_iou_value = box_iou(chosen_box, gt_box)
             normalized_gt = normalize_answer(gold)
@@ -1183,6 +1278,17 @@ def build_parser():
     parser.add_argument("--log-jsonl", type=str, default=None)
     parser.add_argument("--record-latency", action="store_true")
     parser.add_argument("--record-memory", action="store_true")
+    parser.add_argument("--adaptive-gate", action="store_true",
+                        help="启用双端自适应控制器（§4.6 本文提出）。"
+                             "composite = alpha*score(b̂) + (1-alpha)*SCS(y)，按 theta_low/theta_high 三档分流。")
+    parser.add_argument("--adaptive-alpha", type=float, default=0.5,
+                        help="composite 中输入端权重，默认 0.5；1.0 退化为 §4.4.1 输入端，0.0 退化为 SCS 输出端。")
+    parser.add_argument("--adaptive-theta-low", type=float, default=0.3,
+                        help="composite < theta_low 触发回退框 + 二次生成。")
+    parser.add_argument("--adaptive-theta-high", type=float, default=0.7,
+                        help="composite >= theta_high 直接采纳；中段触发自适应抽取。")
+    parser.add_argument("--adaptive-fallback", choices=["center", "oracle", "none"],
+                        default="center", help="档 3（fallback）回退框来源。")
     return parser
 
 

@@ -1,0 +1,2702 @@
+[
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 791,
+    "image": [
+      "cot/docvqa/gnnp0227_6.png",
+      "cot/docvqa/gnnp0227_6.png###[122, 1631, 1204, 1897]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDid John have had any graduate level course in statistics? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.159, 0.721, 0.637, 0.839]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 869,
+    "image": [
+      "cot/docvqa/fkxn0226_14.png",
+      "cot/docvqa/fkxn0226_14.png###[855, 930, 943, 955]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nwhat is the sales in 2011? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.427, 0.590, 0.471, 0.603]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "109,274"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 756,
+    "image": [
+      "cot/docvqa/gpnn0081_3.png",
+      "cot/docvqa/gpnn0081_3.png###[412, 1758, 1481, 1808]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich brand is responsible for PM's strength? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.300, 0.808, 0.791, 0.831]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Marlboro"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 491,
+    "image": [
+      "cot/docvqa/xkbw0217_45.png",
+      "cot/docvqa/xkbw0217_45.png###[464, 951, 510, 457]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the variable shown along the y axis ? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.211, 0.545, 0.232, 0.320]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "% change from baseline"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 310,
+    "image": [
+      "cot/docvqa/ylvw0217_3.png",
+      "cot/docvqa/ylvw0217_3.png###[203, 510, 1674, 2228]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the page number ( see bottom right) ? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.216, 0.224, 0.861, 0.977]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "3"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 134,
+    "image": [
+      "cot/docvqa/zznp0227_93.png",
+      "cot/docvqa/zznp0227_93.png###[150, 162, 1066, 1660]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the table number? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.252, 0.088, 0.749, 0.902]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "3"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 837,
+    "image": [
+      "cot/docvqa/txkp0227_3.png",
+      "cot/docvqa/txkp0227_3.png###[1380, 900, 1485, 925]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nHow much was the expenses for ‘Hotel: St.Francis’? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.721, 0.398, 0.767, 0.409]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "$386.47"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 229,
+    "image": [
+      "cot/docvqa/fgbd0079_4.png",
+      "cot/docvqa/fgbd0079_4.png###[724, 1132, 888, 1212]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the Net Pound Infeed? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.443, 0.522, 0.519, 0.559]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "893"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 163,
+    "image": [
+      "cot/docvqa/nfdl0227_10.png",
+      "cot/docvqa/nfdl0227_10.png###[429, 545, 1713, 996]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat all are needed for energy? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.301, 0.241, 0.870, 0.441]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "carbohydrates and fat"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 875,
+    "image": [
+      "cot/docvqa/snbx0223_6.png",
+      "cot/docvqa/snbx0223_6.png###[122, 126, 700, 163]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the company name specified in the top of the document? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.194, 0.053, 0.437, 0.068]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "ITC Limited"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 510,
+    "image": [
+      "cot/docvqa/hsyn0081_54.png",
+      "cot/docvqa/hsyn0081_54.png###[981, 1353, 1067, 1388]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is the third cigarette brand along the x axis? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.454, 0.734, 0.494, 0.750]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "now"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 97,
+    "image": [
+      "cot/docvqa/fqvw0217_39.png",
+      "cot/docvqa/fqvw0217_39.png###[3534, 2959, 5668, 3079]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the adverse effects of using megestrol acetate? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.511, 0.538, 0.820, 0.556]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Menstrual bleeding in women after discontinuation"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 264,
+    "image": [
+      "cot/docvqa/ztbm0227_1.png",
+      "cot/docvqa/ztbm0227_1.png###[291, 697, 434, 726]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the designation of Mr. Sandstead? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.234, 0.308, 0.297, 0.321]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Director"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 36,
+    "image": [
+      "cot/docvqa/fygb0228_1.png",
+      "cot/docvqa/fygb0228_1.png###[684, 201, 1055, 237]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the type of document ? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.414, 0.089, 0.578, 0.105]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "curriculum vitae"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 241,
+    "image": [
+      "cot/docvqa/pjgn0226_8.png",
+      "cot/docvqa/pjgn0226_8.png###[377, 1258, 768, 1292]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the 'Total Payment' ? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.284, 0.571, 0.462, 0.586]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "$30,600.00"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 507,
+    "image": [
+      "cot/docvqa/qymj0226_1.png",
+      "cot/docvqa/qymj0226_1.png###[516, 381, 962, 415]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the Term of Agreement as per the document? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.344, 0.172, 0.545, 0.187]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "January 1, 2001 - December 31, 2001"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 470,
+    "image": [
+      "cot/docvqa/glxn0226_4.png",
+      "cot/docvqa/glxn0226_4.png###[48, 2114, 1000, 2142]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat kind of document is this? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.135, 0.960, 0.568, 0.973]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "PROTECTED DOCUMENT"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 840,
+    "image": [
+      "cot/docvqa/fxyn0081_14.png",
+      "cot/docvqa/fxyn0081_14.png###[745, 478, 990, 521]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the next step after taking HH census? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.453, 0.221, 0.566, 0.240]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Consumption"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 329,
+    "image": [
+      "cot/docvqa/ysbd0227_2.png",
+      "cot/docvqa/ysbd0227_2.png###[281, 1203, 591, 1239]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nHow many categories of the panel members were restricted the payment of travel expenses? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.234, 0.523, 0.368, 0.539]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "9"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 645,
+    "image": [
+      "cot/docvqa/glvj0223_10.png",
+      "cot/docvqa/glvj0223_10.png###[383, 529, 1606, 2194]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nHow many parties(companies) are mentioned under subheading A? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.288, 0.240, 0.844, 0.997]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "2"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 122,
+    "image": [
+      "cot/docvqa/hsbd0227_11.png",
+      "cot/docvqa/hsbd0227_11.png###[711, 747, 1079, 783]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nwhat is the date of orientation meeting ? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.422, 0.327, 0.583, 0.343]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "September 17, 1969"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 106,
+    "image": [
+      "cot/docvqa/sjbw0217_12.png",
+      "cot/docvqa/sjbw0217_12.png###[1436, 2149, 1659, 2178]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is written at the bottom right end of the ‘page’? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.764, 0.976, 0.865, 0.989]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "dwrite 065775"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 664,
+    "image": [
+      "cot/docvqa/jybx0223_25.png",
+      "cot/docvqa/jybx0223_25.png###[219, 1401, 511, 1532]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWho is receiving the same salary as Mr. Sameer Kumar Modi? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.233, 0.616, 0.361, 0.673]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Mr. Lalit Kumar Modi"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 190,
+    "image": [
+      "cot/docvqa/jsbn0226_5.png",
+      "cot/docvqa/jsbn0226_5.png###[1786, 1302, 1836, 1328]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nHow much is the interest rate for the second credit listed under \"Liabilities\"? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.764, 0.703, 0.785, 0.714]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "2.99"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 66,
+    "image": [
+      "cot/docvqa/hhpj0226_1.png",
+      "cot/docvqa/hhpj0226_1.png###[710, 1497, 979, 1528]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhen was the statement of Grocery Manufacturers of America released? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.435, 0.649, 0.551, 0.662]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "July 18, 1978"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 187,
+    "image": [
+      "cot/docvqa/jzbn0226_28.png",
+      "cot/docvqa/jzbn0226_28.png###[247, 359, 447, 395]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the name of the first section in this document? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.226, 0.163, 0.317, 0.180]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Introduction"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 765,
+    "image": [
+      "cot/docvqa/hqvw0217_3.png",
+      "cot/docvqa/hqvw0217_3.png###[194, 302, 2069, 1599]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the page no mentioned in this document? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.085, 0.260, 0.904, 0.827]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "3"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 321,
+    "image": [
+      "cot/docvqa/hybl0226_1.png",
+      "cot/docvqa/hybl0226_1.png###[161, 1093, 1520, 1135]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the 'total sales' for 1992? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.188, 0.503, 0.814, 0.522]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "$115 MM"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 519,
+    "image": [
+      "cot/docvqa/qznp0053_2.png",
+      "cot/docvqa/qznp0053_2.png###[205, 1839, 394, 1870]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is the breakout room for SSA? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.214, 0.819, 0.298, 0.833]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Plaza 13"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 782,
+    "image": [
+      "cot/docvqa/xkwc0228_25.png",
+      "cot/docvqa/xkwc0228_25.png###[461, 558, 1308, 1523]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nAter week 3, in which week is the cumulative increase in weight the lowest, for Group C? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.314, 0.249, 0.692, 0.681]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "4"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 632,
+    "image": [
+      "cot/docvqa/tyhk0228_2.png",
+      "cot/docvqa/tyhk0228_2.png###[1058, 1017, 1196, 1060]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the estimated cost range of ‘HCFCs and HCFC Equipment’ (1994 through 2003) as per the table? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.593, 0.433, 0.652, 0.451]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "5.1 - 6.9"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 342,
+    "image": [
+      "cot/docvqa/rxxk0225_12.png",
+      "cot/docvqa/rxxk0225_12.png###[242, 171, 568, 227]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich month of 2006 calendar is given? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.110, 0.191, 0.258, 0.217]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "December"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 417,
+    "image": [
+      "cot/docvqa/pnph0227_1.png",
+      "cot/docvqa/pnph0227_1.png###[342, 794, 835, 832]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the name of the company? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.271, 0.359, 0.494, 0.377]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Allen's PRess Clipping Bureau"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 435,
+    "image": [
+      "cot/docvqa/ykmg0065_1.png",
+      "cot/docvqa/ykmg0065_1.png###[148, 176, 244, 197]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the location of the fax receiver ? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.189, 0.078, 0.232, 0.088]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "ireland"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 488,
+    "image": [
+      "cot/docvqa/qhbw0217_2.png",
+      "cot/docvqa/qhbw0217_2.png###[1485, 1370, 4831, 1931]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the compound? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.336, 0.192, 0.804, 0.270]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Trimegestone"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 513,
+    "image": [
+      "cot/docvqa/qznp0053_2.png",
+      "cot/docvqa/qznp0053_2.png###[729, 692, 1315, 1154]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhere is the breakfast venue on Oct. 11? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.448, 0.308, 0.709, 0.514]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Plaza 2 Auditorium Foyer"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 761,
+    "image": [
+      "cot/docvqa/rrxm0081_1.png",
+      "cot/docvqa/rrxm0081_1.png###[1157, 1757, 1573, 1788]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the quantity of tar in Lights Hard Pack? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.642, 0.810, 0.834, 0.824]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "10 mg."
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 774,
+    "image": [
+      "cot/docvqa/jxbb0228_10.png",
+      "cot/docvqa/jxbb0228_10.png###[246, 128, 302, 148]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the highest value on the Y axis? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.294, 0.066, 0.323, 0.076]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "80"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 48,
+    "image": [
+      "cot/docvqa/yxvw0217_3.png",
+      "cot/docvqa/yxvw0217_3.png###[201, 310, 1870, 1251]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the heading of the first column of the table? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.091, 0.235, 0.850, 0.663]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Authors"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 366,
+    "image": [
+      "cot/docvqa/mmbd0227_7.png",
+      "cot/docvqa/mmbd0227_7.png###[491, 256, 1322, 294]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the time mentioned? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.324, 0.112, 0.688, 0.129]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "9:30 a.m."
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 845,
+    "image": [
+      "cot/docvqa/gfjv0228_3.png",
+      "cot/docvqa/gfjv0228_3.png###[284, 814, 1444, 854]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the title of table 4? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.243, 0.365, 0.763, 0.383]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Preplant herbicide effect on yields, Longmont,Colo., 1974"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 43,
+    "image": [
+      "cot/docvqa/tnbx0223_130.png",
+      "cot/docvqa/tnbx0223_130.png###[1732, 797, 1970, 820]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the 'Contribution to Employees' Benefit Plans' in 2014 (Rs.cr.)? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.740, 0.487, 0.842, 0.497]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "100.99"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 146,
+    "image": [
+      "cot/docvqa/qffw0228_23.png",
+      "cot/docvqa/qffw0228_23.png###[234, 383, 1512, 416]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the table number? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.215, 0.170, 0.783, 0.185]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "table 17."
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 669,
+    "image": [
+      "cot/docvqa/fmnf0227_1.png",
+      "cot/docvqa/fmnf0227_1.png###[699, 121, 1094, 152]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat type of statement is it? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.401, 0.051, 0.569, 0.065]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "FINANCIAL STATEMENT"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 520,
+    "image": [
+      "cot/docvqa/jfgg0227_3.png",
+      "cot/docvqa/jfgg0227_3.png###[168, 2012, 446, 2043]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich is the flower store advertised? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.181, 0.884, 0.303, 0.897]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "grimm & gorly"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 330,
+    "image": [
+      "cot/docvqa/pyyc0227_66.png",
+      "cot/docvqa/pyyc0227_66.png###[183, 1029, 1918, 1832]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the x-axis of first bar graph? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.058, 0.486, 0.607, 0.740]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "AGE (mos)"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 522,
+    "image": [
+      "cot/docvqa/pgjw0227_5.png",
+      "cot/docvqa/pgjw0227_5.png###[1562, 1787, 1619, 1807]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the cost of 1months dosage of Nature's Bounty(chelated calcium)? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.788, 0.777, 0.813, 0.786]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "7.04"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 19,
+    "image": [
+      "cot/docvqa/snbx0223_7.png",
+      "cot/docvqa/snbx0223_7.png###[143, 570, 1027, 1423]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the brand name for ITC biscuit category? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.203, 0.239, 0.574, 0.596]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Sunfeast"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 293,
+    "image": [
+      "cot/docvqa/gnvl0226_2.png",
+      "cot/docvqa/gnvl0226_2.png###[434, 485, 1211, 1758]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the net weight of each pizza? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.314, 0.223, 0.671, 0.808]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "4.5 oz."
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 692,
+    "image": [
+      "cot/docvqa/kzng0227_2.png",
+      "cot/docvqa/kzng0227_2.png###[407, 737, 1310, 1215]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the table number? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.287, 0.322, 0.682, 0.531]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "1"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 621,
+    "image": [
+      "cot/docvqa/jybx0223_85.png",
+      "cot/docvqa/jybx0223_85.png###[1362, 888, 1473, 919]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is ‘sundries’ for the year ended 31.3.2009? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.735, 0.390, 0.784, 0.404]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "1083.49"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 754,
+    "image": [
+      "cot/docvqa/ysgj0223_112.png",
+      "cot/docvqa/ysgj0223_112.png###[123, 347, 1570, 1658]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the page number? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.170, 0.158, 0.827, 0.754]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "31"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 10,
+    "image": [
+      "cot/docvqa/hnhd0227_8.png",
+      "cot/docvqa/hnhd0227_8.png###[264, 995, 1553, 1029]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat was the diet fed to the #1 group ? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.224, 0.435, 0.787, 0.450]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "BASAL DIET"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 508,
+    "image": [
+      "cot/docvqa/rlmj0226_1.png",
+      "cot/docvqa/rlmj0226_1.png###[493, 685, 647, 713]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the Venue Owner Category? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.335, 0.310, 0.405, 0.322]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Corporation"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 571,
+    "image": [
+      "cot/docvqa/ntvw0217_12.png",
+      "cot/docvqa/ntvw0217_12.png###[1564, 401, 1776, 518]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhen was ASRM- 59th Annual Meeting Deadline? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.677, 0.305, 0.768, 0.356]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "May 1, 2003"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 655,
+    "image": [
+      "cot/docvqa/jjvg0227_4.png",
+      "cot/docvqa/jjvg0227_4.png###[140, 1473, 282, 1503]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn south central region which county has the highest population? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.061, 0.755, 0.123, 0.768]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Franklin"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 610,
+    "image": [
+      "cot/docvqa/tqcg0072_1.png",
+      "cot/docvqa/tqcg0072_1.png###[1244, 1458, 1435, 1494]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhen is the meeting expected to end? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.677, 0.649, 0.762, 0.665]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "5:30"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 287,
+    "image": [
+      "cot/docvqa/jqnm0227_3.png",
+      "cot/docvqa/jqnm0227_3.png###[613, 877, 829, 911]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWho is the chairperson? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.380, 0.387, 0.475, 0.402]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Robert Olson"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 499,
+    "image": [
+      "cot/docvqa/lzkh0228_1.png",
+      "cot/docvqa/lzkh0228_1.png###[564, 1513, 1059, 1791]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which university, Ryan James Potts did his Post Doctoral Research? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.370, 0.687, 0.594, 0.813]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "University of Vermont, Burlington, VT, USA"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 478,
+    "image": [
+      "cot/docvqa/hkhx0227_2.png",
+      "cot/docvqa/hkhx0227_2.png###[1524, 765, 1629, 793]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhats the amount in ESTIMATED UNOBLIGATED BALANCE FOR Personnel? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.783, 0.340, 0.830, 0.353]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "359.62"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 851,
+    "image": [
+      "cot/docvqa/xhfg0227_7.png",
+      "cot/docvqa/xhfg0227_7.png###[1187, 1761, 1277, 1794]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the price index for food in1963? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.629, 0.770, 0.668, 0.785]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "117.1"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 432,
+    "image": [
+      "cot/docvqa/fpjn0020_1.png",
+      "cot/docvqa/fpjn0020_1.png###[85, 226, 1515, 1994]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the last edit date? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.161, 0.101, 0.798, 0.888]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "03/26/96"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 482,
+    "image": [
+      "cot/docvqa/yrvw0217_55.png",
+      "cot/docvqa/yrvw0217_55.png###[791, 615, 869, 636]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the CE/TMG 0.0625(CC) vs Placebo - p-Values FOR Cycle 6? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.473, 0.269, 0.507, 0.278]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "0.020*"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 2,
+    "image": [
+      "cot/docvqa/snbx0223_42.png",
+      "cot/docvqa/snbx0223_42.png###[389, 1065, 466, 1094]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the no. of Ordinary shares held by Y. C. Deveshwar? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.313, 0.455, 0.346, 0.468]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "24,26,435"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 850,
+    "image": [
+      "cot/docvqa/snbx0223_222.png",
+      "cot/docvqa/snbx0223_222.png###[178, 108, 806, 164]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the name of report? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.218, 0.045, 0.482, 0.069]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Business Responsibility Report"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 55,
+    "image": [
+      "cot/docvqa/zzfv0228_3.png",
+      "cot/docvqa/zzfv0228_3.png###[1136, 1667, 1353, 1698]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWho is the contributor from Lake Placid New York? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.607, 0.732, 0.702, 0.746]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "wallace l. mckeehan"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 758,
+    "image": [
+      "cot/docvqa/snbx0223_5.png",
+      "cot/docvqa/snbx0223_5.png###[880, 1324, 1138, 1349]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the tagline of ESSENZA DI WILLLS? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.512, 0.555, 0.620, 0.565]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "YOUR ESSENCE YOUR SOUL"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 15,
+    "image": [
+      "cot/docvqa/fxbw0217_4.png",
+      "cot/docvqa/fxbw0217_4.png###[213, 110, 911, 148]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the title of the document ? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.219, 0.048, 0.524, 0.065]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Menopausal Health Publication Management"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 553,
+    "image": [
+      "cot/docvqa/yrvw0217_77.png",
+      "cot/docvqa/yrvw0217_77.png###[178, 323, 1467, 599]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the numbers in the Y-axis of the 1st graph indicate? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.205, 0.141, 0.769, 0.262]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "% of subjects"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 121,
+    "image": [
+      "cot/docvqa/jzhd0227_39.png",
+      "cot/docvqa/jzhd0227_39.png###[1095, 294, 1481, 326]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWho is the staff representative mentioned in the document? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.591, 0.129, 0.760, 0.143]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Dolph Chianchiano, Esq."
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 709,
+    "image": [
+      "cot/docvqa/fmnm0227_6.png",
+      "cot/docvqa/fmnm0227_6.png###[403, 598, 699, 630]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWho is the first reference ? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.284, 0.260, 0.412, 0.274]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "william r. beisel, m.d."
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 866,
+    "image": [
+      "cot/docvqa/lybx0223_37.png",
+      "cot/docvqa/lybx0223_37.png###[144, 1388, 1293, 1424]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat the * symbol denotes? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.200, 0.610, 0.705, 0.626]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "amount as per demand orders, including interest and penalty, where quantified in the Order."
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 441,
+    "image": [
+      "cot/docvqa/hsfn0020_2.png",
+      "cot/docvqa/hsfn0020_2.png###[275, 646, 1423, 1756]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat was placed for the maximum % of time during the Salem promotions? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.245, 0.288, 0.757, 0.782]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "display"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 527,
+    "image": [
+      "cot/docvqa/shwg0227_2.png",
+      "cot/docvqa/shwg0227_2.png###[103, 730, 572, 799]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nFor how long will the secretary work? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.161, 0.334, 0.375, 0.366]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Half-time"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 25,
+    "image": [
+      "cot/docvqa/gyfb0228_5.png",
+      "cot/docvqa/gyfb0228_5.png###[220, 266, 1128, 298]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the heading numbered 'IV' ? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.211, 0.120, 0.622, 0.135]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Inter and intra federal government coordination"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 360,
+    "image": [
+      "cot/docvqa/jzhd0227_67.png",
+      "cot/docvqa/jzhd0227_67.png###[255, 793, 477, 826]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWho is the 'Field Director' of Illinois Heart Association ? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.219, 0.348, 0.317, 0.363]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Mr. Tom Brown"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 243,
+    "image": [
+      "cot/docvqa/hrfl0079_8.png",
+      "cot/docvqa/hrfl0079_8.png###[537, 260, 1147, 300]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the title of the document ? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.351, 0.124, 0.643, 0.143]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "1ST QUARTER INTERCEPT COUPON PROGRAM"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 670,
+    "image": [
+      "cot/docvqa/nlcf0227_3.png",
+      "cot/docvqa/nlcf0227_3.png###[1395, 1673, 1445, 1703]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the code for anxiety depression? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.720, 0.734, 0.742, 0.747]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "300"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 606,
+    "image": [
+      "cot/docvqa/qfkw0227_1.png",
+      "cot/docvqa/qfkw0227_1.png###[680, 270, 2152, 1070]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does M stand for? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.302, 0.224, 0.955, 0.579]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Management"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 682,
+    "image": [
+      "cot/docvqa/grmp0227_14.png",
+      "cot/docvqa/grmp0227_14.png###[247, 347, 577, 372]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the name of the 'department'? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.366, 0.189, 0.546, 0.203]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Department of aeronautics and astronautics"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 176,
+    "image": [
+      "cot/docvqa/qzcc0228_3.png",
+      "cot/docvqa/qzcc0228_3.png###[188, 56, 435, 93]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the invoice number or date on the ‘statement of remittance’? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.124, 0.328, 0.286, 0.352]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "1/13 1353287"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 420,
+    "image": [
+      "cot/docvqa/ymkp0227_4.png",
+      "cot/docvqa/ymkp0227_4.png###[919, 476, 1363, 1821]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the name of the issuing airlines? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.519, 0.211, 0.716, 0.808]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "American airlines"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 841,
+    "image": [
+      "cot/docvqa/fnvj0223_5.png",
+      "cot/docvqa/fnvj0223_5.png###[283, 195, 785, 333]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nTo which account the contribution to provident fund and family pension fund are charged based on section (G)? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.267, 0.082, 0.479, 0.141]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "profit & loss account"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 394,
+    "image": [
+      "cot/docvqa/ngxh0227_75.png",
+      "cot/docvqa/ngxh0227_75.png###[1141, 274, 1580, 311]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhere is the birth defects clinical study center  in Pennsylvania? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.612, 0.120, 0.805, 0.137]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Philadelphia"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 715,
+    "image": [
+      "cot/docvqa/hsyn0081_17.png",
+      "cot/docvqa/hsyn0081_17.png###[2083, 1630, 2109, 1662]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the page number? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.963, 0.862, 0.975, 0.877]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "17"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 585,
+    "image": [
+      "cot/docvqa/qscd0227_1.png",
+      "cot/docvqa/qscd0227_1.png###[970, 1587, 1412, 1626]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWho wrote this letter? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.534, 0.693, 0.727, 0.710]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Robert E. Shank , M. D."
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 750,
+    "image": [
+      "cot/docvqa/kzng0227_60.png",
+      "cot/docvqa/kzng0227_60.png###[404, 516, 569, 554]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the Na (mg/100g) value of City Flint? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.285, 0.226, 0.357, 0.242]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "1.3r,1.3f"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 595,
+    "image": [
+      "cot/docvqa/zqdj0224_11.png",
+      "cot/docvqa/zqdj0224_11.png###[1044, 280, 1781, 735]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the heading of the document? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.475, 0.240, 0.810, 0.447]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Eclipse"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 282,
+    "image": [
+      "cot/docvqa/fmjb0228_15.png",
+      "cot/docvqa/fmjb0228_15.png###[140, 1461, 256, 1484]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat are the previous evaluation references for leptophos? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.179, 0.685, 0.233, 0.695]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "1975b, 1976b"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 49,
+    "image": [
+      "cot/docvqa/yxvw0217_3.png",
+      "cot/docvqa/yxvw0217_3.png###[1773, 102, 1914, 133]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the date at the top right corner of the page? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.806, 0.140, 0.870, 0.155]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "7/17/2003"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 463,
+    "image": [
+      "cot/docvqa/tjpg0227_9.png",
+      "cot/docvqa/tjpg0227_9.png###[413, 295, 652, 325]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the value mentioned for S. Atlantic under the heading Creamery Butter Production in 1952 by states? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.294, 0.287, 0.463, 0.308]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "12,286"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 3,
+    "image": [
+      "cot/docvqa/snbx0223_4.png",
+      "cot/docvqa/snbx0223_4.png###[507, 1239, 1516, 1270]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nHow many 'energetic and popular brands' has ITC created? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.356, 0.519, 0.779, 0.532]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "50"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 384,
+    "image": [
+      "cot/docvqa/fhnw0228_1.png",
+      "cot/docvqa/fhnw0228_1.png###[607, 139, 1152, 184]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the name of the company? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.378, 0.085, 0.710, 0.112]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Maggs Bros. Ltd"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 211,
+    "image": [
+      "cot/docvqa/lzdv0228_1.png",
+      "cot/docvqa/lzdv0228_1.png###[1496, 605, 1584, 640]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nHow much is the total income of Swanson Center for Nutrition,Inc. in working 1982 budget? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.769, 0.267, 0.808, 0.282]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "718.9"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 145,
+    "image": [
+      "cot/docvqa/slmg0227_14.png",
+      "cot/docvqa/slmg0227_14.png###[621, 848, 1021, 1331]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is plotted along the y axis of fig 1? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.381, 0.371, 0.556, 0.583]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "MEAN GRAMS FOOD CONSUMED DAILY"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 164,
+    "image": [
+      "cot/docvqa/zzfv0228_7.png",
+      "cot/docvqa/zzfv0228_7.png###[387, 864, 812, 1086]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWho is closing the session at 11:20 - 12:00? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.283, 0.384, 0.472, 0.482]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Jan van Eys"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 461,
+    "image": [
+      "cot/docvqa/rlmy0225_9.png",
+      "cot/docvqa/rlmy0225_9.png###[210, 171, 1178, 986]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the \"Payee Name\"? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.095, 0.189, 0.532, 0.558]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "Mark Crabtree"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 100,
+    "image": [
+      "cot/docvqa/sncw0217_3.png",
+      "cot/docvqa/sncw0217_3.png###[235, 1156, 826, 1197]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the first budget listed under Publication Program Budget? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.218, 0.525, 0.487, 0.544]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "4 Review Articles/Clinical Trial Manuscripts"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 752,
+    "image": [
+      "cot/docvqa/mslw0227_49.png",
+      "cot/docvqa/mslw0227_49.png###[429, 424, 1332, 458]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the title of the Table 1? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.297, 0.186, 0.693, 0.201]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "nutrient content of the supplements per cup"
+      }
+    ]
+  },
+  {
+    "dataset": "docvqa",
+    "split": "val",
+    "question_id": 27,
+    "image": [
+      "cot/docvqa/xkbv0228_3.png",
+      "cot/docvqa/xkbv0228_3.png###[270, 791, 540, 825]"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the full form of IUNS ? Please provide the bounding box coordinate of the region that can help you answer the question better."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.426, 0.450, 0.579, 0.470]"
+      },
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "International union of nutritional sciences"
+      }
+    ]
+  }
+]
