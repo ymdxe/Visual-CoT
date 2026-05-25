@@ -332,7 +332,16 @@ def _parse_lambdas(text, default=(1.0, 1.0, 0.5)):
 
 
 def score_pred_bbox(box, question, args):
-    """Quality score for a predicted bbox in [0, 1].
+    """[DEPRECATED — not used in paper 16] Bbox scoring gate (former §4.4.1).
+
+    The §4.4.1 bbox scoring gating experiment was removed in the latest paper
+    version (paper 16, 2026-05-25). This function and its CLI flags
+    (--bbox-scoring, --bbox-score-*) are retained only so historical runs and
+    DSAC tooling under tools/thesis/round3/ remain reproducible. New work
+    should leave --bbox-scoring off; the related Round-3 figures and tables
+    are no longer cited in the thesis.
+
+    Quality score for a predicted bbox in [0, 1].
 
     score(b) = lambda1 * s_parse(b) + lambda2 * s_size(b) + lambda3 * s_focus(b, q)
 
@@ -1250,18 +1259,25 @@ def build_parser():
     parser.add_argument("--crop-size", type=int, default=336)
     parser.add_argument("--crop-pad", type=float, default=1.2,
                         help="Padding multiplier around the predicted bbox before cropping (>=1.0).")
+    # [DEPRECATED — paper 16 removed §4.4.1 bbox scoring gating]
+    # The following six flags drive score_pred_bbox(). They are kept so that
+    # the Round-3 DSAC runs in tools/thesis/round3/ stay reproducible, but the
+    # latest paper no longer references this experiment. Leave --bbox-scoring
+    # off for any new run aligned with paper 16.
     parser.add_argument("--bbox-scoring", action="store_true",
-                        help="Score the predicted bbox with score(b)=λ1·s_parse+λ2·s_size+λ3·s_focus "
-                             "and fall back to a safer box when score < threshold.")
-    parser.add_argument("--bbox-score-threshold", type=float, default=0.4)
+                        help="[DEPRECATED, paper 16 removed §4.4.1] Score the predicted bbox with "
+                             "score(b)=λ1·s_parse+λ2·s_size+λ3·s_focus and fall back to a safer box "
+                             "when score < threshold.")
+    parser.add_argument("--bbox-score-threshold", type=float, default=0.4,
+                        help="[DEPRECATED] See --bbox-scoring.")
     parser.add_argument("--bbox-score-lambdas", type=str, default="1.0,1.0,0.5",
-                        help="Comma-separated weights for (parse, size, focus). Defaults to 1.0,1.0,0.5.")
+                        help="[DEPRECATED] Comma-separated weights for (parse, size, focus). Defaults to 1.0,1.0,0.5.")
     parser.add_argument("--bbox-score-target-area", type=float, default=0.1,
-                        help="Target crop ratio ρ* in [0,1] for the size prior.")
+                        help="[DEPRECATED] Target crop ratio ρ* in [0,1] for the size prior.")
     parser.add_argument("--bbox-score-area-sigma", type=float, default=1.0,
-                        help="Std-dev (in log-area space) for the size prior Gaussian.")
+                        help="[DEPRECATED] Std-dev (in log-area space) for the size prior Gaussian.")
     parser.add_argument("--bbox-score-fallback", choices=["center", "oracle", "none"], default="center",
-                        help="Fallback box used when score < threshold.")
+                        help="[DEPRECATED] Fallback box used when score < threshold.")
     parser.add_argument("--vision-prune", action="store_true")
     parser.add_argument("--vision-prune-type", choices=["conv_ln_structured", "linear_ln_structured"], default="linear_ln_structured")
     parser.add_argument("--vision-prune-amount", type=float, default=0.1)
