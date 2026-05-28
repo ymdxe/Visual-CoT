@@ -155,7 +155,7 @@ def main():
     parser.add_argument("--image-folder", default="./playground/data")
     parser.add_argument("--datasets", default="gqa,textvqa,docvqa")
     parser.add_argument("--num-per-dataset", type=int, default=10)
-    parser.add_argument("--output", default="./small_benchmark.json")
+    parser.add_argument("--output", default="./data/benchmarks/small_benchmark.json")
     parser.add_argument("--det-output", default=None)
     parser.add_argument("--seed", type=int, default=42)
     args = parser.parse_args()

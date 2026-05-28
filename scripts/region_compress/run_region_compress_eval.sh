@@ -2,7 +2,7 @@
 set -euo pipefail
 
 MODEL_NAME=${1:-VisCoT-7b-224}
-QUESTION_FILE=${2:-./small_benchmark.json}
+QUESTION_FILE=${2:-./data/benchmarks/small_benchmark.json}
 DETECTION_FILE=${3:-./results/region_compress/detection.jsonl}
 IMAGE_FOLDER=${4:-./playground/data}
 
@@ -29,7 +29,7 @@ fi
 if [ ! -f "${QUESTION_FILE}" ]; then
     echo "[ERROR] question file not found: ${QUESTION_FILE}"
     echo "Build a small benchmark first, for example:"
-    echo "python tools/build_small_benchmark.py --benchmark-dir ./viscot_benchmark/benchmark --image-folder ./playground/data --datasets gqa,textvqa,docvqa --num-per-dataset 10 --output ./small_benchmark.json"
+    echo "python tools/build_small_benchmark.py --benchmark-dir ./viscot_benchmark/benchmark --image-folder ./playground/data --datasets gqa,textvqa,docvqa --num-per-dataset 10 --output ./data/benchmarks/small_benchmark.json"
     exit 1
 fi
 

@@ -2,7 +2,7 @@
 set -euo pipefail
 
 TAG=${1:-cub100}
-Q=${2:-./small_benchmark_cub100.json}
+Q=${2:-./data/benchmarks/small_benchmark_cub100.json}
 DET=${3:-./results/region_compress/detection_pred_cub100.jsonl}
 IMG_ROOT=${4:-./playground/data}
 
