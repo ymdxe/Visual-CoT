@@ -1,3 +1,20 @@
+> **本仓库是 [deepcs233/Visual-CoT](https://github.com/deepcs233/Visual-CoT) 的派生**，用于"基于模态混合的视觉语言模型推理增强方法的设计与实现"毕业设计。下方为上游原 README，本仓库的全部改动与新增实验请见：
+>
+> | 文档 | 用途 |
+> |---|---|
+> | [`docs/THESIS_CHANGES.md`](docs/THESIS_CHANGES.md) | 相对上游的完整 diff（按文件/参数/输出） |
+> | [`docs/CODE_WALKTHROUGH.md`](docs/CODE_WALKTHROUGH.md) | 代码模块讲解（builder / det_loader / cot_loader） |
+> | [`docs/HOW_TO_RUN.md`](docs/HOW_TO_RUN.md) | 两阶段 pipeline 与输出结构 |
+> | [`docs/EVAL_LOADERS.md`](docs/EVAL_LOADERS.md) | 两个 eval loader 的逐参数说明 |
+> | [`docs/DEFENSE_SCRIPT.md`](docs/DEFENSE_SCRIPT.md) | 答辩口语化讲稿 |
+> | [`docs/DEFENSE_QA_PLAIN.md`](docs/DEFENSE_QA_PLAIN.md) | 答辩可能问题的口语化答案 |
+> | [`CLAUDE.md`](CLAUDE.md) | 项目改造记录（给后续工作者） |
+> | [`STATUS.md`](STATUS.md) | 当前进度快照 |
+>
+> 核心贡献：(1) 结构化区域证据提示 `[Region] || [VE] || [Reasoning] || [Answer]`；(2) 区域级视觉输入压缩 Φ_full / Φ_pred / Φ_crop / Φ_mix；(3) 边界框评分门控 `score = (λ₁·s_parse + λ₂·s_size + λ₃·s_focus) / Σλ`，详见 `CLAUDE.md` §3。
+
+---
+
 # Visual CoT: Advancing Multi-Modal Language Models with a Comprehensive Dataset and Benchmark for Chain-of-Thought Reasoning
 
 ![dataset](assets/dataset.png)

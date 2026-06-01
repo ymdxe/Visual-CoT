@@ -104,13 +104,17 @@ Visual-CoT/
 ├── checkpoints/                    # 模型权重（gitignored）
 ├── playground/data/                # 原始图像数据（gitignored）
 │
-├── README.md                       # 上游 README（保留）
+├── README.md                       # 上游 README（顶部加了中文导航）
 ├── CLAUDE.md                       [新] 完整改造记录（内部上下文）
 ├── AGENTS.md                       [新] 工作规则
 ├── STATUS.md                       [新] 进度快照
-├── DEFENSE_SCRIPT.md               [新] 答辩口语化讲稿
-├── THESIS_CHANGES.md               [新] 相对上游的精简 diff
-└── CODE_WALKTHROUGH.md             ← 本文档
+└── docs/                           [新] 答辩/使用文档目录
+    ├── HOW_TO_RUN.md               # 两阶段 pipeline 与输出结构
+    ├── CODE_WALKTHROUGH.md         ← 本文档
+    ├── EVAL_LOADERS.md             # 两个 eval loader 的逐参数说明
+    ├── THESIS_CHANGES.md           # 相对上游的精简 diff
+    ├── DEFENSE_SCRIPT.md           # 答辩口语化讲稿
+    └── DEFENSE_QA_PLAIN.md         # 答辩 QA 口语化答案
 ```
 
 ---
@@ -655,9 +659,9 @@ A: 可以。把 `--mode structured_evidence` 换成 `crop_only` / `lowres_full_h
 |---|---|
 | [`DEFENSE_SCRIPT.md`](DEFENSE_SCRIPT.md) | 8 分钟答辩口语化讲稿 |
 | [`THESIS_CHANGES.md`](THESIS_CHANGES.md) | 相对上游 diff 的精简说明 |
-| [`CLAUDE.md`](CLAUDE.md) | 完整改造记录（含历史） |
-| [`STATUS.md`](STATUS.md) | 进度快照（最新状态） |
-| [`README.md`](README.md) | 上游 Visual-CoT 原 README（保留） |
+| [`CLAUDE.md`](../CLAUDE.md) | 完整改造记录（含历史） |
+| [`STATUS.md`](../STATUS.md) | 进度快照（最新状态） |
+| [`README.md`](../README.md) | 上游 Visual-CoT 原 README（保留） |
 | [`images/benchmarks/README.md`](images/benchmarks/README.md) | 展示图说明 |
 
 ---
